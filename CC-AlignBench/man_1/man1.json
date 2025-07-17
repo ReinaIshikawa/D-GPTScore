@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "a man",
+        "instance_data_dir": "concept_customization_LLMEval/persons/man_1/image",
+        "caption_dir": "concept_customization_LLMEval/persons/man_1/caption",
+        "mask_dir": "concept_customization_LLMEval/persons/man_1/mask"
+    }
+]

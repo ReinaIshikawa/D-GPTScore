@@ -1,3 +1,7 @@
+evaluation/results/output/
+evaluation/results/user_study/
+gen_output/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

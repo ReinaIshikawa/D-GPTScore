@@ -1,0 +1,24 @@
+dir: "CC-AlignBench" # path to the data directory
+csv_file: "data.csv"
+bg_file: "background.json"
+surrounings_type: "simple" #simple, detail
+man_token: "<man1_1> <man1_2>"
+woman_token: "<woman1_1> <woman1_2>"
+index_list: null # list or null
+debug: true
+
+OPTION:
+  neg_prompt:  "longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality"
+  output_dir_path: "./gen_output/05_Mix-of-Show/output" 
+  single_pretrained_model_path : './gen_output/05_Mix-of-Show/pretrained_models/chilloutmix'
+  single_lora_model_path_man : './gen_output/05_Mix-of-Show/8114_EDLoRA_man1_Cmix_B4_Repeat500/models/edlora_model-latest.pth'
+  single_lora_model_path_woman : './gen_output/05_Mix-of-Show/8115_EDLoRA_woman1_Cmix_B4_Repeat500/models/edlora_model-latest.pth'
+  multi_pretrained_model_path : './gen_output/05_Mix-of-Show/composed_edlora/chilloutmix/man1+woman1/combined_model_base'
+  region_pt1 : [10, 10, 1024, 512]
+  region_pt2 : [10, 513, 1024, 1012]
+
+
+  # single_pretrained_model_path : 'experiments/pretrained_models/chilloutmix'
+  # single_lora_model_path_man : 'experiments/8114_EDLoRA_man1_Cmix_B4_Repeat500/models/edlora_model-latest.pth'
+  # single_lora_model_path_woman : 'experiments/8115_EDLoRA_woman1_Cmix_B4_Repeat500/models/edlora_model-latest.pth'
+  # multi_pretrained_model_path : 'experiments/composed_edlora/chilloutmix/man1+woman1/combined_model_base'

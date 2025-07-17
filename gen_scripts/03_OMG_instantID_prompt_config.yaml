@@ -1,0 +1,18 @@
+dir: "CC-AlignBench" # path to the data directory
+csv_file: "data.csv"
+bg_file: "background.json"
+surrounings_type: "simple" #simple, detail
+man_token: "the man"
+woman_token: "the woman"
+index_list: null # list or null
+debug: true
+
+OPTION:
+  neg_prompt: "noisy, blurry, soft, deformed, ugly"
+  output_dir_path: "./gen_output/03_OMG_instantID/output" 
+  man_1_img : "CC-AlignBench/man_1/image/0.jpeg"
+  woman_1_img : "CC-AlignBench/woman_1/image/0.jpeg"
+
+
+  # man_1_img : "./concept_customization_LLMEval/persons/man_1/image/1.jpeg"
+  # woman_1_img : "./concept_customization_LLMEval/persons/woman_1/image/13.jpeg"

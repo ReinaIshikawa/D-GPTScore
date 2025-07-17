@@ -1,0 +1,18 @@
+dir: "CC-AlignBench" # path to the data directory
+csv_file: "data.csv"
+bg_file: "background.json"
+surrounings_type: "simple" #simple, detail
+man_token: "Alex"
+woman_token: "Lisa"
+index_list: null # list or null
+debug: true
+
+OPTION:
+  neg_prompt: "noisy, blurry, soft, deformed, ugly"
+  output_dir_path: "./gen_output/02_OMG_lora/output"
+  model_path_man: "./gen_output/02_OMG_lora/model/man-000005.safetensors"
+  model_path_woman: "./gen_output/02_OMG_lora/model/woman-000005.safetensors"
+
+  # model_path_man: "/home/ishikawa/data/OMG/kohya_ss/persons_train/model/man-000005.safetensors"
+  # model_path_woman: "/home/ishikawa/data/OMG/kohya_ss/persons_train/model/woman-000005.safetensors"
+

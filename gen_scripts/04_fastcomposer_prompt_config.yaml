@@ -1,0 +1,21 @@
+dir: "CC-AlignBench" # path to the data directory
+csv_file: "data.csv"
+bg_file: "background.json"
+surrounings_type: "simple" #simple, detail
+man_token: "a man <|image|>"
+woman_token: "a woman <|image|>"
+index_list: null # list or null
+debug: true
+
+OPTION:
+  output_dir_path: "./gen_output/04_fastcomposer/output"
+  test_reference_folder_one_man : "CC-AlignBench/paired/persons_one_man"
+  test_reference_folder_one_woman : "CC-AlignBench/paired/persons_one_woman"
+  test_reference_folder_two: "CC-AlignBench/paired/persons_two"
+
+
+  # test_reference_folder_one_man : "./concept_customization_LLMEval/persons/paired/persons_one_man"
+  # test_reference_folder_one_woman : "./concept_customization_LLMEval/persons/paired/persons_one_woman"
+  # test_reference_folder_two: "./concept_customization_LLMEval/persons/paired/persons_two"
+  
+
