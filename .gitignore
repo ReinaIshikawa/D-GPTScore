@@ -1,6 +1,7 @@
-evaluation/results/output/
-evaluation/results/user_study/
+evaluation/results_/
+evaluation/results/
 gen_output/*
+user_study_99_write.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

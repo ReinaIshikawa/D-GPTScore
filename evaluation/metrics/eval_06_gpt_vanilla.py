@@ -7,10 +7,12 @@ import pandas as pd
 sys.path.append(os.path.abspath(os.getcwd()))
 from data_loader.prompt_loader import DataLoader, load_yaml_config
 from evaluation.utils.eval_utils import get_csv_path, get_gen_output_path
+from evaluation.utils.user_study_utils import get_user_study_target
 from evaluation.utils.gpt_utils import get_messages_vanilla
 from openai import OpenAI
 from pydantic import BaseModel
 
+# python evaluation/metrics/eval_06_gpt_vanilla.py --part --gen-method xxx
 
 client = OpenAI()
 
@@ -74,6 +76,12 @@ if __name__ == "__main__":
         default=[],
         choices=["easy", "medium", "hard"]
     )
+    parser.add_argument(
+        '--part', 
+        action='store_true', 
+        help="execute only the part of user study"
+    )
+
     args = parser.parse_args()
     config = load_yaml_config(yaml_path=args.yaml_path)
 
@@ -113,97 +121,103 @@ if __name__ == "__main__":
             header=header
         )
 
-        for mode, prompt_type in itertools.product(config["mode_list"], config["prompt_type_list"]):
-            if config["index_list"] == None:
-                if args.end != -1:
-                    index_list = range(args.start, min(args.end+1, dataloader.get_len_of_data(mode)))
+        if args.part:
+            target_list = get_user_study_target()
+        else:
+            target_list = []
+            for mode, prompt_type in itertools.product(config["mode_list"], config["prompt_type_list"]):
+                # get index list
+                if config["index_list"] == None:
+                    if args.end != -1:
+                        index_list = range(args.start, min(args.end+1, dataloader.get_len_of_data(mode)))
+                    else:
+                        index_list = range(args.start, dataloader.get_len_of_data(mode))
                 else:
-                    index_list = range(args.start, dataloader.get_len_of_data(mode))
-            else:
-                index_list = config["index_list"]
+                    index_list = config["index_list"]
+                target_list.append((mode, prompt_type, idx) for idx in index_list)
             
-            # ===============================
-            # for each generated image
-            # ===============================
-            for idx in index_list:
-                print("===============")
-                print(f"mode:{mode} / prompt_type:{prompt_type}")
+        # ===============================
+        # for each generated image
+        # ===============================
+        for mode, prompt_type, idx in target_list:
+            print("===============")
+            print(f"mode:{mode} / prompt_type:{prompt_type} / id_:{idx}")
 
-                prompt_info = dataloader.get_idx_info(mode, prompt_type, idx)
-                id_ = prompt_info["id_"]
-                prompt_token = prompt_info["prompt_token"]
-                p1_sex = prompt_info["p1_sex"]
-                p2_sex = prompt_info["p2_sex"]
+            prompt_info = dataloader.get_idx_info(mode, prompt_type, idx)
+            id_ = prompt_info["id_"]
+            prompt_token = prompt_info["prompt_token"]
+            p1_sex = prompt_info["p1_sex"]
+            p2_sex = prompt_info["p2_sex"]
 
 
-                # get generated image path
-                generated_img_path = get_gen_output_path(
-                    config["gen_output_dir"], 
-                    gen_method, 
-                    mode, 
-                    prompt_type, 
-                    id_
-                )
+            # get generated image path
+            generated_img_path = get_gen_output_path(
+                config["gen_output_dir"], 
+                gen_method, 
+                mode, 
+                prompt_type, 
+                id_
+            )
 
-                # get reference image path
-                if mode == "easy":
-                    if p1_sex == "man":
-                        ref_image_path1 = config["man_ref_image"]
-                    else:
-                        ref_image_path1 = config["woman_ref_image"]
-                    ref_image_path2 = None
+            # get reference image path
+            if mode == "easy":
+                if p1_sex == "man":
+                    ref_image_path1 = config["man_ref_image"]
                 else:
-                    if p1_sex == "man":
-                        ref_image_path1 = config["man_ref_image"]
-                        ref_image_path2 = config["woman_ref_image"]
-                    else:
-                        ref_image_path1 = config["woman_ref_image"]
-                        ref_image_path2 = config["man_ref_image"]
-
-                        
-                messages = get_messages_vanilla(
-                    prompt_token = prompt_token,
-                    ref_image_path1 = ref_image_path1,
-                    ref_image_path2 = ref_image_path2,
-                    generated_img_path = generated_img_path,
-                    reason_flag=args.reason
-                )
-
-                # get response from gpt
-                response = client.beta.chat.completions.parse(
-                    model= args.gpt_model,
-                    temperature= 0.0,
-                    seed=1234,
-                    messages= messages, # type: ignore
-                    response_format= response_format
-                )
-
-                content = response.choices[0].message.content
-                parsed_content = json.loads(content) # type: ignore
-
-                # save output
-                gpt_output = {}
-                gpt_output["mode"]=mode
-                gpt_output["prompt_type"]=prompt_type
-                gpt_output["id_"]=id_
-                gpt_output[f"score"] = parsed_content[f"Score"]
-                if args.reason:
-                    gpt_output[f"reason"] = parsed_content[f"Rationale"]
-                    print("Score: {}\nReason: {}".format(parsed_content[f"Score"], parsed_content[f"Rationale"]))
+                    ref_image_path1 = config["woman_ref_image"]
+                ref_image_path2 = None
+            else:
+                if p1_sex == "man":
+                    ref_image_path1 = config["man_ref_image"]
+                    ref_image_path2 = config["woman_ref_image"]
                 else:
-                    gpt_output[f"reason"] = ""
-                    print("Score: {}".format(parsed_content[f"Score"]))
-                gpt_output[f"comp_tok_sum"]=response.usage.completion_tokens # type: ignore
-                gpt_output[f"prompt_tok_sum"]=response.usage.prompt_tokens # type: ignore
+                    ref_image_path1 = config["woman_ref_image"]
+                    ref_image_path2 = config["man_ref_image"]
 
-                df = pd.DataFrame(gpt_output, index=[0]) # type: ignore
-                df = df[
-                    ["mode", "prompt_type","id_"] \
-                    + ["score"] \
-                    + ["reason"] \
-                    + ["comp_tok_sum", "prompt_tok_sum"]
-                ]
+                    
+            messages = get_messages_vanilla(
+                prompt_token = prompt_token,
+                ref_image_path1 = ref_image_path1,
+                ref_image_path2 = ref_image_path2,
+                generated_img_path = generated_img_path,
+                reason_flag=args.reason
+            )
 
-                file_exists = os.path.isfile(output_csv_path)
-                with open(output_csv_path, mode='a', newline='') as file:
-                    df.to_csv(file, header=not file_exists, index=False)
+            # get response from gpt
+            response = client.beta.chat.completions.parse(
+                model= args.gpt_model,
+                temperature= 0.0,
+                seed=1234,
+                messages= messages, # type: ignore
+                response_format= response_format
+            )
+
+            content = response.choices[0].message.content
+            parsed_content = json.loads(content) # type: ignore
+
+            # save output
+            gpt_output = {}
+            gpt_output["mode"]=mode
+            gpt_output["prompt_type"]=prompt_type
+            gpt_output["id_"]=id_
+            gpt_output[f"score"] = parsed_content[f"Score"]
+            if args.reason:
+                gpt_output[f"reason"] = parsed_content[f"Rationale"]
+                print("Score: {}\nReason: {}".format(parsed_content[f"Score"], parsed_content[f"Rationale"]))
+            else:
+                gpt_output[f"reason"] = ""
+                print("Score: {}".format(parsed_content[f"Score"]))
+            gpt_output[f"comp_tok_sum"]=response.usage.completion_tokens # type: ignore
+            gpt_output[f"prompt_tok_sum"]=response.usage.prompt_tokens # type: ignore
+
+            df = pd.DataFrame(gpt_output, index=[0]) # type: ignore
+            df = df[
+                ["mode", "prompt_type","id_"] \
+                + ["score"] \
+                + ["reason"] \
+                + ["comp_tok_sum", "prompt_tok_sum"]
+            ]
+
+            file_exists = os.path.isfile(output_csv_path)
+            with open(output_csv_path, mode='a', newline='') as file:
+                df.to_csv(file, header=not file_exists, index=False)

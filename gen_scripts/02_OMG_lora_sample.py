@@ -4,7 +4,7 @@ import os
 import itertools
 
 GEN_SCRIPTS_DIR = os.path.expanduser("~/data/OMG")
-PYTHON_EXECUTABLE = '/mnt/ssd2_4T/ishikawa/miniconda3/envs/lora/bin/python'
+PYTHON_EXECUTABLE = '/mnt/ssd2_4T/ishikawa/miniconda3/envs/OMG/bin/python'
 
 sys.path.append(os.path.abspath(os.getcwd())) 
 sys.path.append(GEN_SCRIPTS_DIR) 
@@ -46,7 +46,7 @@ for mode, prompt_type in itertools.product(mode_list, prompt_type_list):
         print("===============")
         print(f"mode:{mode} / prompt_type:{prompt_type}")
         data = dataloader.get_idx_info(mode, prompt_type, idx)
-        id_ = data["id"]
+        id_ = data["id_"]
         p1_sex = data["p1_sex"]
         p2_sex = data["p2_sex"]
         pt1 = data["pt1"]

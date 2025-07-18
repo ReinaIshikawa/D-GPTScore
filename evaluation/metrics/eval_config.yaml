@@ -10,7 +10,8 @@ index_list: null # list or null
 debug: false
 
 # generated images
-gen_method_list: ["01_CustomDiffusion", "02_OMG_lora", "03_OMG_instantID", "04_fastcomposer", "05_Mix-of-Show", "06_DreamBooth"]
+# gen_method_list: ["01_CustomDiffusion", "02_OMG_lora", "03_OMG_instantID", "04_fastcomposer", "05_Mix-of-Show", "06_DreamBooth"]
+gen_method_list: ["01_CustomDiffusion", "02_OMG_lora", "05_Mix-of-Show", "06_DreamBooth"]
 
 gen_output_dir: "gen_output"
 results_dir: "evaluation/results"

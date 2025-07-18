@@ -31,9 +31,10 @@ if __name__ == "__main__":
     results_dir = config["results_dir"]
 
     header = "w_r_" if args.reason else "wo_r_"
+    # header = ""
 
     # ----------------------
-    METRIC_NAME = "GPT_ours"
+    METRIC_NAME = "miniGPT_part"
 
     reg_dir = os.path.join(results_dir, METRIC_NAME)
     os.makedirs(reg_dir, exist_ok=True)
