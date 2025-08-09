@@ -14,7 +14,7 @@ from pydantic import BaseModel
 
 # python evaluation/metrics/eval_07_gpt_ours.py --gpt_model gpt-4o-mini --part --gen-method xxx
 
-METRIC_NAME = "GPT_ours"
+
 
 client = OpenAI()
 
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--yaml_path', 
         type=str, 
-        default="./evaluation/metrics/eval_config.yaml"
+        default="./eval_config.yaml"
     )
     parser.add_argument(
         '--gen-method', 
@@ -90,6 +90,11 @@ if __name__ == "__main__":
     # ===============================
     # get args
     # ===============================
+    if args.gpt_model == "gpt-4o-mini":
+        METRIC_NAME = "GPT4omini_ours_mini"
+    else:
+        METRIC_NAME = "GPT_ours"
+
     if args.type != []:
         config["prompt_type_list"] = args.type
     if args.mode != []:
@@ -139,12 +144,17 @@ if __name__ == "__main__":
                 # get index list
                 if config["index_list"] == None:
                     if args.end != -1:
-                        index_list = range(args.start, min(args.end+1, dataloader.get_len_of_data(mode)))
+                        index_list = list(
+                            range(args.start, min(args.end+1, dataloader.get_len_of_data(mode)))
+                        )
                     else:
-                        index_list = range(args.start, dataloader.get_len_of_data(mode))
+                        index_list = list(
+                            range(args.start, dataloader.get_len_of_data(mode))
+                        )
                 else:
                     index_list = config["index_list"]
-                target_list.append((mode, prompt_type, idx) for idx in index_list)
+                for idx in index_list: 
+                    target_list.append((mode, prompt_type, idx))
             
         # ===============================
         # for each generated image

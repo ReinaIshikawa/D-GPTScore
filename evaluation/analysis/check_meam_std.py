@@ -12,7 +12,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--yaml_path', 
         type=str, 
-        default="./evaluation/user_study/user_study_config.yaml"
+        default="./eval_config.yaml"
     )
     args = parser.parse_args()
     config = load_yaml_config(yaml_path=args.yaml_path)

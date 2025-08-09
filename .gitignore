@@ -2,6 +2,9 @@ evaluation/results_/
 evaluation/results/
 gen_output/*
 user_study_99_write.py
+CC-AlignBench/paired/
+CC-AlignBench/man1+woman1.json
+CC-AlignBench/data.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

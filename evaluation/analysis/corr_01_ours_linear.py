@@ -12,7 +12,7 @@ from evaluation.utils.user_study_utils import user_study_reader, user_df_splitte
 from evaluation.utils.analysis_utils import calc_pearson_corr, calc_spearman_corr, calc_rank, scatter_plot, plot_feature_importance
 from data_loader.prompt_loader import load_yaml_config
 
-
+# python evaluation/analysis/corr_01_ours_linear.py
 # python evaluation/analysis/corr_01_ours_linear.py --plus
 
 if __name__ == "__main__":
@@ -22,7 +22,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--yaml_path', 
         type=str, 
-        default="./evaluation/user_study/user_study_config.yaml"
+        default="./eval_config.yaml"
     )
     parser.add_argument(
         '--plus', 

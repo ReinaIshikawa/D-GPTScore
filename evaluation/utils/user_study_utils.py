@@ -23,8 +23,8 @@ def seed_everything(seed: int):
 def user_study_reader(users, gen_method_list, data_dir) -> pd.DataFrame:
     df: pd.DataFrame | None = None
     for user in users:
-        # output_path = os.path.join(data_dir, f"{user}/userStudy_{user}.xlsx")
-        output_path = os.path.join(data_dir, f"{user}/userStudy.xlsx")
+        output_path = os.path.join(data_dir, f"{user}/userStudy_{user}.xlsx")
+        # output_path = os.path.join(data_dir, f"{user}/userStudy.xlsx")
         wb = load_workbook(output_path)
         ws1 = wb['Sheet1']
         ws2 = wb['Sheet2']

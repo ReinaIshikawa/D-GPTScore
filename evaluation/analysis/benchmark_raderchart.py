@@ -18,7 +18,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--yaml_path', 
         type=str, 
-        default="./evaluation/user_study/user_study_config.yaml"
+        default="./eval_config.yaml"
     )
     parser.add_argument(
         '--plus', 
@@ -35,6 +35,12 @@ if __name__ == "__main__":
         '--reason', 
         action="store_true", 
         default=False, 
+    )
+    parser.add_argument(
+        '--gpt_model', 
+        type=str, 
+        default="gpt-4o",
+        choices=["gpt-4o", "gpt-4o-mini"]
     )
     args = parser.parse_args()
     config = load_yaml_config(yaml_path=args.yaml_path)
@@ -53,7 +59,10 @@ if __name__ == "__main__":
     header = "w_r_" if args.reason else "wo_r_"
 
     # ----------------------
-    METRIC_NAME = "GPT_ours"
+    if args.gpt_model == "gpt-4o":
+        METRIC_NAME = "GPT_ours"
+    elif args.gpt_model == "gpt-4o-mini":
+        METRIC_NAME = "GPT4omini_ours"
 
     reg_dir = os.path.join(results_dir, METRIC_NAME + "_ave")
     os.makedirs(reg_dir, exist_ok=True)

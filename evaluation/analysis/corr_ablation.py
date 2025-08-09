@@ -21,7 +21,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--yaml_path', 
         type=str, 
-        default="./evaluation/user_study/user_study_config.yaml"
+        default="./eval_config.yaml"
     )
     parser.add_argument(
         '--corr', 

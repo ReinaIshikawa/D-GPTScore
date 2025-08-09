@@ -102,7 +102,9 @@ dependencies:
       - pytorch-lightning==2.5.2
       - pytz==2025.2
       - pyyaml==6.0.2
+      - regex==2024.11.6
       - requests==2.32.4
+      - safetensors==0.5.3
       - scikit-learn==1.7.0
       - scipy==1.15.3
       - seaborn==0.13.2
@@ -114,6 +116,7 @@ dependencies:
       - torchaudio==2.2.2
       - torchmetrics==1.7.4
       - torchvision==0.17.2
+      - tqdm==4.67.1
       - transformers==4.53.2
       - triton==2.2.0
       - typing-extensions==4.12.2

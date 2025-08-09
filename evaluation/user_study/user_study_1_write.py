@@ -27,7 +27,7 @@ AIによって生成された画像を示します。 各画像は、参照画�
 if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('--yaml_path', type=str, default="./evaluation/user_study/user_study_config.yaml")
+    parser.add_argument('--yaml_path', type=str, default="./eval_config.yaml")
     parser.add_argument('--num', type=int, default=0)
     args = parser.parse_args()
     

@@ -32,7 +32,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--yaml_path', 
         type=str, 
-        default="./evaluation/metrics/eval_config.yaml"
+        default="./eval_config.yaml"
     )
     parser.add_argument(
         '--gen-method', 

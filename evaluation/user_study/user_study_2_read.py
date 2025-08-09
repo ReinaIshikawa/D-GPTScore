@@ -9,7 +9,7 @@ from data_loader.prompt_loader import load_yaml_config
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--yaml_path', type=str, default="./evaluation/user_study/user_study_config.yaml")
+    parser.add_argument('--yaml_path', type=str, default="./eval_config.yaml")
     args = parser.parse_args()
     config = load_yaml_config(yaml_path=args.yaml_path)
 
@@ -19,6 +19,7 @@ if __name__ == "__main__":
         config["results_dir"], 
         "user_study"
     )
+    os.makedirs(os.path.join(user_study_data_dir, "total"), exist_ok=True)
     save_path = os.path.join(user_study_data_dir, "total", 'user_study_result.csv')
 
     # ----------------------

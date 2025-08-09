@@ -21,10 +21,10 @@ from mixofshow.utils.convert_edlora_to_diffusers import convert_edlora
 
 config = load_yaml_config(yaml_path="./gen_scripts/05_mix-of-show_prompt_config.yaml")
 
-prompt_type_list = ["simple", "action+layout", "action+expression", "action+background", "all"]
-mode_list = ["easy", "medium", "hard"]
-# prompt_type_list = ["action+expression", "all"]
-# mode_list = ["hard"]
+# prompt_type_list = ["simple", "action+layout", "action+expression", "action+background", "all"]
+# mode_list = ["easy", "medium", "hard"]
+prompt_type_list = ["action+background"]
+mode_list = ["hard"]
 
 csv_path = os.path.join(config["dir"],config["csv_file"])
 bg_path = os.path.join(config["dir"],config["bg_file"])
@@ -85,10 +85,11 @@ for mode, prompt_type in itertools.product(mode_list, prompt_type_list):
     os.makedirs(dir_name, exist_ok = True)
     
     index_list = range(dataloader.get_len_of_data(mode)) if config["index_list"] == None else config["index_list"]
+    index_list = [51]
 
     for idx in index_list:
         data = dataloader.get_idx_info(mode, prompt_type, idx)
-        id_ = data["id"]
+        id_ = data["id_"]
         prompt_token = data["prompt_token"]
         prompt_class = data["prompt_class"]
         pt1 = data["pt1"]
