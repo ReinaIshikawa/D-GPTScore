@@ -1,27 +1,27 @@
-evaluation/results_/
-evaluation/results/*
-!evaluation/results/output/
-!evaluation/results/output/**
-!evaluation/results/user_study/
-evaluation/results/user_study/*
-!evaluation/results/user_study/total/
-!evaluation/results/user_study/total/**
+# evaluation/results_/
+# evaluation/results/*
+# !evaluation/results/output/
+# !evaluation/results/output/**
+# !evaluation/results/user_study/
+# evaluation/results/user_study/*
+# !evaluation/results/user_study/total/
+# !evaluation/results/user_study/total/**
 gen_output/*
-user_study_99_write.py
-CC-AlignBench/paired/
-CC-AlignBench/man1+woman1.json
-CC-AlignBench/data.xlsx
-CC-AlignBench/_background.json
-CC-AlignBench/_data.csv
-data_loader/_prompt_loader.py
-data_loader/_data_generator.py
-evaluation/analysis/_check_gpt_tokennum.py
-evaluation/analysis/_check_mean_std.py
-evaluation/analysis/_corr_ablation.py
-evaluation/analysis/_corr_aspects_corrmap.py
-evaluation/analysis/_score_comparison.py
+# user_study_99_write.py
+# CC-AlignBench/paired/
+# CC-AlignBench/man1+woman1.json
+# CC-AlignBench/data.xlsx
+# CC-AlignBench/_background.json
+# CC-AlignBench/_data.csv
+# data_loader/_prompt_loader.py
+# data_loader/_data_generator.py
+# evaluation/analysis/_check_gpt_tokennum.py
+# evaluation/analysis/_check_mean_std.py
+# evaluation/analysis/_corr_ablation.py
+# evaluation/analysis/_corr_aspects_corrmap.py
+# evaluation/analysis/_score_comparison.py
 evaluation/metrics/models/sac+logos+ava1-l14-linearMSE.pth
-_eval_config.yaml
+# _eval_config.yaml
 
 
 # Byte-compiled / optimized / DLL files

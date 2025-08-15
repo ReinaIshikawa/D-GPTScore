@@ -1,0 +1,28 @@
+{
+    "01_CustomDiffusion": {
+        "pearson_corr": 0.8054604777492488,
+        "spearman_corr": 0.5584596907094904
+    },
+    "02_OMG_lora": {
+        "pearson_corr": 0.6577527577802259,
+        "spearman_corr": 0.3105170717870108
+    },
+    "03_OMG_instantID": {
+        "pearson_corr": 0.7021590138088387,
+        "spearman_corr": 0.4681658138557972
+    },
+    "04_fastcomposer": {
+        "pearson_corr": 0.6373768599203654,
+        "spearman_corr": 0.467840993662422
+    },
+    "05_Mix-of-Show": {
+        "pearson_corr": 0.6690830528635593,
+        "spearman_corr": 0.4447304341061167
+    },
+    "06_DreamBooth": {
+        "pearson_corr": 0.6620507876099981,
+        "spearman_corr": 0.39815902952403703
+    },
+    "total_pearson_corr": 0.7878069121343958,
+    "total_spearman_corr": 0.6984235884206087
+}

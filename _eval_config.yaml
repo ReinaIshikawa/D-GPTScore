@@ -1,0 +1,47 @@
+# CC-AlignBench dataset
+dir: "./CC-AlignBench" # path to the data directory
+csv_file: "data.csv"
+bg_file: "background.json"
+surrounings_type: "simple" #simple, detail
+man_token: "a man"
+woman_token: "a woman"
+index_list: null # list or null
+# index_list: null # list or null
+debug: false
+
+# generated images
+gen_method_list: ["01_CustomDiffusion", "02_OMG_lora", "03_OMG_instantID", "04_fastcomposer", "05_Mix-of-Show", "06_DreamBooth"]
+mode_list: ["easy", "medium", "hard"]
+prompt_type_list: ["simple", "action+layout", "action+expression", "action+background", "all"]
+eval_metric_list: ["ArcFace", "CLIP_AESTHETIC",  "CLIP_TEXT2IMAGE",  "CLIP_TEXT2TEXT", "DINO", "wo_r_GPT_vanilla"]
+
+
+gen_output_dir: "gen_output"
+results_dir: "evaluation/results"
+man_ref_image: "CC-AlignBench/man_1/image/0.jpeg"
+woman_ref_image: "CC-AlignBench/woman_1/image/0.jpeg"
+
+users: ["01","02","03","04","05","06","07","09","10","11"]
+# scale: [[0,1], [0,10], [0,1], [0,1], [0,1], [1,10]]
+scale: [[0,0.993174], [0.168678,0.407997], [0.235704,0.909626], [4.315141,7.583379], [0.520446,0.940805], [1,10]]
+
+
+CLIP_TEXT2IMAGE:
+  # default="patch16", choices=["patch16", "patch14", "patch32"]
+  clip_model_name: "openai/clip-vit-base-patch16"
+  # default=false, choices=[true, false]
+  force_resize: false
+
+CLIP_TEXT2TEXT:
+  # default="large", choices=["base", "large"]
+  blip_model_name: "large"
+  # default="patch16", choices=["patch16", "patch14", "patch32"]
+  clip_model_name: "openai/clip-vit-base-patch16"
+  # force_resize: default=false, choices=[true, false]
+  force_resize: false
+
+CLIP_AESTHETIC:
+  mlp_model_path: "evaluation/metrics/models/sac+logos+ava1-l14-linearMSE.pth"
+  clip_model_name: "openai/clip-vit-large-patch14"
+  # default=false, choices=[true, false]
+  force_resize: false
