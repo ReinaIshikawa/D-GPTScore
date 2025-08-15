@@ -1,4 +1,4 @@
-# D-GPTScore
+# D-GPTScore (ICCVW2025)
 Official implementation of "Human Preference-Aligned Concept Customization Benchmark via Decomposed Evaluation."
 
 

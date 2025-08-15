@@ -21,7 +21,7 @@ evaluation/analysis/_corr_ablation.py
 evaluation/analysis/_corr_aspects_corrmap.py
 evaluation/analysis/_score_comparison.py
 evaluation/metrics/models/sac+logos+ava1-l14-linearMSE.pth
-# _eval_config.yaml
+_eval_config.yaml
 
 
 # Byte-compiled / optimized / DLL files
