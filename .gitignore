@@ -1,6 +1,11 @@
 evaluation/results_/
-evaluation/results/
+evaluation/results/*
 !evaluation/results/output/
+!evaluation/results/output/**
+!evaluation/results/user_study/
+evaluation/results/user_study/*
+!evaluation/results/user_study/total/
+!evaluation/results/user_study/total/**
 gen_output/*
 user_study_99_write.py
 CC-AlignBench/paired/

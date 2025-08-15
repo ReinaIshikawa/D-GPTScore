@@ -21,6 +21,12 @@ def seed_everything(seed: int):
 
 
 def user_study_reader(users, gen_method_list, data_dir) -> pd.DataFrame:
+    csv_path = os.path.join(data_dir, "total/user_study_result.csv")
+    if os.path.exists(csv_path):
+        print(f"CSV file is read from: {csv_path}")
+        return pd.read_csv(csv_path)
+    
+    print("Excel file is read from:")
     df: pd.DataFrame | None = None
     for user in users:
         output_path = os.path.join(data_dir, f"{user}/userStudy_{user}.xlsx")

@@ -1,0 +1,981 @@
+mode,prompt_type,id_,score,blip_caption
+easy,simple,0,0.5485732555389404,arafed man in a blue suit standing against a wall
+easy,simple,1,0.5485732555389404,arafed man in a blue suit standing against a wall
+easy,simple,2,0.4931609332561493,arafed woman in a blue coat and white pants standing in front of a wall
+easy,simple,3,0.4931609332561493,arafed woman in a blue coat and white pants standing in front of a wall
+easy,simple,4,0.6576679348945618,araffe walking down a narrow alleyway with a bag in hand
+easy,simple,5,0.6576679348945618,araffe walking down a narrow alleyway with a bag in hand
+easy,simple,6,0.7934907078742981,there is a man walking down a narrow alley way
+easy,simple,7,0.7934907078742981,there is a man walking down a narrow alley way
+easy,simple,8,0.609859824180603,arafed man running in a park with trees and fog
+easy,simple,9,0.609859824180603,arafed man running in a park with trees and fog
+easy,simple,10,0.7578035593032837,there are two people running in the woods together
+easy,simple,11,0.7578035593032837,there are two people running in the woods together
+easy,simple,12,0.6168368458747864,araffe woman waving in front of a building with a brown bag
+easy,simple,13,0.6168368458747864,araffe woman waving in front of a building with a brown bag
+easy,simple,14,0.54899662733078,araffe man in sunglasses and a blue shirt is standing on a street
+easy,simple,15,0.54899662733078,araffe man in sunglasses and a blue shirt is standing on a street
+easy,simple,16,0.6769937872886658,smiling man in blue vest and white shirt clapping his hands
+easy,simple,17,0.6769937872886658,smiling man in blue vest and white shirt clapping his hands
+easy,simple,18,0.6174923181533813,smiling woman in a gray shirt and blue pants clapping
+easy,simple,19,0.6174923181533813,smiling woman in a gray shirt and blue pants clapping
+easy,simple,20,0.5495012402534485,arafed woman in blue jeans and a white top standing in front of a wall
+easy,simple,21,0.5495012402534485,arafed woman in blue jeans and a white top standing in front of a wall
+easy,simple,22,0.4459192752838135,arafed man in a blue suit standing against a brick wall
+easy,simple,23,0.4459192752838135,arafed man in a blue suit standing against a brick wall
+easy,simple,24,0.7319850921630859,arafed man in a blue suit jumping in the air
+easy,simple,25,0.7319850921630859,arafed man in a blue suit jumping in the air
+easy,simple,26,0.7918028831481934,arafed woman in blue jeans jumping in the air
+easy,simple,27,0.7918028831481934,arafed woman in blue jeans jumping in the air
+easy,simple,28,0.7782058715820312,araffe woman holding a watch in her hands and showing it to the camera
+easy,simple,29,0.7782058715820312,araffe woman holding a watch in her hands and showing it to the camera
+easy,simple,30,0.7945446372032166,someone is holding a watch with roman numerals on it
+easy,simple,31,0.7945446372032166,someone is holding a watch with roman numerals on it
+easy,simple,32,0.6554420590400696,araffe man in a white shirt and blue pants looking at his cell phone
+easy,simple,33,0.6554420590400696,araffe man in a white shirt and blue pants looking at his cell phone
+easy,simple,34,0.48580944538116455,blond woman in white top and jeans posing for a picture
+easy,simple,35,0.48580944538116455,blond woman in white top and jeans posing for a picture
+easy,simple,36,0.8047747015953064,there is a woman sitting on the ground in the sun
+easy,simple,37,0.8047747015953064,there is a woman sitting on the ground in the sun
+easy,simple,38,0.5601116418838501,araffe man kneeling down in a hallway with a blue shirt and jeans
+easy,simple,39,0.5601116418838501,araffe man kneeling down in a hallway with a blue shirt and jeans
+easy,simple,40,0.751533031463623,arafed man squatting on a sidewalk with his hands crossed
+easy,simple,41,0.751533031463623,arafed man squatting on a sidewalk with his hands crossed
+easy,simple,42,0.679175078868866,arafed woman squatting on a sidewalk with a wall in the background
+easy,simple,43,0.679175078868866,arafed woman squatting on a sidewalk with a wall in the background
+easy,simple,44,0.630179226398468,arafed woman in white shirt and blue jeans with boxing gloves
+easy,simple,45,0.630179226398468,arafed woman in white shirt and blue jeans with boxing gloves
+easy,simple,46,0.6285076141357422,arafed man in a white shirt and jeans with a boxing glove
+easy,simple,47,0.6285076141357422,arafed man in a white shirt and jeans with a boxing glove
+easy,simple,48,0.38880813121795654,arafed man in a white shirt and blue jacket standing in front of a brick wall
+easy,simple,49,0.38880813121795654,arafed man in a white shirt and blue jacket standing in front of a brick wall
+easy,simple,50,0.47030794620513916,arafed woman standing against a wall wearing a blue cardigan
+easy,simple,51,0.47030794620513916,arafed woman standing against a wall wearing a blue cardigan
+easy,action+layout,0,0.5228527188301086,arafed man in a blue suit standing against a wall
+easy,action+layout,1,0.6903929710388184,arafed man in a suit standing in front of a wall
+easy,action+layout,2,0.5716898441314697,araffed woman in white shirt and jeans standing on dirt ground
+easy,action+layout,3,0.42249393463134766,araffe woman in white pants and a crop top standing in front of a building
+easy,action+layout,4,0.4662986099720001,arafed woman in a blue coat and white pants walking down a narrow alleyway
+easy,action+layout,5,0.6149513125419617,araffe woman in a blue dress walking through a building
+easy,action+layout,6,0.6731142997741699,araffe walking on a brick sidewalk with a shadow of a man
+easy,action+layout,7,0.6093525290489197,arafed man in a suit walking through a stone archway
+easy,action+layout,8,0.8134735226631165,there is a man running on a path in the woods
+easy,action+layout,9,0.7415870428085327,there is a man running on the beach in a blue shirt
+easy,action+layout,10,0.5816901922225952,araffe woman running on a road with a blue top and grey pants
+easy,action+layout,11,0.5950185060501099,arafed woman running in a forest trail in a blue top
+easy,action+layout,12,0.6442064046859741,woman waving in front of a building with a brown purse
+easy,action+layout,13,0.586174488067627,araffe woman in white outfit and hat waving in front of a building
+easy,action+layout,14,0.5199386477470398,araffe man in blue shirt and black pants standing on a street
+easy,action+layout,15,0.8339841365814209,there is a man waving his hand in the air in front of a building
+easy,action+layout,16,0.7439752817153931,arafed crowd of people clapping and clapping in a stadium
+easy,action+layout,17,0.3279387652873993,araffe man in a blue shirt and jeans standing in front of a brick wall
+easy,action+layout,18,0.7189335227012634,arafed group of people standing in a crowd with their hands up
+easy,action+layout,19,0.4272831082344055,woman in white shirt and jeans standing in front of a building
+easy,action+layout,20,0.6706430912017822,arafed woman in white shirt and jeans posing for a picture
+easy,action+layout,21,0.44874265789985657,arafed woman in a white shirt and blue jacket standing in front of a tan wall
+easy,action+layout,22,0.5197034478187561,arafed man in a blue suit standing on a sidewalk
+easy,action+layout,23,0.4579434394836426,arafed man in a white shirt and blue jeans standing in front of a brick wall
+easy,action+layout,24,0.7673037052154541,arafed man in a suit jumping in the air with his arms outstretched
+easy,action+layout,25,0.7743694186210632,arafed man in a suit jumping in the air with his arms outstretched
+easy,action+layout,26,0.7360270023345947,arafed woman in white shirt and jeans jumping in the air
+easy,action+layout,27,0.7294260859489441,araffe jumping in the air with her arms outstretched in front of a building
+easy,action+layout,28,0.8422985672950745,a close up of a woman holding a wrist watch with roman numerals
+easy,action+layout,29,0.7279477715492249,woman in white shirt and jeans holding a watch and looking at it
+easy,action+layout,30,0.7972820997238159,someone is holding a watch and a wrist with a wrist strap
+easy,action+layout,31,0.7784178256988525,someone is holding a watch with roman numerals on it
+easy,action+layout,32,0.7230284810066223,arafed man in a suit with his arms crossed
+easy,action+layout,33,0.3532886505126953,arafed man in a white shirt and blue pants standing in front of a brick wall
+easy,action+layout,34,0.4651513695716858,arafed woman in white shirt and jeans leaning against a wall
+easy,action+layout,35,0.5676963925361633,arafed woman in a white shirt and a tan vest
+easy,action+layout,36,0.47393855452537537,araffe woman sitting on a brick walkway in a white outfit
+easy,action+layout,37,0.5709461569786072,arafed woman in white dress sitting on dry ground in desert
+easy,action+layout,38,0.8350564241409302,araffe man kneeling on the ground with his hands on his knees
+easy,action+layout,39,0.453418493270874,arafed man in a blue suit kneeling down on a cobblestone street
+easy,action+layout,40,0.6215774416923523,araffe man sitting on a step in a narrow alleyway
+easy,action+layout,41,0.5973080396652222,araffe man sitting on a ledge in front of a wall with graffiti
+easy,action+layout,42,0.5801653861999512,araffe woman in blue leggings squatting on a sidewalk
+easy,action+layout,43,0.596896767616272,araffe woman in blue leggings squatting on a stone pillar
+easy,action+layout,44,0.6265135407447815,arafed woman in a white shirt and black pants with a boxing glove
+easy,action+layout,45,0.6617922782897949,arafed woman in white shirt and black pants with boxing gloves
+easy,action+layout,46,0.4792996048927307,araffe dressed in a blue suit and white shirt is standing on a sidewalk
+easy,action+layout,47,0.7609021663665771,there is a man with a boxing glove on posing for a picture
+easy,action+layout,48,0.4161437153816223,arafed man in a white shirt and suspenders standing against a brick wall
+easy,action+layout,49,0.4238213002681732,arafed man in a gray suit and white shirt standing in front of a brick wall
+easy,action+layout,50,0.5018819570541382,arafed woman in a white dress standing on a tennis court
+easy,action+layout,51,0.704433023929596,there is a woman walking down a narrow alley way
+easy,action+expression,0,0.5246209502220154,araffe man in a blue suit and white shirt standing in front of a wall
+easy,action+expression,1,0.5568974018096924,arafed man in a blue suit and white shirt standing in front of a wall
+easy,action+expression,2,0.3979250192642212,arafed woman in a white dress and blue cardigan standing against a wall
+easy,action+expression,3,0.42365196347236633,arafed woman in a hat and blue cardigan standing against a wall
+easy,action+expression,4,0.5657444000244141,arafed woman in a blue coat and white pants walking down a street
+easy,action+expression,5,0.654248833656311,araffe woman walking down a path in a white dress
+easy,action+expression,6,0.6652755737304688,araffe dressed man walking down the street in a blue coat
+easy,action+expression,7,0.6045590043067932,araffe dressed man walking down the street in a blue suit
+easy,action+expression,8,0.661524772644043,arafed man running on a path in a park with trees
+easy,action+expression,9,0.6265056133270264,smiling man in blue jacket and white shirt running in the park
+easy,action+expression,10,0.6257843971252441,arafed woman running in a city street with a blue door
+easy,action+expression,11,0.6646043062210083,woman running in a city street with a brick wall in the background
+easy,action+expression,12,0.6310861706733704,araffe woman in white shirt and jeans waving in front of a building
+easy,action+expression,13,0.6494050025939941,araffe woman waving in front of a building with a purse
+easy,action+expression,14,0.6665031313896179,araffe man waving in front of a building with a briefcase
+easy,action+expression,15,0.7953280210494995,there is a man that is standing in the street waving
+easy,action+expression,16,0.40874576568603516,araffed man in blue shirt standing in front of a brick wall
+easy,action+expression,17,0.6878400444984436,smiling man in blue vest and white shirt clapping his hands
+easy,action+expression,18,0.4532615542411804,woman in white dress praying outside in front of a stone wall
+easy,action+expression,19,0.5902472734451294,smiling woman in blue shirt and jeans standing with hands folded
+easy,action+expression,20,0.5130446553230286,arafed woman in blue pants and a white top standing in front of a wall
+easy,action+expression,21,0.5706473588943481,arafed woman in jeans and a white top standing in front of a tan wall
+easy,action+expression,22,0.4810662269592285,arafed man in a blue shirt and jeans standing in front of a wooden wall
+easy,action+expression,23,0.47249966859817505,arafed man in a blue jacket and jeans standing in front of a brick wall
+easy,action+expression,24,0.7372161149978638,arafed man in a blue suit jumping in the air
+easy,action+expression,25,0.6661995053291321,arafed man in a blue suit jumping in the air
+easy,action+expression,26,0.7585226893424988,arafed woman in blue jacket jumping in the air
+easy,action+expression,27,0.746476411819458,arafed woman in blue pants and white shirt jumping in the air
+easy,action+expression,28,0.6380743980407715,araffe woman in white shirt looking at cell phone on sidewalk
+easy,action+expression,29,0.6423472166061401,araffe woman holding a clock in a building with columns
+easy,action+expression,30,0.6455562710762024,araffe man in blue shirt and suspends looking at his cell phone
+easy,action+expression,31,0.49152714014053345,araffe wearing a white shirt and blue pants and a gray tie
+easy,action+expression,32,0.6287473440170288,araffe man in white shirt and suspenders posing for a picture
+easy,action+expression,33,0.7235244512557983,smiling man in blue shirt with arms crossed and arms crossed
+easy,action+expression,34,0.8157529830932617,there is a woman with a serious look on her face
+easy,action+expression,35,0.5233261585235596,blond woman in white shirt and jeans posing with arms crossed
+easy,action+expression,36,0.568311870098114,araffe woman in white sitting on a brick sidewalk with her hand on her chin
+easy,action+expression,37,0.5618253350257874,blonde woman sitting on the floor with a teddy bear and a box of tissues
+easy,action+expression,38,0.574090838432312,araffe man in a suit squatting down on a cobblestone street
+easy,action+expression,39,0.6239485144615173,araffe man in a blue suit kneeling on a stone floor
+easy,action+expression,40,0.6571142673492432,araffe man sitting on the curb of a building with his feet on the ground
+easy,action+expression,41,0.635634183883667,woman kneeling on the floor surrounded by boxes and boxes
+easy,action+expression,42,0.5646864771842957,araffe woman kneeling in a field of yellow flowers picking flowers
+easy,action+expression,43,0.764769434928894,arafed woman squatting in a gym with a barbell
+easy,action+expression,44,0.7737236618995667,there is a woman with a boxing glove on posing for a picture
+easy,action+expression,45,0.6609154343605042,arafed woman in white shirt and jeans with boxing gloves
+easy,action+expression,46,0.6271600723266602,arafed man in a white shirt and blue jeans with boxing gloves
+easy,action+expression,47,0.7531932592391968,there is a man with boxing gloves on in a fire burst
+easy,action+expression,48,0.39739954471588135,arafed man in a white shirt and blue jacket standing in front of a brick wall
+easy,action+expression,49,0.4570198953151703,arafed man in a white shirt and a gray jacket standing in front of a brick wall
+easy,action+expression,50,0.4313814640045166,arafed woman in a blue cardigan leaning against a wall
+easy,action+expression,51,0.46588385105133057,smiling woman in blue jeans and a white top standing in front of a wooden wall
+easy,action+background,0,0.7899521589279175,arafed man standing in a living room with a couch and a coffee table
+easy,action+background,1,0.7255969047546387,arafed man in a suit standing in a living room with a large painting
+easy,action+background,2,0.5806050896644592,arafed woman walking down a narrow street in a black top and blue skirt
+easy,action+background,3,0.7048296928405762,araffe woman in a long dress standing in a large building
+easy,action+background,4,0.7120325565338135,araffe walking down a path in a park with trees
+easy,action+background,5,0.8559969663619995,there is a woman walking down a path in the woods
+easy,action+background,6,0.758794903755188,araffe walking on the beach towards the ocean with footprints in the sand
+easy,action+background,7,0.8290749788284302,there is a man walking down a path in the mountains
+easy,action+background,8,0.8203450441360474,there is a man running on the beach with palm trees
+easy,action+background,9,0.6794707775115967,two men running in a street with buildings in the background
+easy,action+background,10,0.8423301577568054,two women running down a street in a city
+easy,action+background,11,0.856192946434021,arafed woman running down a narrow street in a city
+easy,action+background,12,0.762396514415741,there is a woman sitting at a table in a large conference room
+easy,action+background,13,0.8488984107971191,smiling woman raising her hand in the air in an office
+easy,action+background,14,0.7316043376922607,there is a man standing in a restaurant raising his hands
+easy,action+background,15,0.646294355392456,arafed man in a trench coat walking through a garden of roses
+easy,action+background,16,0.6954336166381836,araffe man standing in a field with his hands together
+easy,action+background,17,0.5040903091430664,brightly colored blocks are painted on a wall with a man kneeling down
+easy,action+background,18,0.6375943422317505,arafed woman reading a book in a library with large windows
+easy,action+background,19,0.6230972409248352,woman sitting on the floor in a yoga pose with her hands together
+easy,action+background,20,0.6733523011207581,arafed woman in jeans and a white shirt standing in a living room
+easy,action+background,21,0.6727057099342346,arafed woman in jeans and a white shirt walking down a narrow alleyway
+easy,action+background,22,0.4416917562484741,araffe dressed in a blue suit and hat standing in front of a building
+easy,action+background,23,0.716982364654541,arafed man in a green jacket standing in a park
+easy,action+background,24,0.8045454025268555,arafed man jumping in the air in a forest
+easy,action+background,25,0.8105403184890747,arafed man jumping in the air on the beach with his arms outstretched
+easy,action+background,26,0.8163818717002869,there is a woman that is jumping in the air on a mountain
+easy,action+background,27,0.801189661026001,woman jumping in the air on a beach with palm trees
+easy,action+background,28,0.5563839077949524,woman in white shirt and black pants sitting at a table with a laptop
+easy,action+background,29,0.5533127784729004,woman in white shirt and jeans checking her cell phone on a table
+easy,action+background,30,0.6261990070343018,arafed man in a blue shirt and tie looking at a laptop
+easy,action+background,31,0.6519530415534973,araffe man in blue shirt sitting at a bar with a watch
+easy,action+background,32,0.6940476298332214,arafed man in a blue shirt standing on a street corner
+easy,action+background,33,0.588942289352417,arafed man in a blue shirt standing on a cobblestone street
+easy,action+background,34,0.5008171796798706,arafed woman in a white dress standing in front of a bush of pink roses
+easy,action+background,35,0.6727511286735535,arafed woman in a field of tall grass with her hands folded
+easy,action+background,36,0.5466617941856384,arafed woman in white top and blue shorts standing next to a basketball
+easy,action+background,37,0.7948960065841675,a pregnant woman sitting on the floor in a library with a laptop
+easy,action+background,38,0.7543380260467529,araffe man sitting on a rug in a living room with a couch
+easy,action+background,39,0.8483412861824036,there is a man sitting on the floor in a living room
+easy,action+background,40,0.7549125552177429,arafed man in a suit squatting down in a narrow alleyway
+easy,action+background,41,0.6700583100318909,arafed man in a suit squatting on a brick walkway
+easy,action+background,42,0.6920411586761475,pregnant woman sitting on the grass in a park with trees
+easy,action+background,43,0.6707260608673096,araffe woman sitting on a mossy rock in a forest
+easy,action+background,44,0.4696542024612427,blonde woman in yellow bikini running on beach with ocean in background
+easy,action+background,45,0.6300211548805237,woman in brown outfit holding sword on rocky mountain top
+easy,action+background,46,0.7104454040527344,there is a man that is standing on a boat with a kettle
+easy,action+background,47,0.7900035977363586,there is a man standing on the beach with his hand in his pocket
+easy,action+background,48,0.8605306148529053,there is a man standing in front of a large table in a conference room
+easy,action+background,49,0.5303453207015991,arafed man in a blue shirt and black pants standing in a courtyard
+easy,action+background,50,0.5171536207199097,woman in a blue shirt and black skirt standing in front of a laptop
+easy,action+background,51,0.6970952749252319,woman standing in a restaurant with a wooden table and chairs
+easy,all,0,0.7736316323280334,smiling man in grey sweater standing in living room with couch
+easy,all,1,0.8098844289779663,arafed man standing in a living room looking out the window
+easy,all,2,0.7576466202735901,arafed woman walking down a narrow cobblestone street in a city
+easy,all,3,0.5856207609176636,araffe woman standing in front of a row of columns in a building
+easy,all,4,0.7954263687133789,there is a woman walking down a path in a park
+easy,all,5,0.7303642630577087,araffe walking down a path in the woods with a forest behind her
+easy,all,6,0.6715182662010193,araffe walking on the sand in the desert with footprints in the sand
+easy,all,7,0.732600212097168,there is a man walking down a path in the mountains
+easy,all,8,0.7642369270324707,there is a man running on the beach with palm trees in the background
+easy,all,9,0.6682416200637817,there is a man running in the street with a skateboard
+easy,all,10,0.7162454128265381,arafed woman running down a street in a black dress
+easy,all,11,0.7396506667137146,arafed woman running down a narrow alleyway in a tank top
+easy,all,12,0.6514564752578735,smiling woman in white dress waving her hands in front of a man
+easy,all,13,0.804991602897644,woman in a business attire raising her hands in the air
+easy,all,14,0.7166253328323364,arafed man waving in a restaurant with wooden tables and chairs
+easy,all,15,0.6539888381958008,there is a man in a suit and tie standing in a garden
+easy,all,16,0.822201132774353,there is a man standing in a field clapping his hands
+easy,all,17,0.6316775679588318,araffed man in front of a colorful wall clapping
+easy,all,18,0.732020378112793,there is a woman standing in a library reading a book
+easy,all,19,0.7585991024971008,smiling woman sitting on a couch with her hands clasped
+easy,all,20,0.587493360042572,arafed woman in a blue jacket and jeans standing in a living room
+easy,all,21,0.664040207862854,arafed woman walking down a narrow alleyway in a blue top
+easy,all,22,0.5249105095863342,arafed man in a blue suit standing on a brick sidewalk
+easy,all,23,0.6495107412338257,araffe man in a park with trees and grass
+easy,all,24,0.791056752204895,arafed man in a suit jumping in the air in a forest
+easy,all,25,0.7915764451026917,they are jumping in the air on the beach with their arms outstretched
+easy,all,26,0.7230040431022644,arafed woman in blue jacket jumping off a cliff
+easy,all,27,0.740010142326355,araffe jumping between two palm trees on a beach
+easy,all,28,0.6044961810112,woman in white shirt sitting at a table with a laptop and papers
+easy,all,29,0.5309423208236694,woman in blue shirt and jeans looking at her cell phone
+easy,all,30,0.6749683618545532,arafed man sitting at a desk with a laptop and papers
+easy,all,31,0.610817015171051,there is a man sitting at a table with a cup of coffee
+easy,all,32,0.6349775791168213,araffe man in a white shirt and blue pants standing on a street corner
+easy,all,33,0.7729902267456055,arafed man standing in a narrow street with his arms crossed
+easy,all,34,0.6136043667793274,there is a woman standing in a field of pink roses
+easy,all,35,0.6099498867988586,blonde woman in a field of tall grass with the sun shining
+easy,all,36,0.6927840709686279,there is a woman kneeling on a tennis court with a tennis racket
+easy,all,37,0.780346155166626,arafed woman sitting on the floor in a library reading a book
+easy,all,38,0.7177487015724182,arafed man sitting on the floor looking at his cell phone
+easy,all,39,0.7502999901771545,araffe man sitting on the floor in a living room with a smart device
+easy,all,40,0.7754437327384949,arafed man sitting on a stone step in a narrow alleyway
+easy,all,41,0.6397697925567627,araffe sitting on the ground with bags of luggage in front of a building
+easy,all,42,0.725480318069458,woman kneeling down in a field of flowers picking flowers
+easy,all,43,0.7002569437026978,arafed woman sitting on a moss covered log in the woods
+easy,all,44,0.5316756963729858,blond woman in white shirt and jeans on beach with wrist watch
+easy,all,45,0.5211217403411865,araffe woman in blue jeans and a blue jacket is standing on a hill
+easy,all,46,0.7388601303100586,arafed man standing on a boat with his arms outstretched
+easy,all,47,0.6954253315925598,there is a man that is running on the beach with a frisbee
+easy,all,48,0.8489185571670532,there is a man standing in a conference room with his hands out
+easy,all,49,0.5072590112686157,two men standing in a courtyard with buildings in the background
+easy,all,50,0.7017629146575928,woman sitting at a desk with papers and a phone
+easy,all,51,0.7562571167945862,smiling woman standing in a restaurant with wooden tables and chairs
+medium,simple,0,0.8904958963394165,there is a man and a woman standing next to each other
+medium,simple,1,0.8904958963394165,there is a man and a woman standing next to each other
+medium,simple,2,0.8044344782829285,there are two people standing next to each other in a room
+medium,simple,3,0.8044344782829285,there are two people standing next to each other in a room
+medium,simple,4,0.7253608703613281,araffe couple in a city street holding hands and walking
+medium,simple,5,0.7253608703613281,araffe couple in a city street holding hands and walking
+medium,simple,6,0.7213491201400757,araffe dressed man and woman walking down a cobblestone street
+medium,simple,7,0.7213491201400757,araffe dressed man and woman walking down a cobblestone street
+medium,simple,8,0.7564082145690918,there are two people running on a dirt road in the woods
+medium,simple,9,0.7564082145690918,there are two people running on a dirt road in the woods
+medium,simple,10,0.6668354272842407,arafed couple running in the woods together in the sun
+medium,simple,11,0.6668354272842407,arafed couple running in the woods together in the sun
+medium,simple,12,0.3964110016822815,araffe dressed in a blue suit and orange dress walking with a woman in a red dress
+medium,simple,13,0.3964110016822815,araffe dressed in a blue suit and orange dress walking with a woman in a red dress
+medium,simple,14,0.6414260864257812,there are two people walking together with luggage and a hat
+medium,simple,15,0.6414260864257812,there are two people walking together with luggage and a hat
+medium,simple,16,0.7099235653877258,they are standing in front of a gray wall and clapping
+medium,simple,17,0.7099235653877258,they are standing in front of a gray wall and clapping
+medium,simple,18,0.6792053580284119,smiling man and woman clapping each other while standing in front of a gray background
+medium,simple,19,0.6792053580284119,smiling man and woman clapping each other while standing in front of a gray background
+medium,simple,20,0.7244263887405396,arafed man and woman standing next to each other in front of a wall
+medium,simple,21,0.7244263887405396,arafed man and woman standing next to each other in front of a wall
+medium,simple,22,0.7237175107002258,arafed man and woman standing next to each other in front of a wall
+medium,simple,23,0.7237175107002258,arafed man and woman standing next to each other in front of a wall
+medium,simple,24,0.7788899540901184,they are jumping in the air in front of a building
+medium,simple,25,0.7788899540901184,they are jumping in the air in front of a building
+medium,simple,26,0.7807618379592896,they are jumping up in the air in front of a building
+medium,simple,27,0.7807618379592896,they are jumping up in the air in front of a building
+medium,simple,28,0.7204807996749878,they are two people standing outside looking at their cell phones
+medium,simple,29,0.7204807996749878,they are two people standing outside looking at their cell phones
+medium,simple,30,0.45483019948005676,smiling woman in a pink shirt and a man in a blue shirt
+medium,simple,31,0.45483019948005676,smiling woman in a pink shirt and a man in a blue shirt
+medium,simple,32,0.8150503635406494,they are two people standing next to each other with their arms crossed
+medium,simple,33,0.8150503635406494,they are two people standing next to each other with their arms crossed
+medium,simple,34,0.7471691370010376,they are posing for a picture with their arms crossed
+medium,simple,35,0.7471691370010376,they are posing for a picture with their arms crossed
+medium,simple,36,0.766920804977417,they are sitting on the ground together and smiling
+medium,simple,37,0.766920804977417,they are sitting on the ground together and smiling
+medium,simple,38,0.7245112061500549,they are sitting on a stone block and touching each other
+medium,simple,39,0.7245112061500549,they are sitting on a stone block and touching each other
+medium,simple,40,0.6521176099777222,they are sitting on a stone step together and smiling
+medium,simple,41,0.6521176099777222,they are sitting on a stone step together and smiling
+medium,simple,42,0.6587857604026794,they are sitting on a stone step together and smiling
+medium,simple,43,0.6587857604026794,they are sitting on a stone step together and smiling
+medium,simple,44,0.7351146936416626,they are two people in a boxing pose with a red glove
+medium,simple,45,0.7351146936416626,they are two people in a boxing pose with a red glove
+medium,simple,46,0.7658689022064209,they are two people in a boxing pose with gloves on
+medium,simple,47,0.7658689022064209,they are two people in a boxing pose with gloves on
+medium,simple,48,0.854934811592102,there is a man and woman standing next to each other
+medium,simple,49,0.854934811592102,there is a man and woman standing next to each other
+medium,simple,50,0.866464376449585,there is a man and woman standing next to each other
+medium,simple,51,0.866464376449585,there is a man and woman standing next to each other
+medium,action+layout,0,0.6502812504768372,there are two people standing next to each other wearing blue suits
+medium,action+layout,1,0.7802215814590454,there are two people standing next to each other in front of a building
+medium,action+layout,2,0.6813981533050537,araffed young man and woman walking down a sidewalk together
+medium,action+layout,3,0.5917583703994751,illustration of two women standing in front of a building with a hat on
+medium,action+layout,4,0.7347469329833984,araffe couple walking down a narrow street holding hands
+medium,action+layout,5,0.6450121402740479,araffe walking down a cobblestone street with a man in a suit
+medium,action+layout,6,0.700718104839325,araffes walking on a brick sidewalk with a woman holding hands
+medium,action+layout,7,0.7053043246269226,araffe couple walking down a narrow street in a city
+medium,action+layout,8,0.7483354210853577,there are two people running on a dirt road together
+medium,action+layout,9,0.7571443915367126,there are two people running on a road in the middle of the desert
+medium,action+layout,10,0.6739499568939209,there are two people riding skateboards down a road next to a field
+medium,action+layout,11,0.7687622308731079,there are two people running on a trail in the woods
+medium,action+layout,12,0.7247481942176819,araffes a man and a woman are walking down the street
+medium,action+layout,13,0.7756018042564392,there is a man and woman walking down the street waving
+medium,action+layout,14,0.6660423278808594,araffes a man and a woman walking down a street
+medium,action+layout,15,0.6137710213661194,there is a woman standing in front of a building with a skateboard
+medium,action+layout,16,0.7212810516357422,they are standing in front of a wall clapping and smiling
+medium,action+layout,17,0.7065601348876953,there is a man and woman standing on a porch talking
+medium,action+layout,18,0.6115999221801758,araffes a man and a woman are standing on a tiled floor
+medium,action+layout,19,0.7364004850387573,araffed man and woman in formal attire standing and clapping
+medium,action+layout,20,0.6600524187088013,arafed man and woman standing next to each other in front of a brown wall
+medium,action+layout,21,0.6279152631759644,arafed couple standing in front of a brick wall
+medium,action+layout,22,0.6366457343101501,araffes of three people walking down a sidewalk with a bag
+medium,action+layout,23,0.6810640692710876,cartoon of a man and woman standing in front of a building
+medium,action+layout,24,0.7736080884933472,they are jumping in the air with their hands in the air
+medium,action+layout,25,0.739926815032959,they are jumping up in the air outside of a building
+medium,action+layout,26,0.7917745113372803,araffes of a man and a woman are running and smiling
+medium,action+layout,27,0.7415822148323059,they are jumping in the air in a cave with rocks
+medium,action+layout,28,0.7526304125785828,there is a man and woman holding hands and looking at each other
+medium,action+layout,29,0.7560169100761414,araffed man and woman holding hands in front of a clock
+medium,action+layout,30,0.6994165778160095,araffe woman looking at her watch while standing next to a man
+medium,action+layout,31,0.4368094801902771,araffe and a woman in a yellow dress walking down a sidewalk
+medium,action+layout,32,0.7579159736633301,there is a man and woman that are holding hands together
+medium,action+layout,33,0.8036413192749023,there is a man and woman standing next to each other
+medium,action+layout,34,0.6546906232833862,araffed looking at a woman in a dress standing next to a man
+medium,action+layout,35,0.769263505935669,there are two people standing next to each other with their arms crossed
+medium,action+layout,36,0.7484602928161621,they are sitting on the ground and looking at each other
+medium,action+layout,37,0.7742704153060913,there is a man kneeling down to a woman in a black dress
+medium,action+layout,38,0.7079927325248718,araffes a man and a woman kissing on a dirt ground
+medium,action+layout,39,0.769184410572052,araffes man and woman sitting on the ground holding hands
+medium,action+layout,40,0.6431341171264648,they are sitting on the steps of a building and looking at something
+medium,action+layout,41,0.5664836764335632,they are looking at a shoe on a cement block
+medium,action+layout,42,0.5592373013496399,araffes walking down a brick path holding hands with a man
+medium,action+layout,43,0.6100133061408997,they are sitting on the steps of a building and smiling
+medium,action+layout,44,0.7394949197769165,a close up of a woman and a man with a gun
+medium,action+layout,45,0.588839590549469,they are two people in a studio one is holding a hat
+medium,action+layout,46,0.6023996472358704,there are two people that are standing together in the street
+medium,action+layout,47,0.7583355903625488,there is a man and a woman boxing in a large arena
+medium,action+layout,48,0.7692930698394775,there are two people standing next to each other in a studio
+medium,action+layout,49,0.80218905210495,cartoon of a man and a woman standing next to each other
+medium,action+layout,50,0.6607889533042908,araffes standing next to each other on a tiled floor
+medium,action+layout,51,0.5917605757713318,araffe couple standing in a doorway with a bell hanging from the ceiling
+medium,action+expression,0,0.7344051003456116,araffe couple standing next to each other in front of a building
+medium,action+expression,1,0.5519928336143494,they are standing in a narrow alleyway with a plant in the background
+medium,action+expression,2,0.7446103096008301,there are two people standing next to each other in a building
+medium,action+expression,3,0.831342339515686,there is a man and a woman standing next to each other
+medium,action+expression,4,0.6804884076118469,araffe couple walking down a narrow alleyway holding hands
+medium,action+expression,5,0.6388342380523682,araffe and a man in a blue suit and a woman in a yellow dress walking down a
+medium,action+expression,6,0.7216148376464844,araffe couple walking down a narrow street holding hands
+medium,action+expression,7,0.7023810148239136,araffe and a woman walking down a street in a city
+medium,action+expression,8,0.7457278966903687,arafed couple running down a street in a city
+medium,action+expression,9,0.8066983222961426,there are two people running on a street in a city
+medium,action+expression,10,0.6997479796409607,there are two people running down a narrow street in the city
+medium,action+expression,11,0.698746383190155,there are two people running on a dirt road in the woods
+medium,action+expression,12,0.7567257285118103,smiling couple walking in the street waving their hands
+medium,action+expression,13,0.692300021648407,araffes man and woman walking down the street waving
+medium,action+expression,14,0.7597373723983765,smiling man and woman walking down the street waving
+medium,action+expression,15,0.8142508864402771,smiling couple walking down the street waving their hands
+medium,action+expression,16,0.7575088739395142,smiling couple standing in a room with hands in the air
+medium,action+expression,17,0.7257256507873535,smiling man and woman applauding each other while standing against a gray background
+medium,action+expression,18,0.8447596430778503,smiling man and woman applauding each other while standing next to each other
+medium,action+expression,19,0.6860954165458679,smiling man and woman clapping hands while standing against a gray background
+medium,action+expression,20,0.716937243938446,arafed man and woman standing next to each other in front of a wall
+medium,action+expression,21,0.732853353023529,arafed man and woman standing next to each other in front of a wall
+medium,action+expression,22,0.6802058815956116,araffed couple standing next to each other in front of a wall
+medium,action+expression,23,0.7121421098709106,araffe couple standing next to each other in front of a wall
+medium,action+expression,24,0.7448874711990356,they are jumping in the air in front of a building
+medium,action+expression,25,0.7539857625961304,they are jumping in the air in front of a building
+medium,action+expression,26,0.7592711448669434,they are jumping in the air in front of a building
+medium,action+expression,27,0.7861007452011108,they are jumping in the air in front of a wall
+medium,action+expression,28,0.6861850619316101,there is a man and woman standing together looking at their cell phones
+medium,action+expression,29,0.6551981568336487,they are two people standing outside looking at their cell phones
+medium,action+expression,30,0.6350672245025635,they are two people standing outside looking at their cell phones
+medium,action+expression,31,0.6998102068901062,they are two people standing outside looking at their cell phones
+medium,action+expression,32,0.7661007046699524,they are posing for a picture with their hands folded
+medium,action+expression,33,0.709019124507904,they are two people standing with their arms crossed and one is praying
+medium,action+expression,34,0.7147552371025085,they are two people standing with their arms crossed and one is praying
+medium,action+expression,35,0.838372528553009,they are two people standing next to each other with their arms crossed
+medium,action+expression,36,0.7270199060440063,they are sitting on the ground looking at something
+medium,action+expression,37,0.7807167172431946,araffe couple kneeling on the ground in front of a building
+medium,action+expression,38,0.588383138179779,smiling couple sitting on cobblestone street in urban area
+medium,action+expression,39,0.6010767817497253,they are looking at a clock on the ground in a courtyard
+medium,action+expression,40,0.6386211514472961,they are sitting on the steps of a building and looking at a shoe
+medium,action+expression,41,0.6484631896018982,they are sitting on a stone bench in a narrow alleyway
+medium,action+expression,42,0.566441535949707,they are sitting on a ledge outside and smiling
+medium,action+expression,43,0.5977715849876404,they are sitting on the steps of a building and smiling
+medium,action+expression,44,0.7772516012191772,they are two people in a boxing pose with gloves on
+medium,action+expression,45,0.7564221620559692,they are two people in a boxing pose with gloves on
+medium,action+expression,46,0.7415280938148499,they are two people in a boxing pose with gloves on
+medium,action+expression,47,0.7100787162780762,they are two people posing for a picture with boxing gloves
+medium,action+expression,48,0.8143661618232727,arafed man and woman standing with arms crossed and looking at the camera
+medium,action+expression,49,0.8427466750144958,there is a man and a woman standing next to each other
+medium,action+expression,50,0.822488009929657,arafed man and woman standing next to each other with arms crossed
+medium,action+expression,51,0.7576134204864502,they are two people standing next to each other with their hands on their hipss
+medium,action+background,0,0.7663427591323853,they are standing in a living room with a couch and a coffee table
+medium,action+background,1,0.8340450525283813,there are two men and a woman standing in a living room
+medium,action+background,2,0.7500747442245483,araffe couple walking down a narrow alleyway holding hands
+medium,action+background,3,0.5410879254341125,bride and groom standing in a courtyard with columns and a clock tower
+medium,action+background,4,0.7780411243438721,there are two people walking down a path holding hands
+medium,action+background,5,0.8492675423622131,there are two people walking down a path in the woods
+medium,action+background,6,0.8225146532058716,they are walking on the beach holding hands
+medium,action+background,7,0.7528761625289917,there are three people walking down a path in the mountains
+medium,action+background,8,0.8311216831207275,there are two people running on the beach near the water
+medium,action+background,9,0.7821736335754395,there is a man and a woman running on a cobblestone street
+medium,action+background,10,0.8536988496780396,there are two people running down a street in the city
+medium,action+background,11,0.8036966323852539,there are two people running down a cobblestone street
+medium,action+background,12,0.6310948133468628,there are many chairs around a table in a large conference room
+medium,action+background,13,0.8275930881500244,smiling business man and woman raising hands in an office
+medium,action+background,14,0.6601392030715942,bride and groom dancing in a rustic restaurant with wooden walls
+medium,action+background,15,0.48595988750457764,a pregnant woman in a white dress and a man in a tan suit stand in a garden with pink
+medium,action+background,16,0.820022463798523,there is a man and woman standing in a field clapping
+medium,action+background,17,0.5102928876876831,brightly colored wall with a woman kneeling on the ground and a man kneeling on the ground
+medium,action+background,18,0.678469181060791,there are three people sitting in chairs in a library
+medium,action+background,19,0.8403713703155518,smiling couple standing in living room clapping hands together
+medium,action+background,20,0.6910821199417114,smiling couple standing in living room with bookshelf and couch
+medium,action+background,21,0.7394225001335144,araffe couple walking down a narrow alleyway in a city
+medium,action+background,22,0.7648084759712219,there are two people standing in front of a building
+medium,action+background,23,0.7261840105056763,araffe couple in a park walking together in the park
+medium,action+background,24,0.8120722770690918,there are two people jumping in the air in the woods
+medium,action+background,25,0.7796163558959961,they are jumping in the air on the beach with their hands in the air
+medium,action+background,26,0.7520909905433655,they are jumping in the air in the mountains with their arms outstretched
+medium,action+background,27,0.772198498249054,they are jumping in the air on the beach with palm trees
+medium,action+background,28,0.7463720440864563,they are looking at a smart phone in a meeting room
+medium,action+background,29,0.600908100605011,they are looking at their phones in the street
+medium,action+background,30,0.7904645800590515,araffes man and woman looking at a watch on a computer screen
+medium,action+background,31,0.6866564750671387,there is a man and woman sitting at a table looking at a watch
+medium,action+background,32,0.7339066863059998,there are two people standing on a cobblestone street
+medium,action+background,33,0.7726924419403076,there are two people standing on a street talking to each other
+medium,action+background,34,0.6626102328300476,there is a man and woman standing in front of a flower tunnel
+medium,action+background,35,0.7685678005218506,there is a man and woman standing in a field of tall grass
+medium,action+background,36,0.7047120332717896,there are two people sitting on the ground in front of a colorful wall
+medium,action+background,37,0.8473950028419495,there is a man kneeling down to a woman in a library
+medium,action+background,38,0.7630208730697632,araffe couple sitting on the floor in a living room looking at a cell phone
+medium,action+background,39,0.8019737005233765,araffe man and woman sitting on the floor in a living room
+medium,action+background,40,0.818263053894043,there is a man and woman kneeling down in a narrow alley
+medium,action+background,41,0.6107632517814636,they are sitting on a rock in the grass and smiling
+medium,action+background,42,0.6613889336585999,they are sitting on a bench in front of a building
+medium,action+background,43,0.7376226782798767,there is a man and woman sitting on a moss covered rock in the woods
+medium,action+background,44,0.7023429274559021,they are playing on the beach with sand and water
+medium,action+background,45,0.7286306619644165,there is a man and woman holding hands on a mountain
+medium,action+background,46,0.7598799467086792,they are on a boat with a man and a woman
+medium,action+background,47,0.7359595894813538,they are on the beach holding hands and dancing
+medium,action+background,48,0.6998125314712524,there are two people sitting at a table talking to each other
+medium,action+background,49,0.619976818561554,they are walking in the street holding hands
+medium,action+background,50,0.7535459399223328,smiling business man and woman standing in front of a desk
+medium,action+background,51,0.7381285429000854,there is a man and woman standing next to each other in a restaurant
+medium,all,0,0.8181183338165283,smiling couple standing in living room with man and woman in background
+medium,all,1,0.6118249297142029,they are standing in a living room with a couch and a coffee table
+medium,all,2,0.509157657623291,araffes walking down a cobblestone street in a small town
+medium,all,3,0.4987744688987732,there are two people standing outside of a building with a blue door
+medium,all,4,0.6511426568031311,they are walking down the path together in the park
+medium,all,5,0.7393580079078674,there are two people walking down a path in the woods
+medium,all,6,0.7645933628082275,araffe couple walking on the beach holding hands and smiling
+medium,all,7,0.6185500621795654,they are walking down a path in the mountains together
+medium,all,8,0.6928479671478271,there are two people running on the beach together
+medium,all,9,0.670078456401825,there are two people running on a cobblestone street
+medium,all,10,0.6348327398300171,there are two people running down the street together
+medium,all,11,0.6728154420852661,there are two people running down a street in the city
+medium,all,12,0.8367737531661987,smiling business man and woman waving their hands in an office
+medium,all,13,0.6893662810325623,smiling business couple raising hands in office setting
+medium,all,14,0.46896225214004517,there are two people sitting at a table in a restaurant
+medium,all,15,0.6135272979736328,there are two people standing in a garden with roses
+medium,all,16,0.5891647338867188,they are standing in a field of tall grass clapping
+medium,all,17,0.4810847043991089,there is a man and a woman sitting on the ground
+medium,all,18,0.6540461182594299,smiling couple in library applauding each other with hands together
+medium,all,19,0.6921260952949524,they are standing in a living room talking to each other
+medium,all,20,0.603856086730957,they are standing in a living room with a couch and a bookcase
+medium,all,21,0.6801927089691162,araffe couple standing in an alleyway looking at each other
+medium,all,22,0.6527904272079468,araffes looking down at a man and woman walking down a sidewalk
+medium,all,23,0.7402034997940063,araffes in a park with trees and grass and a man and woman
+medium,all,24,0.7430645823478699,araffe couple jumping in the air in the woods
+medium,all,25,0.6583497524261475,they are jumping in the air on the beach with their arms outstretched
+medium,all,26,0.7519491910934448,they are jumping up a hill together in the air
+medium,all,27,0.7692906260490417,there are three people jumping in the air on the beach
+medium,all,28,0.7813661098480225,araffes man and woman looking at a watch while standing in an office
+medium,all,29,0.466658353805542,they are looking at their phones in the street
+medium,all,30,0.5969542860984802,arafed man and woman sitting at a table with papers and a laptop
+medium,all,31,0.5367097854614258,they are looking at the watch on the woman ' s wrist
+medium,all,32,0.5768822431564331,they are standing on the street with their arms crossed
+medium,all,33,0.7603482604026794,arafed image of a man and woman walking down a street
+medium,all,34,0.552168071269989,there are two people standing in a field of pink roses
+medium,all,35,0.6294310092926025,there are two people standing in a field holding hands
+medium,all,36,0.530713677406311,there are two people that are playing basketball on a court
+medium,all,37,0.7721243500709534,arafed man kneeling down to a woman in a library
+medium,all,38,0.7536717653274536,smiling couple sitting on the floor in a living room
+medium,all,39,0.5608869791030884,they are sitting on the floor in the living room and looking at the ball
+medium,all,40,0.6769605875015259,there are two people sitting on a stone step in a narrow alley
+medium,all,41,0.531414270401001,they are sitting on the grass in the park and looking at each other
+medium,all,42,0.5097319483757019,araffes walking on a brick sidewalk with a man and a woman
+medium,all,43,0.5041759610176086,they are sitting on a mossy log in the woods
+medium,all,44,0.6149880886077881,blond woman in white shirt and black shorts standing on beach with man
+medium,all,45,0.577677845954895,they are two people in a desert setting one is holding a gun
+medium,all,46,0.7075742483139038,araffes man and woman standing on a boat looking at the camera
+medium,all,47,0.5605475306510925,they are two people standing on the beach near the water
+medium,all,48,0.7686166763305664,they are two people standing in an office with a desk
+medium,all,49,0.604106068611145,there are two people standing in a street talking to each other
+medium,all,50,0.5859735608100891,there are two people standing in a room with desks and computers
+medium,all,51,0.524052619934082,they are standing in a restaurant talking to each other
+hard,simple,0,0.6171214580535889,they are both wearing boots and are dancing together in a studio
+hard,simple,1,0.6171214580535889,they are both wearing boots and are dancing together in a studio
+hard,simple,2,0.7053714394569397,they are two people in a studio setting one is dancing
+hard,simple,3,0.7053714394569397,they are two people in a studio setting one is dancing
+hard,simple,4,0.7609387040138245,they are two people in a room one is kicking the other is kicking the other
+hard,simple,5,0.7609387040138245,they are two people in a room one is kicking the other is kicking the other
+hard,simple,6,0.8137621879577637,they are two people in a photo with one kicking the other
+hard,simple,7,0.8137621879577637,they are two people in a photo with one kicking the other
+hard,simple,8,0.7340379953384399,there is a man and woman walking down a street holding hands
+hard,simple,9,0.7340379953384399,there is a man and woman walking down a street holding hands
+hard,simple,10,0.6558865308761597,they are walking down the street with their bikes in hand
+hard,simple,11,0.6558865308761597,they are walking down the street with their bikes in hand
+hard,simple,12,0.623935341835022,araffes woman in white dress standing next to a man in white shirt
+hard,simple,13,0.623935341835022,araffes woman in white dress standing next to a man in white shirt
+hard,simple,14,0.5196473002433777,araffe couple in white dress walking in the street
+hard,simple,15,0.5196473002433777,araffe couple in white dress walking in the street
+hard,simple,16,0.6923058032989502,araffes man and woman standing on a street pointing at something
+hard,simple,17,0.6923058032989502,araffes man and woman standing on a street pointing at something
+hard,simple,18,0.7222676277160645,they are walking down the street and pointing at something
+hard,simple,19,0.7222676277160645,they are walking down the street and pointing at something
+hard,simple,20,0.7750356793403625,araffes a man and a woman are hugging in a street
+hard,simple,21,0.7750356793403625,araffes a man and a woman are hugging in a street
+hard,simple,22,0.5926830768585205,araffes a young couple embracing in front of a stone wall
+hard,simple,23,0.5926830768585205,araffes a young couple embracing in front of a stone wall
+hard,simple,24,0.7486533522605896,araffes man and woman reading a book in a library
+hard,simple,25,0.7486533522605896,araffes man and woman reading a book in a library
+hard,simple,26,0.757527232170105,araffes a man and a woman are reading a book in a library
+hard,simple,27,0.757527232170105,araffes a man and a woman are reading a book in a library
+hard,simple,28,0.6806769371032715,araffes a man and a woman standing in front of a building
+hard,simple,29,0.6806769371032715,araffes a man and a woman standing in front of a building
+hard,simple,30,0.633415162563324,they are standing on the street and looking at each other
+hard,simple,31,0.633415162563324,they are standing on the street and looking at each other
+hard,simple,32,0.8498469591140747,there is a man and woman shaking hands in front of a building
+hard,simple,33,0.8498469591140747,there is a man and woman shaking hands in front of a building
+hard,simple,34,0.8534277677536011,there is a man and woman shaking hands in front of a building
+hard,simple,35,0.8534277677536011,there is a man and woman shaking hands in front of a building
+hard,simple,36,0.7038200497627258,they are two people in a room one is reading a book and the other is writing a book
+hard,simple,37,0.7038200497627258,they are two people in a room one is reading a book and the other is writing a book
+hard,simple,38,0.6902765035629272,araffes man and woman standing in a library holding books
+hard,simple,39,0.6902765035629272,araffes man and woman standing in a library holding books
+hard,simple,40,0.6777473092079163,araffed couple embracing each other in front of a wall
+hard,simple,41,0.6777473092079163,araffed couple embracing each other in front of a wall
+hard,simple,42,0.5777217745780945,araffed young couple embracing in an alleyway in a city
+hard,simple,43,0.5777217745780945,araffed young couple embracing in an alleyway in a city
+hard,simple,44,0.6990489363670349,there is a man and woman shaking hands in front of a blue door
+hard,simple,45,0.6990489363670349,there is a man and woman shaking hands in front of a blue door
+hard,simple,46,0.6978380084037781,there is a man and woman holding hands in front of a blue door
+hard,simple,47,0.6978380084037781,there is a man and woman holding hands in front of a blue door
+hard,simple,48,0.6854677200317383,araffes woman in a white dress and a man in a blue shirt are standing in a
+hard,simple,49,0.6854677200317383,araffes woman in a white dress and a man in a blue shirt are standing in a
+hard,simple,50,0.6838617920875549,smiling couple reading a book in a library
+hard,simple,51,0.6838617920875549,smiling couple reading a book in a library
+hard,simple,52,0.7510790228843689,there is a man and woman standing next to each other
+hard,simple,53,0.7510790228843689,there is a man and woman standing next to each other
+hard,simple,54,0.5638652443885803,there is a man and woman standing in a courtyard with columns
+hard,simple,55,0.5638652443885803,there is a man and woman standing in a courtyard with columns
+hard,simple,56,0.7641499042510986,they are standing in a living room high five with their hands in the air
+hard,simple,57,0.7641499042510986,they are standing in a living room high five with their hands in the air
+hard,simple,58,0.7553079128265381,they are standing in front of a building and giving each other a high five
+hard,simple,59,0.7553079128265381,they are standing in front of a building and giving each other a high five
+hard,simple,60,0.6052225828170776,smiling couple drinking wine in a restaurant
+hard,simple,61,0.6052225828170776,smiling couple drinking wine in a restaurant
+hard,simple,62,0.5083585381507874,smiling couple drinking wine in outdoor restaurant with table and chairs
+hard,simple,63,0.5083585381507874,smiling couple drinking wine in outdoor restaurant with table and chairs
+hard,simple,64,0.7885496616363525,they are walking with boxes in their hands
+hard,simple,65,0.7885496616363525,they are walking with boxes in their hands
+hard,simple,66,0.7997320294380188,araffes carrying a box and a woman walking down a street
+hard,simple,67,0.7997320294380188,araffes carrying a box and a woman walking down a street
+hard,simple,68,0.8156905174255371,arafed woman taking a picture of a building with a camera
+hard,simple,69,0.9055665731430054,araffe taking a picture of a woman with a camera
+hard,simple,70,0.8127174377441406,arafed woman taking a picture of a building with a camera
+hard,simple,71,0.8127174377441406,arafed woman taking a picture of a building with a camera
+hard,simple,72,0.5932365655899048,two men in suits walking down a cobblestone street holding hands
+hard,simple,73,0.5932365655899048,two men in suits walking down a cobblestone street holding hands
+hard,simple,74,0.6395273804664612,arafed man and woman walking down a cobblestone street
+hard,simple,75,0.6395273804664612,arafed man and woman walking down a cobblestone street
+hard,simple,76,0.6050180792808533,arafed couple kissing in black and white photo with a white background
+hard,simple,77,0.6050180792808533,arafed couple kissing in black and white photo with a white background
+hard,simple,78,0.7310240268707275,arafed image of a man and a woman kissing in black and white
+hard,simple,79,0.7310240268707275,arafed image of a man and a woman kissing in black and white
+hard,simple,80,0.7350270748138428,arafed man and woman standing in front of a bookcase holding a book
+hard,simple,81,0.7350270748138428,arafed man and woman standing in front of a bookcase holding a book
+hard,simple,82,0.8196083307266235,there is a man and woman standing in a library reading a book
+hard,simple,83,0.8196083307266235,there is a man and woman standing in a library reading a book
+hard,simple,84,0.6768208146095276,araffe couple walking down a narrow street holding hands
+hard,simple,85,0.6768208146095276,araffe couple walking down a narrow street holding hands
+hard,simple,86,0.6751002073287964,araffe couple walking down a narrow street holding hands
+hard,simple,87,0.6751002073287964,araffe couple walking down a narrow street holding hands
+hard,simple,88,0.6010992527008057,they are standing in front of a brick wall and shaking hands
+hard,simple,89,0.6010992527008057,they are standing in front of a brick wall and shaking hands
+hard,simple,90,0.7320548295974731,there is a man and woman shaking hands in front of a wall
+hard,simple,91,0.7320548295974731,there is a man and woman shaking hands in front of a wall
+hard,action+layout,0,0.5918371677398682,blond woman in white dress shirt and blue suit touching man ' s neck
+hard,action+layout,1,0.7143750190734863,they are dancing in the street with a man in a blue shirt
+hard,action+layout,2,0.7959689497947693,araffes a man and a woman are holding hands and walking
+hard,action+layout,3,0.7365618348121643,there is a man and woman dancing in a city street
+hard,action+layout,4,0.7375315427780151,they are both wearing boots and are doing a kick
+hard,action+layout,5,0.7284245491027832,they are dancing in the street with a man in a suit
+hard,action+layout,6,0.7470643520355225,araffes of a man and a woman dancing on a sidewalk
+hard,action+layout,7,0.6731432676315308,there is a man and woman dancing in a room with a window
+hard,action+layout,8,0.7414056062698364,araffes a man and a woman are looking at each other
+hard,action+layout,9,0.5916293859481812,araffe couple walking down a narrow alleyway holding hands
+hard,action+layout,10,0.6308032274246216,araffes walking on a sidewalk holding hands with a man
+hard,action+layout,11,0.6424570679664612,they are looking at a suitcase on wheels in a narrow alley
+hard,action+layout,12,0.6679600477218628,araffes a woman in a white dress hugging a man in a white shirt
+hard,action+layout,13,0.6625407338142395,they are standing in a courtyard and looking at each other
+hard,action+layout,14,0.5773715376853943,araffes holding hands and walking on a brick walkway
+hard,action+layout,15,0.5771328806877136,they are standing in a courtyard and smiling at each other
+hard,action+layout,16,0.6602638363838196,smiling woman holding a cigarette and a man taking a selfie
+hard,action+layout,17,0.8252386450767517,there is a man and woman standing next to each other
+hard,action+layout,18,0.756877064704895,araffes a man and a woman walking on a sidewalk holding hands
+hard,action+layout,19,0.6842259168624878,cartoon of a man and woman standing outside of a building
+hard,action+layout,20,0.6139024496078491,araffes a young couple embracing in front of a stone building
+hard,action+layout,21,0.6034455299377441,they are standing on a stone block in front of a building
+hard,action+layout,22,0.6908547282218933,araffe couple embracing each other in a park
+hard,action+layout,23,0.6164371967315674,araffe couple embracing in front of a wall with trees
+hard,action+layout,24,0.6235692501068115,smiling woman sitting on a couch with a man standing behind her
+hard,action+layout,25,0.7893832921981812,there is a man and woman standing in a library reading books
+hard,action+layout,26,0.6229875087738037,araffes looking at a book while standing on a set of stairs
+hard,action+layout,27,0.5821341872215271,cartoon of a man and woman reading a book in a library
+hard,action+layout,28,0.7540073990821838,araffes woman in white shirt and black pants hugging a man
+hard,action+layout,29,0.6517688035964966,araffe couple standing next to each other in front of a wall
+hard,action+layout,30,0.6905807256698608,araffes man and woman standing on a sidewalk holding hands
+hard,action+layout,31,0.6968181729316711,araffes man and woman standing in a street looking at each other
+hard,action+layout,32,0.7804015874862671,there is a man and woman shaking hands in a building
+hard,action+layout,33,0.8666091561317444,there is a man and woman shaking hands in front of a building
+hard,action+layout,34,0.7679803371429443,araffes a man and a woman shaking hands on a sidewalk
+hard,action+layout,35,0.8296481370925903,arafed image of a man and woman shaking hands in front of a building
+hard,action+layout,36,0.7347882986068726,araffe woman sitting on a couch reading a book while a man stands behind her
+hard,action+layout,37,0.7164511680603027,arafed man and woman standing in a library holding books
+hard,action+layout,38,0.7520104050636292,araffes looking at a book while a woman looks at it
+hard,action+layout,39,0.7602795958518982,there is a man and woman standing in a library reading books
+hard,action+layout,40,0.6935425400733948,araffed couple embracing each other in front of a wall
+hard,action+layout,41,0.6737436652183533,araffes couple standing against a wall and looking at each other
+hard,action+layout,42,0.649387001991272,araffes man and woman walking on a road holding hands
+hard,action+layout,43,0.7318578362464905,araffes a man and a woman are standing in a street
+hard,action+layout,44,0.6639609932899475,they are standing in a hallway and one is touching the other ' s head
+hard,action+layout,45,0.66197669506073,araffe woman in a dress and a man in a suit walking down a street
+hard,action+layout,46,0.7568642497062683,araffes a man and a woman are dancing on a sidewalk
+hard,action+layout,47,0.8068227767944336,there is a man and woman standing in front of a door
+hard,action+layout,48,0.7481104135513306,arafed man and woman standing in front of a bookshelf with books
+hard,action+layout,49,0.7775615453720093,there is a man and woman standing in a living room holding books
+hard,action+layout,50,0.8000023365020752,arafed view of a man and woman looking at a book
+hard,action+layout,51,0.7788488864898682,there is a man and woman standing in a library with books
+hard,action+layout,52,0.6788642406463623,araffes walking down a city street holding hands with a man
+hard,action+layout,53,0.6479518413543701,araffe and a man in a suit walking down a street
+hard,action+layout,54,0.6812694668769836,araffes walking down a sidewalk holding hands with a woman
+hard,action+layout,55,0.5720988512039185,araffes man and woman standing in a hallway with columns
+hard,action+layout,56,0.8122235536575317,they are giving each other high five fingers in the air
+hard,action+layout,57,0.742599606513977,they are standing in front of a wall giving each other a high five
+hard,action+layout,58,0.6215437650680542,araffes a man and a woman are standing on a brick sidewalk
+hard,action+layout,59,0.502228856086731,they are standing in a room with a window and a plant
+hard,action+layout,60,0.627868115901947,they are holding glasses of water and smiling at each other
+hard,action+layout,61,0.7771539688110352,there is a man and woman standing next to each other holding wine glasses
+hard,action+layout,62,0.6585413813591003,araffes man and woman standing on a sidewalk holding wine glasses
+hard,action+layout,63,0.7211290597915649,there is a man and woman that are drinking wine together
+hard,action+layout,64,0.771440327167511,two people walking down a narrow alleyway carrying boxes
+hard,action+layout,65,0.7425883412361145,they are carrying boxes and smiling for the camera
+hard,action+layout,66,0.7360296845436096,araffes man and woman standing in a large room with boxes
+hard,action+layout,67,0.730828583240509,they are holding a box and smiling at each other
+hard,action+layout,68,0.8360429406166077,araffes woman taking a picture of a man with a camera
+hard,action+layout,69,0.8568019270896912,araffe taking a picture of a woman with a camera
+hard,action+layout,70,0.8595231771469116,araffe taking a picture of a woman taking a picture with her camera
+hard,action+layout,71,0.68638014793396,arafed man with camera and tripod in front of a building
+hard,action+layout,72,0.7671627402305603,araffe and a man in a suit walking down a street
+hard,action+layout,73,0.7111836671829224,there are two people walking down a cobblestone street holding hands
+hard,action+layout,74,0.7221945524215698,there is a person walking down the street with a suitcase
+hard,action+layout,75,0.7335502505302429,araffe woman walking down a narrow street in a city
+hard,action+layout,76,0.83419269323349,arafed image of a man and a woman kissing each other
+hard,action+layout,77,0.7771213054656982,araffes a man and a woman kissing in a street
+hard,action+layout,78,0.709053099155426,arafed drawing of a man kissing a woman with a kiss on her cheek
+hard,action+layout,79,0.6838260889053345,blond woman kissing a man with a black shirt on
+hard,action+layout,80,0.7433280944824219,araffes man and woman standing in a library reading a book
+hard,action+layout,81,0.7725697159767151,there is a man and woman standing in a library reading books
+hard,action+layout,82,0.7390989065170288,arafed view of a man and woman sitting on the floor with books
+hard,action+layout,83,0.744141697883606,arafed image of a man and woman reading a book in a library
+hard,action+layout,84,0.6510762572288513,araffes walking down a narrow street with a man in a blue suit and a woman in
+hard,action+layout,85,0.6949316263198853,araffe couple walking down a narrow street in a city
+hard,action+layout,86,0.7115509510040283,araffes walking down a sidewalk holding hands with a man
+hard,action+layout,87,0.642516553401947,araffe couple walking down a cobblestone street holding hands
+hard,action+layout,88,0.48869970440864563,they are standing in front of a wall and touching hands
+hard,action+layout,89,0.7137049436569214,there is a man and woman shaking hands in front of a garage
+hard,action+layout,90,0.6896355748176575,araffes a man and a woman are sitting on the ground and reaching out their hands
+hard,action+layout,91,0.7332085371017456,there is a man and woman shaking hands on a rock
+hard,action+expression,0,0.6921588778495789,they are two people fighting in a dirty room with a wall
+hard,action+expression,1,0.6374975442886353,they are both wearing jeans and a shirt
+hard,action+expression,2,0.49634602665901184,they are playing a game of wii together in the living room
+hard,action+expression,3,0.7352294921875,they are two people fighting in a room with a wall
+hard,action+expression,4,0.7206734418869019,they are two people in a room with a window and a man in a suit and a woman in
+hard,action+expression,5,0.753087043762207,they are two people in a room one is kicking the other is kicking the other
+hard,action+expression,6,0.7051554918289185,they are two people in a dance pose with a man holding a knife
+hard,action+expression,7,0.6445791125297546,they are dancing in a smokey room with a window
+hard,action+expression,8,0.6678669452667236,they are walking down the street with a knife in their hand
+hard,action+expression,9,0.5750365853309631,smiling couple walking down a cobblestone street holding hands
+hard,action+expression,10,0.6856537461280823,they are walking down the street together in the city
+hard,action+expression,11,0.5760553479194641,araffe couple walking down a narrow alleyway holding hands
+hard,action+expression,12,0.7528186440467834,araffes a man and a woman are hugging and smiling
+hard,action+expression,13,0.7176074385643005,araffes man and woman embracing in a city street
+hard,action+expression,14,0.6177535057067871,they are standing close together in a courtyard and smiling
+hard,action+expression,15,0.5574051141738892,araffes a man and a woman holding hands in a narrow alley
+hard,action+expression,16,0.6942926645278931,they are two people standing on a street pointing at something
+hard,action+expression,17,0.6972601413726807,araffe man and woman standing in a street pointing at something
+hard,action+expression,18,0.7000994682312012,there are three people standing in a hallway with one giving the thumbs up
+hard,action+expression,19,0.807206928730011,they are two people standing next to each other and one is pointing
+hard,action+expression,20,0.6366753578186035,araffe couple in a white dress hugging each other in a street
+hard,action+expression,21,0.6105898022651672,they are standing close together in a narrow alleyway
+hard,action+expression,22,0.5987054705619812,araffe couple in a white dress embracing in front of a building
+hard,action+expression,23,0.6296824216842651,they are standing close together in a narrow alleyway
+hard,action+expression,24,0.794270396232605,smiling man and woman looking at a book together in a library
+hard,action+expression,25,0.7178654074668884,araffe man and woman reading a book in a library
+hard,action+expression,26,0.7335304021835327,they are looking at a book together in a library
+hard,action+expression,27,0.7480491399765015,they are looking at a book together in a library
+hard,action+expression,28,0.7412014007568359,araffes a man and a woman standing next to each other
+hard,action+expression,29,0.7633348703384399,araffes a man and a woman standing next to each other
+hard,action+expression,30,0.7274680733680725,araffes a man and a woman are standing in a city
+hard,action+expression,31,0.6504781246185303,araffe man and woman standing in front of a building
+hard,action+expression,32,0.8399800658226013,there is a man and woman shaking hands in a building
+hard,action+expression,33,0.6921424865722656,a pregnant woman in a blue dress and a man in a suit shake hands
+hard,action+expression,34,0.8541560173034668,there is a man and woman shaking hands in front of a building
+hard,action+expression,35,0.7658423185348511,araffes a man and a woman shaking hands in a courtyard
+hard,action+expression,36,0.7030714154243469,smiling woman sitting on couch reading a book with man standing behind her
+hard,action+expression,37,0.6323338747024536,smiling couple reading a book in a library with bookshelves
+hard,action+expression,38,0.6015552282333374,they are sitting on a couch reading a book together
+hard,action+expression,39,0.6855248212814331,araffes sitting on a couch reading a book while a man looks on
+hard,action+expression,40,0.679732084274292,araffe couple posing for a picture in a city street
+hard,action+expression,41,0.6355389356613159,they are standing close together in a narrow alleyway
+hard,action+expression,42,0.6812974214553833,araffe and a woman standing next to each other in front of a wall
+hard,action+expression,43,0.648193895816803,they are standing in a narrow alleyway and smiling at each other
+hard,action+expression,44,0.6758403182029724,araffe woman standing in front of a mirror and a man standing in front of her
+hard,action+expression,45,0.8289551734924316,there is a man and woman standing in front of a door
+hard,action+expression,46,0.76472008228302,there is a man and woman standing outside of a building
+hard,action+expression,47,0.5218919515609741,araffe couple in orange dress walking down the street holding hands
+hard,action+expression,48,0.7107428908348083,they are looking at a book together in a library
+hard,action+expression,49,0.6439629793167114,arafed man and woman sitting on a couch in a library
+hard,action+expression,50,0.7167881727218628,araffes couple looking at a book in a library
+hard,action+expression,51,0.765995442867279,arafed man and woman in a library looking at a book
+hard,action+expression,52,0.7250231504440308,they are looking at a shoe that is being worn by a man
+hard,action+expression,53,0.45206406712532043,araffe couple in orange dress walking down steps holding hands
+hard,action+expression,54,0.5687370896339417,araffe couple walking down steps holding hands and smiling
+hard,action+expression,55,0.7555961608886719,there is a man and woman standing next to each other
+hard,action+expression,56,0.8191649913787842,they are giving each other high five fingers in the air
+hard,action+expression,57,0.7723386883735657,they are standing in a living room high five with their hands in the air
+hard,action+expression,58,0.7453678250312805,they are standing in front of a building and giving each other a high five
+hard,action+expression,59,0.8035037517547607,they are giving each other high five fingers in a living room
+hard,action+expression,60,0.6598737239837646,smiling couple drinking wine in a restaurant
+hard,action+expression,61,0.6541350483894348,smiling couple drinking wine in a restaurant
+hard,action+expression,62,0.6176257729530334,smiling couple drinking wine in a restaurant
+hard,action+expression,63,0.6324783563613892,smiling couple drinking wine in a restaurant
+hard,action+expression,64,0.7831004858016968,arafed man and woman standing in front of a large pile of boxes
+hard,action+expression,65,0.6860594153404236,two women standing next to each other holding boxes in front of a wall of boxes
+hard,action+expression,66,0.7272256016731262,arafed couple holding boxes in front of a wall of cardboard boxes
+hard,action+expression,67,0.6271002292633057,arafed couple standing in a warehouse with boxes and a plant
+hard,action+expression,68,0.8105311989784241,araffes woman holding a camera and a man holding a camera
+hard,action+expression,69,0.7849759459495544,araffes woman holding a camera and a man holding a knife
+hard,action+expression,70,0.8545777201652527,araffes taking a picture of a woman with a camera
+hard,action+expression,71,0.822960376739502,araffes a woman holding a camera and a man taking a picture
+hard,action+expression,72,0.7721837162971497,araffe man and woman walking down a narrow street in a city
+hard,action+expression,73,0.7481463551521301,araffe man and woman walking down a cobblestone street
+hard,action+expression,74,0.7334203720092773,araffe and a woman walking down a narrow street in a city
+hard,action+expression,75,0.7354875206947327,araffe man and woman walking down a narrow street in a city
+hard,action+expression,76,0.5727028250694275,blond woman with glasses and man with long hair smiling
+hard,action+expression,77,0.6926662921905518,arafed image of a man and a woman kissing in black and white
+hard,action+expression,78,0.6713104248046875,blond woman kissing a man with a black tie
+hard,action+expression,79,0.7062517404556274,smiling couple looking at each other in a city street
+hard,action+expression,80,0.7746829986572266,they are looking at a book together in a library
+hard,action+expression,81,0.7786393165588379,they are looking at a book together in a library
+hard,action+expression,82,0.7766852974891663,araffes man and woman standing in a library looking at a book
+hard,action+expression,83,0.7293746471405029,smiling couple reading a book in a library with bookshelves
+hard,action+expression,84,0.7496677041053772,araffes walking down a narrow street with a man and woman
+hard,action+expression,85,0.7346307635307312,araffe and a woman in a dress walking down a street
+hard,action+expression,86,0.6548513770103455,araffe couple walking down a narrow street holding hands
+hard,action+expression,87,0.7346093654632568,there are two people walking down a narrow street in a city
+hard,action+expression,88,0.6215497851371765,they are standing in a street and smiling at each other
+hard,action+expression,89,0.5957351922988892,they are standing in front of a building and holding hands
+hard,action+expression,90,0.5619992017745972,they are standing in a courtyard and looking at each other
+hard,action+expression,91,0.5739837288856506,they are standing in a courtyard and holding hands
+hard,action+background,0,0.7149549126625061,they are dancing in the living room together in high heels
+hard,action+background,1,0.6485846042633057,they are playing a game of wii in the living room
+hard,action+background,2,0.6940134763717651,araffe couple dancing in an alley in a city
+hard,action+background,3,0.6661455631256104,they are dancing in the street in front of a building
+hard,action+background,4,0.7176870703697205,there is a man and woman playing with a frisbee in a park
+hard,action+background,5,0.7460648417472839,they are playing with each other in the woods together
+hard,action+background,6,0.6506414413452148,they are playing soccer on the beach with the sun setting
+hard,action+background,7,0.7436241507530212,they are in the mountains playing with each other in a dance
+hard,action+background,8,0.7283045053482056,arafed man and a little girl walking on a beach
+hard,action+background,9,0.6576834917068481,they are walking down the street holding hands
+hard,action+background,10,0.7041133046150208,araffe couple walking down a narrow street holding hands
+hard,action+background,11,0.7212240099906921,araffe couple walking down a narrow street holding hands
+hard,action+background,12,0.7204777598381042,smiling man and woman shaking hands in a large office setting
+hard,action+background,13,0.7646305561065674,smiling business woman greeting a man in an office
+hard,action+background,14,0.7320654988288879,there is a man and woman shaking hands in a restaurant
+hard,action+background,15,0.606654703617096,bride and groom standing in a garden with pink roses
+hard,action+background,16,0.7552047967910767,there is a man and woman standing in a field pointing at something
+hard,action+background,17,0.7526490092277527,there is a man and woman shaking hands on a basketball court
+hard,action+background,18,0.7508904337882996,there is a woman standing in a library with a man sitting in a chair
+hard,action+background,19,0.6548831462860107,araffes are talking to a woman in a living room
+hard,action+background,20,0.652960479259491,pregnant couple sitting on a couch in a large living room
+hard,action+background,21,0.7587844729423523,arafed couple embracing in an alleyway in a stone building
+hard,action+background,22,0.7630601525306702,there is a man and woman hugging in a courtyard
+hard,action+background,23,0.5861390233039856,they are standing in a field of grass and trees
+hard,action+background,24,0.8554009199142456,there is a man and woman standing in the woods reading a book
+hard,action+background,25,0.8296980857849121,araffe man kneeling on a beach reading a book to a woman
+hard,action+background,26,0.6470513343811035,they are two men sitting on a rock and one is pointing at a book
+hard,action+background,27,0.698224663734436,they are sitting on the beach and having a romantic moment
+hard,action+background,28,0.7063542008399963,smiling business couple standing in a meeting room looking at each other
+hard,action+background,29,0.6579845547676086,they are holding hands in a city square with buildings in the background
+hard,action+background,30,0.6637918949127197,smiling couple looking at smart watch in office setting
+hard,action+background,31,0.6819536685943604,araffes man and woman standing next to each other in front of a wooden wall
+hard,action+background,32,0.8470938801765442,araffes a man and a woman shaking hands on a street
+hard,action+background,33,0.7011516094207764,two men in suits holding hands walking down a cobblestone street
+hard,action+background,34,0.7297576665878296,there is a man and woman standing in a garden with pink roses
+hard,action+background,35,0.8415608406066895,there is a man and woman shaking hands in a field
+hard,action+background,36,0.4841691255569458,brightly colored tiles on the wall
+hard,action+background,37,0.7653993368148804,there is a man and woman sitting in a library reading
+hard,action+background,38,0.6786984801292419,there are two women sitting on a couch in a living room
+hard,action+background,39,0.6670679450035095,they are sitting on the couch and reading a book together
+hard,action+background,40,0.7045556306838989,araffe couple walking down a narrow alleyway holding hands
+hard,action+background,41,0.6636413931846619,araffes a young couple embracing in a city street
+hard,action+background,42,0.7573220133781433,araffe couple in a park embracing each other
+hard,action+background,43,0.7347948551177979,araffe couple in a forest looking at each other
+hard,action+background,44,0.7557756304740906,they are standing on the beach holding hands and shaking hands
+hard,action+background,45,0.7526158690452576,there is a man and woman holding hands on a cliff
+hard,action+background,46,0.5259067416191101,woman in a red dress standing on a boat looking out the window
+hard,action+background,47,0.7720826268196106,there is a woman in a bikini and a straw hat on the beach
+hard,action+background,48,0.7151567339897156,smiling man and woman looking at a book in a library
+hard,action+background,49,0.6957685947418213,araffes a man and a woman are looking at a book
+hard,action+background,50,0.7685225009918213,arafed man and woman in a library looking at a book
+hard,action+background,51,0.6464582681655884,people sitting at a table in a restaurant reading books
+hard,action+background,52,0.665906548500061,they are sitting on a couch and having a conversation with each other
+hard,action+background,53,0.6817963123321533,they are standing in a living room with a couch and a coffee table
+hard,action+background,54,0.664287805557251,araffe couple holding hands in an alleyway in a small town
+hard,action+background,55,0.5478976368904114,araffes man and woman standing in a courtyard with columns
+hard,action+background,56,0.739600658416748,they are holding hands in the air in a park
+hard,action+background,57,0.858330488204956,there is a man and woman standing in the woods giving each other a high five
+hard,action+background,58,0.8148834109306335,they are standing on the beach and giving each other a high five
+hard,action+background,59,0.7544471025466919,they are standing on a mountain top and giving each other high five
+hard,action+background,60,0.6597142815589905,they are enjoying a glass of wine on the beach
+hard,action+background,61,0.6522178649902344,they are having a drink together in a city square
+hard,action+background,62,0.6572443246841431,they are enjoying a glass of wine in the street
+hard,action+background,63,0.6815342903137207,they are enjoying a glass of wine together in the street
+hard,action+background,64,0.7972924709320068,arafed business man and woman holding boxes in an office
+hard,action+background,65,0.8303694725036621,arafed business man and woman carrying boxes in a large office
+hard,action+background,66,0.790682315826416,arafed man and woman carrying boxes in a room with wooden walls
+hard,action+background,67,0.6930285096168518,bride and groom carrying boxes of flowers and gifts through a garden
+hard,action+background,68,0.7291343212127686,arafed man and woman standing in a field with a camera and a laptop
+hard,action+background,69,0.8283436298370361,there is a man and woman taking a picture of a basketball
+hard,action+background,70,0.850252628326416,there is a man and woman taking a picture in a library
+hard,action+background,71,0.781549870967865,araffes taking a picture of a woman taking a picture of herself
+hard,action+background,72,0.8081775307655334,there are two people walking in a living room together
+hard,action+background,73,0.7411119937896729,two men in suits walking down a narrow alley way
+hard,action+background,74,0.7369824647903442,there are two people walking down a cobblestone street holding hands
+hard,action+background,75,0.7749143838882446,there are two people walking down a path in a park
+hard,action+background,76,0.735773503780365,araffe couple in a forest embracing each other
+hard,action+background,77,0.575690746307373,they are standing under a thatched umbrella on the beach
+hard,action+background,78,0.7296034693717957,there is a man and woman standing next to each other near a rock
+hard,action+background,79,0.6356860995292664,they are standing under a palm tree on the beach
+hard,action+background,80,0.7268758416175842,they are sitting at a table with a book and a laptop
+hard,action+background,81,0.7063175439834595,araffes a man and a woman are standing in a city square
+hard,action+background,82,0.7648278474807739,they are looking at a book together in a library
+hard,action+background,83,0.6643344759941101,there are two people sitting at a table in a restaurant
+hard,action+background,84,0.6987027525901794,araffe couple walking down a cobblestone street holding hands
+hard,action+background,85,0.8125520944595337,there are two people walking down a narrow street holding hands
+hard,action+background,86,0.6680868864059448,bride and groom walking through a garden of pink roses
+hard,action+background,87,0.7608163952827454,they are walking through a field holding hands
+hard,action+background,88,0.6602849960327148,there is a man and woman shaking hands in front of a colorful wall
+hard,action+background,89,0.5851499438285828,there are people sitting in chairs in a library talking
+hard,action+background,90,0.5948513746261597,they are sitting on the floor and talking to each other
+hard,action+background,91,0.6067219376564026,they are sitting on the floor and shaking hands
+hard,all,0,0.6375880241394043,they are standing in a living room together and looking at each other
+hard,all,1,0.6087579131126404,they are playing a game of wii in the living room
+hard,all,2,0.6541102528572083,araffe couple walking down a narrow alleyway holding hands
+hard,all,3,0.6560466885566711,there is a man and a woman boxing in a stadium
+hard,all,4,0.6128373742103577,they are playing a game of frisbee in the park
+hard,all,5,0.7398526072502136,they are in the woods playing with each other in a fight
+hard,all,6,0.6507892608642578,araffes man and woman walking on a sandy beach
+hard,all,7,0.5674383640289307,they are standing on the ground and one is laying on the ground
+hard,all,8,0.6135639548301697,they are standing on the beach with palm trees and a man in a blue shirt
+hard,all,9,0.5815333724021912,araffe couple walking down a cobblestone street holding hands
+hard,all,10,0.6507367491722107,araffe couple walking down the street holding hands
+hard,all,11,0.6214357614517212,there are two people walking down a cobblestone street
+hard,all,12,0.5664141774177551,smiling woman in white dress standing next to man in white shirt
+hard,all,13,0.781284749507904,smiling business couple shaking hands in an office setting
+hard,all,14,0.4566933214664459,there are two people standing in a bar and one is adjusting the other
+hard,all,15,0.6734290719032288,painting of a man and woman holding hands in front of a rose garden
+hard,all,16,0.5599139928817749,there are two people standing in a field talking to each other
+hard,all,17,0.6773160696029663,illustration of a group of people standing on a basketball court
+hard,all,18,0.611528754234314,there are two people standing in a library with books on the shelves
+hard,all,19,0.6638563871383667,two women standing in a living room talking to each other
+hard,all,20,0.7611731290817261,smiling couple hugging each other in front of a laptop computer
+hard,all,21,0.6218205094337463,araffe couple standing in an alleyway looking at each other
+hard,all,22,0.5986219048500061,araffes a man and a woman are hugging on a brick sidewalk
+hard,all,23,0.5111653804779053,they are standing in a park together and looking at each other
+hard,all,24,0.7206144332885742,araffe man and woman standing in the woods writing on a notebook
+hard,all,25,0.634832501411438,they are standing on the beach and reading books together
+hard,all,26,0.6890994906425476,there is a man and woman standing on a mountain looking at a book
+hard,all,27,0.7268949747085571,araffe man kneeling on the beach with a woman reading a book
+hard,all,28,0.55965656042099,araffe woman in a white shirt and a man in a white shirt and blue pants
+hard,all,29,0.6536178588867188,araffe couple holding hands in a city square with buildings in the background
+hard,all,30,0.6941211223602295,araffes man and woman standing in an office looking at each other
+hard,all,31,0.5601391792297363,they are standing in a bar looking at each other
+hard,all,32,0.6332024931907654,they are holding hands and smiling while walking down the street
+hard,all,33,0.7796487212181091,araffes a man and a woman shaking hands in a narrow alleyway
+hard,all,34,0.5925735235214233,there is a man and woman holding hands in a garden of roses
+hard,all,35,0.5989094972610474,there are two people shaking hands in a field of tall grass
+hard,all,36,0.6240121126174927,illustration of a group of people standing around a basketball court
+hard,all,37,0.7063168287277222,there is a woman reading a book in a library with a man sitting in a chair
+hard,all,38,0.7308035492897034,three people standing in a living room with a book open
+hard,all,39,0.6472174525260925,they are looking at a book together in a living room
+hard,all,40,0.7262844443321228,araffe couple standing in a narrow alleyway holding hands
+hard,all,41,0.6282506585121155,araffes a man and a woman are standing close together
+hard,all,42,0.5480133295059204,they are standing in a park with a green grass field
+hard,all,43,0.6524780988693237,they are standing in the woods together and looking at each other
+hard,all,44,0.6888502240180969,they are on the beach talking to each other
+hard,all,45,0.68536376953125,there are two people walking down a path in the mountains
+hard,all,46,0.7642178535461426,there is a man and woman standing on a boat looking at something
+hard,all,47,0.7234516143798828,araffe man kneeling on the beach with a woman in a bikini
+hard,all,48,0.7682388424873352,arafed man and woman looking at a document in a meeting room
+hard,all,49,0.6766431927680969,there is a man and woman standing on a street corner reading a book
+hard,all,50,0.6725605130195618,arafed man and woman reading a book in a library
+hard,all,51,0.45683661103248596,there are two people sitting at a table in a library
+hard,all,52,0.6418753862380981,they are standing in a living room and one is holding a remote
+hard,all,53,0.660707950592041,they are walking in the living room together in the daytime
+hard,all,54,0.6185863018035889,araffe couple walking down a narrow alleyway holding hands
+hard,all,55,0.5384153127670288,they are standing in a courtyard and looking at each other
+hard,all,56,0.6927682161331177,they are giving each other high five fingers in a park
+hard,all,57,0.8084231615066528,there is a man and woman standing in the woods giving each other a high five
+hard,all,58,0.593055784702301,araffes a man and a woman are standing in the sand
+hard,all,59,0.5267247557640076,they are standing on a mountain top high above the valley
+hard,all,60,0.5716069936752319,they are enjoying a drink together on the beach
+hard,all,61,0.6483296155929565,smiling couple holding glasses of wine in front of a building
+hard,all,62,0.6076610088348389,araffes man and woman holding wine glasses on a street
+hard,all,63,0.5424060225486755,araffes are toasting each other in a narrow alleyway
+hard,all,64,0.7802203297615051,arafed business couple walking down a hallway carrying boxes
+hard,all,65,0.7468878030776978,arafed business man and woman holding boxes in an office
+hard,all,66,0.5825749039649963,arafed man and woman holding a box with a brown ribbon
+hard,all,67,0.646654486656189,araffes man and woman carrying boxes of flowers in a garden
+hard,all,68,0.676659345626831,araffes man and woman standing in a field with a camera
+hard,all,69,0.7647956609725952,there is a man taking a picture of a woman on a basketball court
+hard,all,70,0.5178244709968567,there are two people sitting in a room with a large window
+hard,all,71,0.664840817451477,araffe taking a picture of a woman with a camera
+hard,all,72,0.6700025200843811,araffes walking down a narrow street with a man in a blue suit and a woman in
+hard,all,73,0.752366840839386,araffe couple walking down a cobblestone street holding hands
+hard,all,74,0.5917016863822937,there are two people walking down the street in the city
+hard,all,75,0.6068884134292603,there are two people walking down a path in a park
+hard,all,76,0.8069982528686523,blond woman kissing a man in the forest
+hard,all,77,0.6625773906707764,they are sitting on the beach and kissing each other
+hard,all,78,0.5754886865615845,araffes sitting on a rock with a man standing next to her
+hard,all,79,0.6992831230163574,smiling couple on the beach with palm trees in the background
+hard,all,80,0.6692095994949341,they are looking at a book together in a large room
+hard,all,81,0.64117431640625,araffes man and woman standing on a cobblestone street with a suitcase
+hard,all,82,0.6905161738395691,arafed man and woman sitting at a table with open books
+hard,all,83,0.5718936324119568,smiling couple reading a book in a library
+hard,all,84,0.7194039821624756,araffe couple walking down a street holding hands
+hard,all,85,0.7615231275558472,araffes walking down a narrow street with a man and woman
+hard,all,86,0.5655516386032104,there are two people walking down a path in a garden
+hard,all,87,0.5530898571014404,they are walking in the grass holding hands
+hard,all,88,0.5076478123664856,they are playing basketball together in a colorful court
+hard,all,89,0.5860028266906738,there is a man and woman standing in a library talking
+hard,all,90,0.5600523352622986,three people sitting on the floor talking and laughing while sitting on a rug
+hard,all,91,0.6277872323989868,araffes man and woman sitting on a couch high five with their hands in the air

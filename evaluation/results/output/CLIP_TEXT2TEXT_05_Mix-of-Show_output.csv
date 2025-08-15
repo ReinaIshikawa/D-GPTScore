@@ -1,0 +1,981 @@
+mode,prompt_type,id_,score,blip_caption
+easy,simple,0,0.6257334351539612,smiling man in a suit and tie standing in front of a wall
+easy,simple,1,0.6891770362854004,arafed man in a suit and tie standing in front of a wall
+easy,simple,2,0.464837908744812,blonde woman in jeans and white shirt walking on sidewalk with skateboard
+easy,simple,3,0.6679000854492188,arafed blonde woman with long hair posing for a picture
+easy,simple,4,0.7766914963722229,araffed woman walking down the street with a purse in her hand
+easy,simple,5,0.5421741604804993,blonde woman with long hair smiling and walking in a park
+easy,simple,6,0.6844887733459473,arafed man in a suit and tie walking on a tennis court
+easy,simple,7,0.8010537624359131,there is a man in a suit walking down the street
+easy,simple,8,0.5881080031394958,smiling man in a black jacket and tie walking down a street
+easy,simple,9,0.7317460179328918,there is a man in a suit and tie running down a set of stairs
+easy,simple,10,0.577000081539154,blonde woman with long hair in motion with frisbee in hand
+easy,simple,11,0.6720010638237,blonde woman with long hair in white shirt and jeans running
+easy,simple,12,0.4908503293991089,arafed woman with long blonde hair and a necklace taking a selfie
+easy,simple,13,0.5571372509002686,blonde woman in jeans and white shirt throwing a frisbee
+easy,simple,14,0.6657278537750244,smiling man in suit and tie with hand on forehead
+easy,simple,15,0.8250008821487427,there is a man in a suit and tie waving his hands
+easy,simple,16,0.6444047093391418,arafed man in a suit talking on a cell phone
+easy,simple,17,0.6658055782318115,there are two men in suits and ties posing for a picture
+easy,simple,18,0.506041944026947,a close up of a woman with long hair and a necklace
+easy,simple,19,0.4188031256198883,smiling woman with red lipstick and a necklace holding a cell phone
+easy,simple,20,0.6100654602050781,arafed woman with long blonde hair and white shirt posing for a picture
+easy,simple,21,0.4353284537792206,blonde woman with long hair standing in a field with trees
+easy,simple,22,0.5680058002471924,arafed man in a suit and tie standing in front of a brown wall
+easy,simple,23,0.6465634107589722,arafed man in a suit and tie standing in front of a wall
+easy,simple,24,0.7615662813186646,there is a man in a suit and tie posing for a picture
+easy,simple,25,0.841073751449585,there is a man in a suit jumping in the air
+easy,simple,26,0.7233099341392517,arafed woman in jeans and red shoes jumping in the air
+easy,simple,27,0.5947340130805969,blonde woman with blue jeans and white shirt throwing a frisbee
+easy,simple,28,0.5480057001113892,blonde woman with long hair pointing at camera with a smile
+easy,simple,29,0.6335241198539734,arafed woman with a bird in her hand and a necklace
+easy,simple,30,0.6940492391586304,smiling man in a suit and tie with a watch on his wrist
+easy,simple,31,0.6940492391586304,smiling man in a suit and tie with a watch on his wrist
+easy,simple,32,0.7508395910263062,there is a man in a suit and tie posing for a picture
+easy,simple,33,0.4955197870731354,smiling man in white shirt sitting in front of a guitar
+easy,simple,34,0.49952980875968933,blonde woman with long hair posing for a picture in a park
+easy,simple,35,0.588126540184021,arafed woman in jeans and a white shirt posing for a picture
+easy,simple,36,0.5813071131706238,arafed woman crouching down in a field with a frisbee
+easy,simple,37,0.7703054547309875,arafed woman sitting on the ground with her legs crossed
+easy,simple,38,0.8504849672317505,arafed man kneeling on the ground with his hands on his knees
+easy,simple,39,0.5688480138778687,arafed man sitting on a skateboard in a park
+easy,simple,40,0.743231475353241,araffe man in a suit kneeling on the ground with his hands clasped
+easy,simple,41,0.7332350015640259,there is a man in a suit and tie sitting on a step
+easy,simple,42,0.6148665547370911,arafed woman in jeans crouching down on a skateboard
+easy,simple,43,0.5188288688659668,arafed blonde woman in white shirt and blue shorts crouching down
+easy,simple,44,0.48173952102661133,blonde woman with long hair in a white shirt and black pants
+easy,simple,45,0.6200931072235107,blonde woman with blue eyes laughing and looking up
+easy,simple,46,0.76688551902771,there is a man in a suit and tie with his fists up
+easy,simple,47,0.6305054426193237,arafed man in a suit and tie is holding a pair of scissors
+easy,simple,48,0.7757493853569031,arafed man with a shirt on posing for a picture
+easy,simple,49,0.4786500036716461,smiling man in a blue shirt and black bracelet holding his hand up
+easy,simple,50,0.5715284943580627,arafed woman with red lipstick and a white shirt posing for a picture
+easy,simple,51,0.7284369468688965,arafed woman with a big smile and a big smile on her face
+easy,action+layout,0,0.652201771736145,arafed man in a suit and tie standing in front of a wall
+easy,action+layout,1,0.6566879749298096,arafed man in a suit and tie walking on a sidewalk
+easy,action+layout,2,0.569766104221344,arafed woman in white shirt and jeans standing on street corner
+easy,action+layout,3,0.5843886137008667,arafed woman in jeans and a white shirt holding a black purse
+easy,action+layout,4,0.5500532388687134,arafed woman walking in a field with a white shirt and jeans
+easy,action+layout,5,0.613616406917572,arafed blonde woman walking in the park with her dog
+easy,action+layout,6,0.7125124931335449,arafed view of a man in a suit and tie standing in a street
+easy,action+layout,7,0.7711813449859619,there is a man walking on a platform with his shoes on
+easy,action+layout,8,0.5677030682563782,smiling man in black jacket and tie running with skateboard
+easy,action+layout,9,0.7690389752388,there is a man in a suit and tie running down the street
+easy,action+layout,10,0.7309630513191223,araffe woman in jeans and a white shirt is running on the street
+easy,action+layout,11,0.5786468982696533,blond woman with blue eyes and a white shirt is smiling
+easy,action+layout,12,0.46387460827827454,arafed woman with blue eyes and a necklace smiling
+easy,action+layout,13,0.49458613991737366,blonde woman in jeans and white shirt posing for a picture
+easy,action+layout,14,0.6715956330299377,arafed man in a suit and tie standing in a crowd
+easy,action+layout,15,0.7841402292251587,there is a man that is making a funny face with his hands
+easy,action+layout,16,0.40024876594543457,smiling man in suit and tie sitting in front of a brown wall
+easy,action+layout,17,0.7520340085029602,there is a man in a suit and tie making a gesture
+easy,action+layout,18,0.5600533485412598,arafed woman with a camera and a necklace on her neck
+easy,action+layout,19,0.604630708694458,blonde woman with blue eyes and a smile on her face
+easy,action+layout,20,0.5180338621139526,blonde woman with long hair standing in a wooded area
+easy,action+layout,21,0.5719724893569946,blonde woman with long hair standing on sidewalk in urban setting
+easy,action+layout,22,0.6372964382171631,arafed man in a suit and tie standing in front of a wall
+easy,action+layout,23,0.6549752354621887,arafed man in a suit and tie standing in front of a building
+easy,action+layout,24,0.6248776316642761,araffe dressed in a suit and tie jumping on a skateboard
+easy,action+layout,25,0.8029845356941223,arafed man in a suit jumping in the air
+easy,action+layout,26,0.5850923657417297,arafed woman in white shirt and blue jeans jumping on a skateboard
+easy,action+layout,27,0.6861177086830139,araffe woman in jeans and red boots jumping in the air
+easy,action+layout,28,0.44702452421188354,blonde woman with blue eyes and red lipstick posing for a picture
+easy,action+layout,29,0.6226176023483276,blonde woman in white shirt and jeans talking on cell phone
+easy,action+layout,30,0.6420003175735474,arafed man in a suit and tie posing for a picture
+easy,action+layout,31,0.6795625686645508,there is a man with a beard and a tie on holding a cell phone
+easy,action+layout,32,0.6801294088363647,arafed man in a suit and tie posing for a picture
+easy,action+layout,33,0.561375617980957,smiling man in a suit and tie standing in front of a building
+easy,action+layout,34,0.6278679370880127,arafed woman with a white shirt and a necklace on her neck
+easy,action+layout,35,0.25896382331848145,blonde woman with blue eyes and red lips sitting on grass
+easy,action+layout,36,0.7749990820884705,arafed woman sitting on the ground with her legs crossed
+easy,action+layout,37,0.7803248763084412,arafed woman sitting on the ground with her legs crossed
+easy,action+layout,38,0.6017339825630188,arafed man in a suit and tie smiling at the camera
+easy,action+layout,39,0.800101637840271,there is a dog that is sitting on the ground looking at the camera
+easy,action+layout,40,0.7711585760116577,there is a man in a suit and tie sitting on the ground
+easy,action+layout,41,0.7456398606300354,there is a man in a suit sitting on the ground talking on a cell phone
+easy,action+layout,42,0.7527605295181274,araffe woman sitting on the ground with her shoes on
+easy,action+layout,43,0.7473130226135254,araffe sitting on the ground with her hand out to the side
+easy,action+layout,44,0.6713431477546692,blond woman with blood on her mouth and teeth
+easy,action+layout,45,0.5187296867370605,blonde woman in jeans and white shirt throwing a frisbee
+easy,action+layout,46,0.3559430241584778,"aerial view of a ski board with a red, white, and blue design"
+easy,action+layout,47,0.6189748048782349,there are many people that are standing on skateboards in the street
+easy,action+layout,48,0.5636837482452393,arafed man with a shirt on smiling and standing in front of a black wall
+easy,action+layout,49,0.7990167140960693,there is a man with a shirt on and a suit on
+easy,action+layout,50,0.26119911670684814,blonde woman with red lips and a white top sitting on a bench
+easy,action+layout,51,0.4839940667152405,arafed blonde woman with long hair posing in a park
+easy,action+expression,0,0.6347239017486572,arafed man in a suit and tie standing in a garden
+easy,action+expression,1,0.7193484306335449,there is a man in a suit and tie standing in front of stairs
+easy,action+expression,2,0.6215325593948364,blond woman with blue eyes and a white shirt looking at the camera
+easy,action+expression,3,0.5511807203292847,arafed woman with long blonde hair walking in a field
+easy,action+expression,4,0.6757965087890625,arafed woman walking on the beach with her legs crossed
+easy,action+expression,5,0.6229780316352844,arafed woman with long blonde hair walking in a park
+easy,action+expression,6,0.7474480867385864,arafed man in a suit and tie walking down a sidewalk
+easy,action+expression,7,0.7251096963882446,arafed man in a suit and tie walking down a street
+easy,action+expression,8,0.6187587976455688,smiling man in black jacket with black hair and a black jacket
+easy,action+expression,9,0.6892328858375549,there are many men in suits and ties are all waving
+easy,action+expression,10,0.7628800868988037,blonde woman with blue eyes and a white shirt is running
+easy,action+expression,11,0.5138569474220276,blonde woman with blue tongue ring running in park with grass
+easy,action+expression,12,0.7033079266548157,blonde woman with blue eyes and a smile on her face
+easy,action+expression,13,0.6970274448394775,blonde woman with blue eyes and a smile on her face
+easy,action+expression,14,0.7988952398300171,smiling man in suit and tie waving his hand in the air
+easy,action+expression,15,0.7689183354377747,smiling man in suit and tie holding up his hands in the air
+easy,action+expression,16,0.818933367729187,there is a man that is standing up with his hands up
+easy,action+expression,17,0.714873194694519,smiling man in a suit and tie making a gesture with his hand
+easy,action+expression,18,0.4639450013637543,blonde woman with long hair posing for a picture in a park
+easy,action+expression,19,0.5678510665893555,blonde woman with blue eyes and a pink lip smiling
+easy,action+expression,20,0.49118226766586304,blonde woman with long hair walking down steps with a red purse
+easy,action+expression,21,0.6889193058013916,arafed woman in jeans and a white shirt posing for a picture
+easy,action+expression,22,0.7540954947471619,smiling man in a suit and tie with a smile on his face
+easy,action+expression,23,0.5259706974029541,smiling man in a suit and tie standing in front of a brown wall
+easy,action+expression,24,0.7552468776702881,there are many men in suits and ties are dancing together
+easy,action+expression,25,0.780243992805481,there is a man in a suit and tie jumping in the air
+easy,action+expression,26,0.6309463381767273,smiling woman with a toothy smile and a necklace on
+easy,action+expression,27,0.5756103992462158,blond woman in black shirt and jeans jumping on a skateboard
+easy,action+expression,28,0.47434207797050476,blonde woman with blue eyes and red lipstick posing for a picture
+easy,action+expression,29,0.46911096572875977,blond woman with blue eyes and pink lipstick posing for a picture
+easy,action+expression,30,0.483606219291687,smiling man in a suit and tie sitting in front of a window
+easy,action+expression,31,0.6604963541030884,there is a man in a suit and tie sitting at a table
+easy,action+expression,32,0.7339981198310852,there is a man in a suit and tie standing in a room
+easy,action+expression,33,0.4978700876235962,smiling man in blue shirt with red bow tie and blue shirt
+easy,action+expression,34,0.6569095849990845,blonde woman with a serious look on her face and a necklace
+easy,action+expression,35,0.470950722694397,blonde woman with long hair posing in white shirt and jeans
+easy,action+expression,36,0.5141881704330444,blond woman with blue eyes and red lipstick looking at camera
+easy,action+expression,37,0.4844093322753906,blonde woman in white shirt and white pants crouching on grass
+easy,action+expression,38,0.6081446409225464,araffe man in a suit and bow tie smiling while sitting on the ground
+easy,action+expression,39,0.4229421019554138,arafed man in a black jacket and pink shirt smiling
+easy,action+expression,40,0.6920500993728638,araffe man in a suit crouching down on a sidewalk
+easy,action+expression,41,0.6758394837379456,woman kneeling on the floor with a suitcase and a laptop
+easy,action+expression,42,0.593984842300415,arafed woman sitting on the grass with her feet crossed
+easy,action+expression,43,0.6269274950027466,arafed woman sitting on the grass in a park with her feet crossed
+easy,action+expression,44,0.7017781138420105,blonde woman with blue eyes and a black shirt is screaming
+easy,action+expression,45,0.6657800078392029,blonde woman with long hair in motion with her arms outstretched
+easy,action+expression,46,0.6914076209068298,there is a man that is holding a cell phone up to his ear
+easy,action+expression,47,0.7216148376464844,there is a man in a suit and tie posing for a picture
+easy,action+expression,48,0.6357046365737915,arafed man in a suit and tie standing on a staircase
+easy,action+expression,49,0.5876551866531372,smiling man in a suit and tie standing in front of a wall
+easy,action+expression,50,0.6127957105636597,blonde woman with blue eyes and a necklace on her neck
+easy,action+expression,51,0.6076223850250244,blonde woman in white shirt and jeans posing for a picture
+easy,action+background,0,0.3595449924468994,smiling man in black sweater sitting on steps with wooden steps
+easy,action+background,1,0.6498773694038391,arafed man in a suit and tie smiling for a picture
+easy,action+background,2,0.5393166542053223,arafed woman in jeans and a white shirt posing for a picture
+easy,action+background,3,0.646245002746582,blonde woman with long hair standing in front of a wall
+easy,action+background,4,0.7340404391288757,arafed woman walking in a park with her hair blowing in the wind
+easy,action+background,5,0.4944169819355011,blonde woman with long hair and pink earrings posing in the woods
+easy,action+background,6,0.8267337083816528,there is a man in a suit walking on the beach
+easy,action+background,7,0.7393873929977417,araffe dressed in a suit and tie walking down a path
+easy,action+background,8,0.7143658399581909,there is a man in a red shirt and black shorts running in the water
+easy,action+background,9,0.6449962854385376,there are many people walking down the street in suits
+easy,action+background,10,0.7867317199707031,arafed woman running on a street with a skateboard in her hand
+easy,action+background,11,0.7810920476913452,araffed woman in jeans and sneakers is running on the street
+easy,action+background,12,0.38508936762809753,smiling woman with long blonde hair and blue eyes wearing a white shirt
+easy,action+background,13,0.48346102237701416,blonde woman in white shirt and jeans posing for a picture
+easy,action+background,14,0.4688321352005005,smiling man in a black jacket and tie sitting at a table
+easy,action+background,15,0.5942901372909546,smiling man in suit and tie holding up his hand in the air
+easy,action+background,16,0.5610922574996948,there is a man in a suit and tie holding a cell phone
+easy,action+background,17,0.6352664828300476,arafed man in a suit waving his hand on a tennis court
+easy,action+background,18,0.35785287618637085,blonde woman with red lips and white shirt posing for a picture
+easy,action+background,19,0.4389822781085968,arafed woman with long hair and bright pink lipstick posing for a picture
+easy,action+background,20,0.6201133728027344,araffed woman in white shirt and jeans posing for a picture
+easy,action+background,21,0.5534673929214478,arafed woman in jeans and a white shirt posing for a picture
+easy,action+background,22,0.7113611102104187,arafed man in a suit and tie standing in a room
+easy,action+background,23,0.6026924848556519,arafed man in a suit and tie standing in front of a bush
+easy,action+background,24,0.7500101327896118,there is a man in a suit jumping in the air
+easy,action+background,25,0.7821673154830933,there is a man that is standing on the beach with his shirt off
+easy,action+background,26,0.7367900013923645,blonde woman with blue jeans and white shirt jumping in the air
+easy,action+background,27,0.8080533742904663,arafed woman jumping in the air on a beach with her legs in the air
+easy,action+background,28,0.4602718949317932,blond woman with blue eyes and a necklace holding a cigarette
+easy,action+background,29,0.37876656651496887,blonde woman with blue jeans and white shirt posing for a picture
+easy,action+background,30,0.6036995053291321,arafed man in a suit and tie sitting in a chair
+easy,action+background,31,0.5324627161026001,there is a man that is brushing his teeth in a room
+easy,action+background,32,0.710398256778717,there is a man in a suit and tie standing on a sidewalk
+easy,action+background,33,0.7196872234344482,arafed man in a suit and tie standing in a street
+easy,action+background,34,0.41434445977211,blond woman with red lips posing for a picture in a white shirt
+easy,action+background,35,0.5361533164978027,arafed woman with long blonde hair posing in a park
+easy,action+background,36,0.662499725818634,arafed woman kneeling on the ground with a skateboard in her hand
+easy,action+background,37,0.7655184268951416,arafed woman sitting on the ground with her legs crossed
+easy,action+background,38,0.5620720982551575,smiling man in blue suit sitting on a bed with his arms crossed
+easy,action+background,39,0.7038665413856506,arafed man in a suit sitting on a rug in a room
+easy,action+background,40,0.6961522102355957,arafed man in a suit and tie crouching down on a sidewalk
+easy,action+background,41,0.7263985872268677,araffe man in a suit crouching down with his hand on his chin
+easy,action+background,42,0.5229364633560181,arafed woman sitting on the grass in a white shirt and blue skirt
+easy,action+background,43,0.5581791400909424,arafed blonde woman sitting on the grass in a park
+easy,action+background,44,0.7428693175315857,arafed woman standing on the beach with her arms outstretched out
+easy,action+background,45,0.46586936712265015,blonde woman with long hair in a white shirt and blue jeans
+easy,action+background,46,0.7225807905197144,there is a man that is standing in the water with his fist up
+easy,action+background,47,0.6927244663238525,there is a man that is standing in the water with a surfboard
+easy,action+background,48,0.6873329281806946,there is a man in a suit and tie holding a cell phone
+easy,action+background,49,0.6395165920257568,arafed man in a suit and tie standing in a courtyard
+easy,action+background,50,0.5389231443405151,blonde woman in white shirt and jeans posing for a picture
+easy,action+background,51,0.5209919810295105,blonde woman with blue eyes and a smile on her face
+easy,all,0,0.6944020986557007,smiling man in a suit sitting on a chair in a room
+easy,all,1,0.6966395378112793,there is a man in a suit sitting on a chair
+easy,all,2,0.682681143283844,arafed woman in jeans and heels standing on a cobblestone road
+easy,all,3,0.6794002056121826,arafed woman in jeans and a white shirt is posing for a picture
+easy,all,4,0.6889889240264893,blonde woman with long hair walking in a park with trees
+easy,all,5,0.5808494091033936,a woman in jeans and heels is dancing with a frisbee
+easy,all,6,0.7215896248817444,arafed view of a man standing in front of a body of water
+easy,all,7,0.6101526021957397,there is a dog that is running down the street
+easy,all,8,0.6034007668495178,there is a man that is standing in the water with a frisbee
+easy,all,9,0.668386697769165,there is a man in a suit and tie running down the street
+easy,all,10,0.6243002414703369,araffed woman in white shirt and blue jeans on street
+easy,all,11,0.6878393888473511,arafed woman in jeans and sneakers is walking on the street
+easy,all,12,0.4873124659061432,smiling woman pointing at camera with pink lipstick and blue shirt
+easy,all,13,0.6205826997756958,blonde woman with bright pink lipstick showing thumbs up
+easy,all,14,0.6367413997650146,smiling man sitting at a table with a cup of coffee
+easy,all,15,0.5562724471092224,arafed man in a suit and tie waves to the camera
+easy,all,16,0.7034875154495239,there is a man sitting on the grass with his arms up
+easy,all,17,0.5891743302345276,there is a man standing in front of a wall making a peace sign
+easy,all,18,0.4145575761795044,blond woman with long eyelashes and a white shirt smiling
+easy,all,19,0.37468603253364563,smiling woman with long blonde hair and blue eyes wearing a white shirt
+easy,all,20,0.4821797013282776,blonde woman with blue shirt and necklace posing for a picture
+easy,all,21,0.6470309495925903,blonde woman in jeans leaning against a brick wall
+easy,all,22,0.7028289437294006,arafed man in a suit and tie standing in a room
+easy,all,23,0.6955513954162598,arafed man in a suit and tie standing in a park
+easy,all,24,0.6247551441192627,there is a man in a suit and tie posing for a picture
+easy,all,25,0.7960803508758545,woman jumping in the air on the beach with her arms outstretched
+easy,all,26,0.5337479114532471,blond woman with blue eyes and a toothbrush in her mouth
+easy,all,27,0.7137696743011475,arafed woman in jeans and boots jumping on the beach
+easy,all,28,0.5664240121841431,blond woman with blue eyes and a ring on her finger
+easy,all,29,0.6314947605133057,blonde woman with long hair standing in a city square
+easy,all,30,0.6000419855117798,arafed man in a suit and tie sitting in a chair
+easy,all,31,0.5786402225494385,there is a man sitting at a table with a glass of wine
+easy,all,32,0.5480172038078308,there is a man in a suit and tie with a piercing on his nose
+easy,all,33,0.7253919839859009,arafed man in a suit and tie smiling in a city street
+easy,all,34,0.4171197712421417,blonde woman with blue eyes and a white top posing for a picture
+easy,all,35,0.5629575252532959,blonde woman with blue shirt and earrings looking at camera
+easy,all,36,0.4678969383239746,blond woman with pink lipstick looking up at camera
+easy,all,37,0.6519988179206848,there is a woman laying on the ground with her hands on her chest
+easy,all,38,0.5713217854499817,arafed man in a blue shirt and black pants standing on a carpet
+easy,all,39,0.7232634425163269,arafed man in a suit laying on the floor with his hands on his hips
+easy,all,40,0.6431903839111328,arafed man in a suit crouching down with his hands on his face
+easy,all,41,0.7059338092803955,woman sitting on the ground next to a suitcase and a suitcase
+easy,all,42,0.6302059888839722,blonde woman sitting on the grass with her feet crossed
+easy,all,43,0.6957213282585144,arafed woman sitting on the ground in a park with her legs crossed
+easy,all,44,0.5852744579315186,arafed woman in blue shirt standing in the ocean with a surfboard
+easy,all,45,0.4259437918663025,blonde woman with long hair in a white shirt and jeans
+easy,all,46,0.7106834650039673,arafed man in a suit riding in a boat with his arms up
+easy,all,47,0.6836651563644409,there is a man that is standing on a surfboard in the water
+easy,all,48,0.6474130153656006,arafed man in a suit and tie with a surprised look on his face
+easy,all,49,0.6429690718650818,arafed man in a suit and tie standing in a courtyard
+easy,all,50,0.5982609987258911,blond woman with blue eyes and a white shirt looking at the camera
+easy,all,51,0.477711021900177,smiling woman with long blonde hair and bright red lipstick posing for a picture
+medium,simple,0,0.8001429438591003,there is a man and woman walking down the street together
+medium,simple,1,0.8001429438591003,there is a man and woman walking down the street together
+medium,simple,2,0.4463548958301544,arafed woman in jeans and heels standing in front of a fence
+medium,simple,3,0.4463548958301544,arafed woman in jeans and heels standing in front of a fence
+medium,simple,4,0.6114039421081543,araffe woman in jeans and pink shoes walking down a street
+medium,simple,5,0.6114039421081543,araffe woman in jeans and pink shoes walking down a street
+medium,simple,6,0.7985128164291382,they are walking down the street holding hands
+medium,simple,7,0.7985128164291382,they are walking down the street holding hands
+medium,simple,8,0.6917015314102173,there is a man riding a skateboard down the street
+medium,simple,9,0.6917015314102173,there is a man riding a skateboard down the street
+medium,simple,10,0.8744223713874817,there is a woman running with a backpack and a man running behind her
+medium,simple,11,0.8744223713874817,there is a woman running with a backpack and a man running behind her
+medium,simple,12,0.6099421977996826,smiling man and woman posing for a picture in a park
+medium,simple,13,0.6099421977996826,smiling man and woman posing for a picture in a park
+medium,simple,14,0.5653984546661377,araffe man in blue shirt standing next to a white car
+medium,simple,15,0.5653984546661377,araffe man in blue shirt standing next to a white car
+medium,simple,16,0.47325384616851807,smiling couple posing for a picture in front of a stone wall
+medium,simple,17,0.47325384616851807,smiling couple posing for a picture in front of a stone wall
+medium,simple,18,0.5612295269966125,smiling man and woman posing for a picture on a sidewalk
+medium,simple,19,0.5612295269966125,smiling man and woman posing for a picture on a sidewalk
+medium,simple,20,0.6615033745765686,they are walking down the street together in jeans and a blue shirt
+medium,simple,21,0.6615033745765686,they are walking down the street together in jeans and a blue shirt
+medium,simple,22,0.6821844577789307,there is a man in a suit and tie standing on a sidewalk
+medium,simple,23,0.6821844577789307,there is a man in a suit and tie standing on a sidewalk
+medium,simple,24,0.5872161388397217,araffe man standing on the hood of a car and holding a key
+medium,simple,25,0.5872161388397217,araffe man standing on the hood of a car and holding a key
+medium,simple,26,0.6710972189903259,blond woman in white shirt and jeans jumping in the air
+medium,simple,27,0.6899967789649963,araffed woman in white shirt and jeans jumping in the air
+medium,simple,28,0.5050012469291687,blond woman in blue shirt and jeans standing next to a man
+medium,simple,29,0.5050012469291687,blond woman in blue shirt and jeans standing next to a man
+medium,simple,30,0.7235015034675598,there is a man and a woman posing for a picture
+medium,simple,31,0.7235015034675598,there is a man and a woman posing for a picture
+medium,simple,32,0.5928969979286194,there is a man with a beard and suspenders posing for a picture
+medium,simple,33,0.5928969979286194,there is a man with a beard and suspenders posing for a picture
+medium,simple,34,0.7800524830818176,they are standing on a road with their arms around each other
+medium,simple,35,0.7800524830818176,they are standing on a road with their arms around each other
+medium,simple,36,0.6329789757728577,arafed woman sitting on the ground with her skateboard
+medium,simple,37,0.6329789757728577,arafed woman sitting on the ground with her skateboard
+medium,simple,38,0.7327799797058105,there is a man sitting on the ground with his skateboard
+medium,simple,39,0.7327799797058105,there is a man sitting on the ground with his skateboard
+medium,simple,40,0.6358312964439392,there is a man sitting on the curb talking on a cell phone
+medium,simple,41,0.6358312964439392,there is a man sitting on the curb talking on a cell phone
+medium,simple,42,0.6124014258384705,arafed woman sitting on a curb with her hand on her head
+medium,simple,43,0.6124014258384705,arafed woman sitting on a curb with her hand on her head
+medium,simple,44,0.3866878151893616,blond woman in blue shirt and jeans skateboarding in urban area
+medium,simple,45,0.3866878151893616,blond woman in blue shirt and jeans skateboarding in urban area
+medium,simple,46,0.7305761575698853,there is a man standing in front of a car pointing at something
+medium,simple,47,0.7305761575698853,there is a man standing in front of a car pointing at something
+medium,simple,48,0.32987523078918457,smiling woman in blue jacket and black dress standing in front of a tree
+medium,simple,49,0.5464910268783569,arafed man in a blue shirt standing on a sidewalk
+medium,simple,50,0.7870842218399048,there is a man and woman standing together on a sidewalk
+medium,simple,51,0.7870842218399048,there is a man and woman standing together on a sidewalk
+medium,action+layout,0,0.6083930134773254,they are posing for a picture in front of a wall
+medium,action+layout,1,0.555691659450531,they are posing for a picture in front of a hedge
+medium,action+layout,2,0.7143670916557312,araffes standing next to a woman in a blue shirt
+medium,action+layout,3,0.5959270000457764,araffe woman in jeans and heels standing on a sidewalk
+medium,action+layout,4,0.5350152254104614,araffed woman in jeans and white shirt riding a skateboard
+medium,action+layout,5,0.5756821632385254,araffe woman in white shirt and blue jeans walking down a street
+medium,action+layout,6,0.5693227648735046,araffe woman in white shirt and jeans riding a skateboard
+medium,action+layout,7,0.6802087426185608,they are walking down the street together in a business suit
+medium,action+layout,8,0.5158637762069702,arafed man in a gray shirt and blue shorts is riding a skateboard
+medium,action+layout,9,0.6579195857048035,there is a man that is riding a skateboard on the street
+medium,action+layout,10,0.5252558588981628,blonde woman in blue shirt and jeans running on pavement with skateboard
+medium,action+layout,11,0.7342774868011475,they are two men running down the street with skateboards
+medium,action+layout,12,0.8712669014930725,they are two people standing next to each other waving
+medium,action+layout,13,0.6124845147132874,blonde woman in blue jeans waving and smiling while walking down the street
+medium,action+layout,14,0.5859813690185547,arafed man in a suit and tie standing on a street
+medium,action+layout,15,0.6414519548416138,there is a man in a white shirt and blue jeans
+medium,action+layout,16,0.5221060514450073,smiling couple posing for a picture in front of a stone wall
+medium,action+layout,17,0.44991397857666016,blond woman in a white shirt and blue shorts standing next to a man in a suit
+medium,action+layout,18,0.6677055954933167,there is a man and woman standing next to each other
+medium,action+layout,19,0.23771636188030243,blonde woman with blue shirt and white jeans sitting on steps
+medium,action+layout,20,0.7788866758346558,they are two people standing next to each other in jeans
+medium,action+layout,21,0.7246168851852417,they are standing in the street with their hands on their hipss
+medium,action+layout,22,0.6621886491775513,arafed man in a suit and tie standing on a street
+medium,action+layout,23,0.767497718334198,they are two people standing next to each other outside
+medium,action+layout,24,0.5641546845436096,smiling man in blue shirt and jeans crouching down to grab a piece of pizza
+medium,action+layout,25,0.7242034077644348,there is a man that is jumping in the air with a frisbee
+medium,action+layout,26,0.7067967653274536,araffes man and woman riding on a metal railing
+medium,action+layout,27,0.4808708727359772,surfer in blue wetsuit jumping over a wave in a pool
+medium,action+layout,28,0.33569642901420593,blonde woman in denim dress walking down street with red lipstick
+medium,action+layout,29,0.4486268162727356,blond woman with long hair and blue jeans posing for a picture
+medium,action+layout,30,0.6533983945846558,araffe dressed man in suit holding a watch and looking up
+medium,action+layout,31,0.6917901635169983,there is a man and woman that are standing together
+medium,action+layout,32,0.5308642387390137,there is a man with a ponytail sitting on a skateboard
+medium,action+layout,33,0.6065096855163574,there is a man that is standing on the sidewalk with his tie
+medium,action+layout,34,0.5858955979347229,araffes are standing next to each other and smiling
+medium,action+layout,35,0.6619092226028442,araffe man with a big chest and a big chest
+medium,action+layout,36,0.7458508014678955,arafed man sitting on the ground with his feet crossed
+medium,action+layout,37,0.784045934677124,pregnant woman sitting on the ground with her hands on her knees
+medium,action+layout,38,0.7345150709152222,they are sitting on the ground and looking at each other
+medium,action+layout,39,0.5583276748657227,araffe man tying his shoe on the sidewalk in the park
+medium,action+layout,40,0.6454448103904724,there is a man squatting on the sidewalk with a skateboard
+medium,action+layout,41,0.6877902746200562,there is a man sitting on the ground with a cell phone
+medium,action+layout,42,0.4548935890197754,araffe man with long hair and blue shirt crouching down on a skateboard
+medium,action+layout,43,0.6286802887916565,araffe man sitting on the curb looking at his cell phone
+medium,action+layout,44,0.33565276861190796,blonde woman in blue shirt and denim shorts playing with a red ball
+medium,action+layout,45,0.28009018301963806,blond woman in blue shirt and denim shorts riding a skateboard
+medium,action+layout,46,0.5545610785484314,there is a man that is standing on a skateboard in the street
+medium,action+layout,47,0.602016806602478,they are two men playing frisbee in a park
+medium,action+layout,48,0.3552197515964508,smiling woman in black dress posing for a picture in front of a tree
+medium,action+layout,49,0.5210017561912537,arafed man in a blue polo shirt standing in a field
+medium,action+layout,50,0.7258952260017395,arafed man and woman standing next to each other on a street
+medium,action+layout,51,0.744464099407196,they are two people walking together and one is holding a cell phone
+medium,action+expression,0,0.43212923407554626,smiling man in blue shirt and jeans standing in front of a fence
+medium,action+expression,1,0.5792185664176941,they are posing for a picture in front of a stone wall
+medium,action+expression,2,0.5666815042495728,blonde woman in jeans and heels posing for a picture
+medium,action+expression,3,0.5690001845359802,blonde woman in blue jeans and a black top posing for a picture
+medium,action+expression,4,0.7214981317520142,they are walking down the street with their luggage together
+medium,action+expression,5,0.7555212378501892,they are walking down the street holding hands
+medium,action+expression,6,0.7506672143936157,they are walking down the street holding hands
+medium,action+expression,7,0.705034613609314,they are walking down the street holding hands
+medium,action+expression,8,0.7845145463943481,they are two people running together on a sidewalk
+medium,action+expression,9,0.7745553255081177,there is a man running in a race with a smile on his face
+medium,action+expression,10,0.7464185953140259,they are running together in a race and one is laughing
+medium,action+expression,11,0.7664068341255188,they are two people running together on a track
+medium,action+expression,12,0.6302099227905273,smiling man and woman sitting on a bench with their hands in the air
+medium,action+expression,13,0.5283426642417908,arafed man in a suit and tie making a stop sign
+medium,action+expression,14,0.5769162774085999,smiling couple posing for a picture in front of a dirt road
+medium,action+expression,15,0.5764951705932617,smiling couple posing for a picture in front of a grassy area
+medium,action+expression,16,0.6877656579017639,smiling couple posing for a picture in a park with their hands up
+medium,action+expression,17,0.5119295120239258,smiling couple posing for a picture in a park with grass
+medium,action+expression,18,0.5910443067550659,they are posing for a picture together in the park
+medium,action+expression,19,0.5835739970207214,they are posing for a picture together in the park
+medium,action+expression,20,0.5823603272438049,araffed woman in jeans and a blue top is standing on a sidewalk
+medium,action+expression,21,0.5469995737075806,they are posing for a picture in the street with their skateboard
+medium,action+expression,22,0.642606794834137,there is a man in a suit and tie standing on a sidewalk
+medium,action+expression,23,0.6362221240997314,arafed man in a suit and tie standing on a sidewalk
+medium,action+expression,24,0.8624343276023865,they are two people jumping in the air and laughing
+medium,action+expression,25,0.6668398380279541,there is a man that is standing on a skateboard in the street
+medium,action+expression,26,0.8222196102142334,they are two people jumping in the air with their arms around each other
+medium,action+expression,27,0.7051607370376587,araffed woman in jeans jumps on a skateboard while a man watches
+medium,action+expression,28,0.6008502244949341,blond woman holding a black watch with a blue face
+medium,action+expression,29,0.6661470532417297,there is a man and woman posing for a picture together
+medium,action+expression,30,0.6538900136947632,there is a man and a woman standing next to each other
+medium,action+expression,31,0.5615125894546509,they are posing for a picture together in a photo studio
+medium,action+expression,32,0.6523994207382202,there is a man with a white shirt and blue suspenders
+medium,action+expression,33,0.5486451387405396,there is a man with a beard and suspenders posing for a picture
+medium,action+expression,34,0.676923394203186,araffes man and woman standing close together in a park
+medium,action+expression,35,0.6636239886283875,they are standing on the street and posing for a picture
+medium,action+expression,36,0.774260401725769,there is a woman sitting on the ground with her feet crossed
+medium,action+expression,37,0.841935396194458,there is a man and a woman sitting on the ground
+medium,action+expression,38,0.8351796865463257,there is a man and woman sitting on the ground smiling
+medium,action+expression,39,0.6279492974281311,they are sitting on the ground with their feet on a skateboard
+medium,action+expression,40,0.6873342394828796,araffe man squatting on the sidewalk with his hand on his chin
+medium,action+expression,41,0.6610784530639648,there is a man kneeling on the sidewalk with a cell phone in his hand
+medium,action+expression,42,0.7127443552017212,there is a man and woman sitting on a sidewalk together
+medium,action+expression,43,0.7995186448097229,there is a man and woman sitting on the ground smiling
+medium,action+expression,44,0.2429056316614151,blond woman in blue shirt and denim skirt riding a skateboard
+medium,action+expression,45,0.38543033599853516,blonde woman in blue shirt and jeans riding a skateboard
+medium,action+expression,46,0.5540801286697388,there is a man that is playing with a frisbee in the street
+medium,action+expression,47,0.5706090331077576,there is a man that is standing in the street with a frisbee
+medium,action+expression,48,0.7087384462356567,there is a woman in a black dress posing for a picture
+medium,action+expression,49,0.517498791217804,arafed man in a blue shirt and black pants standing on a sidewalk
+medium,action+expression,50,0.718615710735321,they are two people standing next to each other on a street
+medium,action+expression,51,0.7023346424102783,they are two people posing for a picture together on the street
+medium,action+background,0,0.76970374584198,there is a man and woman standing next to each other
+medium,action+background,1,0.7833697199821472,there are two people standing next to each other in a room
+medium,action+background,2,0.6627476811408997,arafed woman in jeans and heels standing in a alleyway
+medium,action+background,3,0.4869341254234314,araffe woman in jeans and heels standing in front of a fence
+medium,action+background,4,0.5877652764320374,araffe woman in white shirt and blue jeans walking down a road
+medium,action+background,5,0.7087776064872742,araffe woman walking down a path in a wooded area
+medium,action+background,6,0.7372997403144836,they are walking down the path together in a formal attire
+medium,action+background,7,0.7550910115242004,araffe couple walking down a path holding hands
+medium,action+background,8,0.6793317198753357,there is a man that is running through the water with a frisbee
+medium,action+background,9,0.47626346349716187,man in black shirt and blue shorts skateboarding down a street
+medium,action+background,10,0.7201972007751465,arafed woman running down the street with her hair in the wind
+medium,action+background,11,0.7685706615447998,blonde woman running on the street with her mouth open
+medium,action+background,12,0.6283589601516724,smiling man and woman in blue suit and tie waving at camera
+medium,action+background,13,0.624580442905426,smiling man and woman posing for a picture in front of a building
+medium,action+background,14,0.670970618724823,smiling man in a suit waving his hand in front of a woman
+medium,action+background,15,0.37902116775512695,arafed man in a blue vest and jeans making a stop sign
+medium,action+background,16,0.5368034839630127,smiling couple sitting on a blanket in a park with a green grass background
+medium,action+background,17,0.5838637948036194,they are two people posing for a picture in front of a crowd
+medium,action+background,18,0.7481461763381958,smiling couple in a library making a gesture with their hands
+medium,action+background,19,0.7028741836547852,they are posing for a picture in their living room with a smile
+medium,action+background,20,0.6636478304862976,they are standing on the sidewalk in front of a building
+medium,action+background,21,0.6482003331184387,they are walking down the street together in jeans and a shirt
+medium,action+background,22,0.5508466958999634,arafed man in a suit and tie standing in front of a stone wall
+medium,action+background,23,0.5873070955276489,arafed man in a suit and tie standing on a sidewalk
+medium,action+background,24,0.5795637369155884,they are both wearing blue jeans and black shoes
+medium,action+background,25,0.62491774559021,there is a man riding a skateboard on a road
+medium,action+background,26,0.7486950159072876,they are jumping in the air in a field of grass
+medium,action+background,27,0.6936314105987549,they are jumping in the air with their feet in the air
+medium,action+background,28,0.6949775218963623,araffes are looking at a watch while a man watches
+medium,action+background,29,0.4187909960746765,blonde woman in blue shirt and jeans holding a camera and looking at it
+medium,action+background,30,0.5504177808761597,they are sitting on a couch together and smiling for the camera
+medium,action+background,31,0.5429582595825195,there is a man and woman sitting together on a bench
+medium,action+background,32,0.8367171287536621,there is a man and woman standing together in the street
+medium,action+background,33,0.7300166487693787,they are posing for a picture in the street with a man
+medium,action+background,34,0.6673406958580017,araffe couple posing for a picture in a park
+medium,action+background,35,0.6879438757896423,araffe couple posing for a picture in a park
+medium,action+background,36,0.5715981125831604,arafed woman sitting on the ground with a skateboard in her hand
+medium,action+background,37,0.6450432538986206,they are sitting on the ground in a restaurant with chairs
+medium,action+background,38,0.7735393047332764,they are sitting on the floor together in the living room
+medium,action+background,39,0.7039801478385925,they are sitting on the floor together and smiling for the camera
+medium,action+background,40,0.6280500888824463,there is a man kneeling on the sidewalk with his skateboard
+medium,action+background,41,0.590309202671051,there is a man sitting on a sidewalk with a skateboard
+medium,action+background,42,0.6569676399230957,arafed woman sitting on the ground with her feet crossed
+medium,action+background,43,0.6176428198814392,arafed man sitting on a path in a forest with a phone
+medium,action+background,44,0.42345213890075684,blond woman in blue shirt and denim skirt on beach with man in background
+medium,action+background,45,0.4439796507358551,blonde woman in blue shirt and plaid skirt dancing in park
+medium,action+background,46,0.603054404258728,there is a man standing in the water with a surfboard
+medium,action+background,47,0.5906822085380554,there is a man that is standing in the water with a frisbee
+medium,action+background,48,0.4114326536655426,smiling man in a black shirt holding a lollipop in his hand
+medium,action+background,49,0.6659152507781982,there is a man standing on a street pointing at something
+medium,action+background,50,0.6575085520744324,smiling couple standing in kitchen with laptops and cabinets in background
+medium,action+background,51,0.7326545119285583,there is a man and woman standing together in a bar
+medium,all,0,0.7584947943687439,smiling man and woman standing in a living room with a white couch
+medium,all,1,0.681566596031189,there is a man and a woman standing next to each other
+medium,all,2,0.5910195112228394,there are two people standing next to each other on a street
+medium,all,3,0.4726519286632538,araffe man with long hair and a beard on a skateboard
+medium,all,4,0.5403856039047241,they are walking together with a suitcase and a suitcase bag
+medium,all,5,0.627310574054718,arafed woman in jeans and heels walking down a path
+medium,all,6,0.6034024953842163,araffed woman in a white shirt and blue jeans walking next to a man in a suit
+medium,all,7,0.5462209582328796,there is a man that is standing on a skateboard in the street
+medium,all,8,0.7222988605499268,they are two people running on the beach together
+medium,all,9,0.5936670303344727,there is a man running on a road with a frisbee
+medium,all,10,0.6328287720680237,they are running together in the street and laughing
+medium,all,11,0.5638430118560791,there is a man that is running on a street with a frisbee
+medium,all,12,0.5508341193199158,smiling man and woman in a blue shirt and hat posing for a picture
+medium,all,13,0.5975849032402039,they are two people standing in a room with one holding his hand up
+medium,all,14,0.5353691577911377,there is a man standing in a restaurant with his hands up
+medium,all,15,0.45077967643737793,there is a man sitting on the ground with his arms outstretched
+medium,all,16,0.6238408088684082,smiling couple sitting on grass in park with man holding woman ' s head
+medium,all,17,0.5145329236984253,they are two people posing for a picture in front of a crowd
+medium,all,18,0.41610604524612427,there are three people that are posing for a picture together
+medium,all,19,0.6389504671096802,they are two people posing for a picture with their thumbs up
+medium,all,20,0.5663557648658752,they are standing next to each other outside of a building
+medium,all,21,0.6833385825157166,there are two people standing next to each other in a alley
+medium,all,22,0.625403642654419,arafed man in a suit and tie standing on a sidewalk
+medium,all,23,0.6004033088684082,they are walking down the street together in jeans and a suit
+medium,all,24,0.7644616365432739,they are two people in the woods having fun with each other
+medium,all,25,0.5656764507293701,there is a man that is riding a surfboard in the water
+medium,all,26,0.7568286061286926,smiling couple in blue jumps up in the air
+medium,all,27,0.6687197089195251,they are having fun in the water with each other
+medium,all,28,0.3733587861061096,blond woman in denim jacket talking to two men in a courtyard
+medium,all,29,0.439458429813385,blond woman in blue shirt and jeans walking down the street
+medium,all,30,0.6108997464179993,arafed man in a suit and tie standing next to a clock
+medium,all,31,0.4421326518058777,there is a man and woman standing next to each other
+medium,all,32,0.42482033371925354,there is a man with a ponytail sitting on a bench
+medium,all,33,0.7101348638534546,they are two people standing together in the street
+medium,all,34,0.4048590362071991,they are standing on a sidewalk and posing for a picture
+medium,all,35,0.6458006501197815,there is a man and woman standing together in the grass
+medium,all,36,0.464150607585907,blonde woman in blue shirt and denim skirt crouching down on the ground
+medium,all,37,0.40274783968925476,they are posing for a picture in the park with a woman
+medium,all,38,0.7358310222625732,arafed couple sitting on the floor in a living room
+medium,all,39,0.5421448349952698,there is a man sitting on the ground with a skateboard
+medium,all,40,0.5088571310043335,there is a man squatting on the sidewalk with his skateboard
+medium,all,41,0.48455315828323364,there is a man sitting on the ground with a frisbee
+medium,all,42,0.56563401222229,araffe man with a red shirt and blue jeans crouching down
+medium,all,43,0.5493719577789307,araffe man squatting on a path in a forest
+medium,all,44,0.32427406311035156,blond woman in blue shirt and denim skirt holding a baseball bat
+medium,all,45,0.46230074763298035,blonde woman in blue shirt and denim skirt throwing a frisbee
+medium,all,46,0.48567089438438416,there is a man that is standing in the water with a surfboard
+medium,all,47,0.35222870111465454,there is a man that is standing in the water with a surfboard
+medium,all,48,0.6995222568511963,there is a woman standing in a room with a black top
+medium,all,49,0.5158429145812988,smiling man in blue polo shirt standing on sidewalk with people in background
+medium,all,50,0.5197787880897522,they are standing in a room with a desk and a chair
+medium,all,51,0.523532509803772,smiling couple posing for a picture in front of a building
+hard,simple,0,0.7472718358039856,there are two women that are hugging each other outside
+hard,simple,1,0.7472718358039856,there are two women that are hugging each other outside
+hard,simple,2,0.7250425219535828,they are two people hugging each other on the street
+hard,simple,3,0.7250425219535828,they are two people hugging each other on the street
+hard,simple,4,0.639538049697876,they are both having fun on the skateboard
+hard,simple,5,0.639538049697876,they are both having fun on the skateboard
+hard,simple,6,0.671359658241272,they are two men who are hugging each other on a skateboard
+hard,simple,7,0.671359658241272,they are two men who are hugging each other on a skateboard
+hard,simple,8,0.7202171087265015,they are two people riding a bike together on the street
+hard,simple,9,0.7202171087265015,they are two people riding a bike together on the street
+hard,simple,10,0.6891931891441345,they are two people riding a skateboard on the street
+hard,simple,11,0.6891931891441345,they are two people riding a skateboard on the street
+hard,simple,12,0.6732239723205566,there is a man and woman hugging on a bench outside
+hard,simple,13,0.6732239723205566,there is a man and woman hugging on a bench outside
+hard,simple,14,0.7437612414360046,there are two people standing together and hugging each other
+hard,simple,15,0.7437612414360046,there are two people standing together and hugging each other
+hard,simple,16,0.6483503580093384,they are two people standing next to a motorcycle on the street
+hard,simple,17,0.6483503580093384,they are two people standing next to a motorcycle on the street
+hard,simple,18,0.7979977130889893,they are two people standing outside and one is pointing at the camera
+hard,simple,19,0.7979977130889893,they are two people standing outside and one is pointing at the camera
+hard,simple,20,0.8153700232505798,there is a man and woman hugging each other on the street
+hard,simple,21,0.8153700232505798,there is a man and woman hugging each other on the street
+hard,simple,22,0.8181041479110718,there is a man and woman hugging each other on the street
+hard,simple,23,0.8181041479110718,there is a man and woman hugging each other on the street
+hard,simple,24,0.6873289346694946,there are two women sitting on a bench and one is holding a book
+hard,simple,25,0.6873289346694946,there are two women sitting on a bench and one is holding a book
+hard,simple,26,0.6685073971748352,there is a man and woman sitting on a stone bench
+hard,simple,27,0.6685073971748352,there is a man and woman sitting on a stone bench
+hard,simple,28,0.6595184206962585,they are both smiling and hugging each other while walking down the street
+hard,simple,29,0.6595184206962585,they are both smiling and hugging each other while walking down the street
+hard,simple,30,0.6815171837806702,there are two women standing next to each other on the street
+hard,simple,31,0.6815171837806702,there are two women standing next to each other on the street
+hard,simple,32,0.7160948514938354,there are two people walking together in the street
+hard,simple,33,0.7160948514938354,there are two people walking together in the street
+hard,simple,34,0.7395520806312561,they are walking down the street holding hands
+hard,simple,35,0.7395520806312561,they are walking down the street holding hands
+hard,simple,36,0.6849404573440552,they are two people walking together and one is holding a cell phone
+hard,simple,37,0.6849404573440552,they are two people walking together and one is holding a cell phone
+hard,simple,38,0.623999297618866,there are two women standing next to each other on the sidewalk
+hard,simple,39,0.623999297618866,there are two women standing next to each other on the sidewalk
+hard,simple,40,0.7707263231277466,there are two people that are hugging each other on the street
+hard,simple,41,0.7707263231277466,there are two people that are hugging each other on the street
+hard,simple,42,0.6597544550895691,they are posing for a picture together in a park
+hard,simple,43,0.6597544550895691,they are posing for a picture together in a park
+hard,simple,44,0.6285462975502014,they are both smiling and hugging each other while riding a motorcycle
+hard,simple,45,0.6285462975502014,they are both smiling and hugging each other while riding a motorcycle
+hard,simple,46,0.7499693632125854,there are two people that are standing together on the street
+hard,simple,47,0.7499693632125854,there are two people that are standing together on the street
+hard,simple,48,0.7195850610733032,there are two people that are standing in a library together
+hard,simple,49,0.7195850610733032,there are two people that are standing in a library together
+hard,simple,50,0.6431442499160767,they are standing next to each other and smiling at each other
+hard,simple,51,0.6431442499160767,they are standing next to each other and smiling at each other
+hard,simple,52,0.7487879395484924,there is a man and woman sitting on the ground hugging
+hard,simple,53,0.7487879395484924,there is a man and woman sitting on the ground hugging
+hard,simple,54,0.7117980718612671,they are sitting on the ground and one is touching the other
+hard,simple,55,0.7117980718612671,they are sitting on the ground and one is touching the other
+hard,simple,56,0.8003266453742981,there are two people standing next to each other waving
+hard,simple,57,0.8003266453742981,there are two people standing next to each other waving
+hard,simple,58,0.7345591187477112,they are two people waving and smiling while walking down the street
+hard,simple,59,0.7345591187477112,they are two people waving and smiling while walking down the street
+hard,simple,60,0.5742689371109009,they are sitting on a bench together and smiling for the camera
+hard,simple,61,0.5742689371109009,they are sitting on a bench together and smiling for the camera
+hard,simple,62,0.7128035426139832,there are two women and a man sitting at a table with drinks
+hard,simple,63,0.7128035426139832,there are two women and a man sitting at a table with drinks
+hard,simple,64,0.7943458557128906,they are walking together with boxes and a briefcase in their hands
+hard,simple,65,0.7943458557128906,they are walking together with boxes and a briefcase in their hands
+hard,simple,66,0.7168207764625549,they are walking down the street together with a laptop
+hard,simple,67,0.7168207764625549,they are walking down the street together with a laptop
+hard,simple,68,0.8844485878944397,there is a man and woman standing next to each other holding a camera
+hard,simple,69,0.8888647556304932,there is a man and woman taking a picture with their cameras
+hard,simple,70,0.7484991550445557,blonde woman holding a camera and a tripod with a camera on it
+hard,simple,71,0.7484991550445557,blonde woman holding a camera and a tripod with a camera on it
+hard,simple,72,0.7960352897644043,they are walking down the street with a small car behind them
+hard,simple,73,0.7960352897644043,they are walking down the street with a small car behind them
+hard,simple,74,0.8073327541351318,they are walking down the street together in the city
+hard,simple,75,0.8073327541351318,they are walking down the street together in the city
+hard,simple,76,0.7672660946846008,there is a man and woman that are smiling together
+hard,simple,77,0.7672660946846008,there is a man and woman that are smiling together
+hard,simple,78,0.6072391867637634,blond woman with long hair and a man with long hair
+hard,simple,79,0.6072391867637634,blond woman with long hair and a man with long hair
+hard,simple,80,0.6338645219802856,smiling couple sitting on bench with papers and cell phone
+hard,simple,81,0.6338645219802856,smiling couple sitting on bench with papers and cell phone
+hard,simple,82,0.6876958012580872,they are standing next to each other and smiling at each other
+hard,simple,83,0.6876958012580872,they are standing next to each other and smiling at each other
+hard,simple,84,0.7525909543037415,there are three people walking down the street together
+hard,simple,85,0.7525909543037415,there are three people walking down the street together
+hard,simple,86,0.7672939896583557,they are walking down the street holding hands
+hard,simple,87,0.7672939896583557,they are walking down the street holding hands
+hard,simple,88,0.5394822955131531,there are three people standing together in a park posing for a picture
+hard,simple,89,0.5394822955131531,there are three people standing together in a park posing for a picture
+hard,simple,90,0.6684707999229431,they are two people standing next to each other and giving thumbs up
+hard,simple,91,0.6684707999229431,they are two people standing next to each other and giving thumbs up
+hard,action+layout,0,0.6515885591506958,they are two men smiling and posing for a picture together
+hard,action+layout,1,0.7644910216331482,they are two people fighting over a motorcycle on the street
+hard,action+layout,2,0.640735924243927,they are both smiling and having fun together on the street
+hard,action+layout,3,0.6765615940093994,they are two people standing together on the street and one is pointing
+hard,action+layout,4,0.7364930510520935,there is a man that is kicking a soccer ball in the air
+hard,action+layout,5,0.7198070883750916,there is a man that is jumping in the air with a soccer ball
+hard,action+layout,6,0.7055908441543579,they are two people in the street playing with each other
+hard,action+layout,7,0.6787524223327637,they are two people jumping in the air on skateboards
+hard,action+layout,8,0.7353852391242981,they are two people riding a bike together on the street
+hard,action+layout,9,0.638098418712616,they are posing for a picture with a bicycle on the sidewalk
+hard,action+layout,10,0.6372510194778442,they are both smiling and having fun together on the street
+hard,action+layout,11,0.6565372943878174,they are riding on a skateboard together on the street
+hard,action+layout,12,0.6084495782852173,they are hugging each other on the street corner
+hard,action+layout,13,0.6732029914855957,they are both smiling and hugging each other while standing on a sidewalk
+hard,action+layout,14,0.6747605204582214,there is a man and woman hugging each other on the sidewalk
+hard,action+layout,15,0.699137270450592,there is a man and woman standing together on the street
+hard,action+layout,16,0.7792598009109497,there are two women that are posing for a picture together
+hard,action+layout,17,0.5184999108314514,araffe woman in jeans posing in front of a motorcycle
+hard,action+layout,18,0.7768377661705017,there are two women standing on the sidewalk pointing at something
+hard,action+layout,19,0.6970621347427368,there is a man that is pointing at something on the street
+hard,action+layout,20,0.7588823437690735,there is a man and woman hugging each other on the sidewalk
+hard,action+layout,21,0.8284776210784912,there is a man and woman hugging each other on the street
+hard,action+layout,22,0.6811123490333557,there are three people that are hugging each other on the sidewalk
+hard,action+layout,23,0.7611812353134155,there are two people hugging each other on the street
+hard,action+layout,24,0.6185961961746216,smiling couple sitting on a bench with open book and smiling
+hard,action+layout,25,0.7740232944488525,there is a man and woman standing on a sidewalk talking
+hard,action+layout,26,0.6737445592880249,there are two people standing next to each other on the street
+hard,action+layout,27,0.7899844646453857,there is a man and woman standing on a sidewalk looking at a book
+hard,action+layout,28,0.8182456493377686,there is a man and woman standing next to each other
+hard,action+layout,29,0.6625844836235046,they are standing close together and smiling for the camera
+hard,action+layout,30,0.6309510469436646,two women standing next to each other on a street
+hard,action+layout,31,0.7028673887252808,there is a man and woman hugging each other on the beach
+hard,action+layout,32,0.707221508026123,two women walking down a street holding hands and smiling
+hard,action+layout,33,0.7260733842849731,they are walking down the street together in the daytime
+hard,action+layout,34,0.6573076844215393,there are two women standing on the sidewalk and one is holding her hand
+hard,action+layout,35,0.7307670712471008,they are two people standing next to each other in the street
+hard,action+layout,36,0.7026642560958862,there is a man and woman hugging and smiling together
+hard,action+layout,37,0.7170789241790771,they are walking down the street with books in their hands
+hard,action+layout,38,0.6059916019439697,there are three people standing together and smiling for a picture
+hard,action+layout,39,0.6823049783706665,there are two people standing together and one is holding a cell phone
+hard,action+layout,40,0.7062383890151978,there is a man and woman hugging each other on the street
+hard,action+layout,41,0.7033779621124268,they are two people standing together in the street posing for a picture
+hard,action+layout,42,0.7500056028366089,there is a man and woman standing together in a parking lot
+hard,action+layout,43,0.673176109790802,they are posing for a picture together in front of a building
+hard,action+layout,44,0.6989970803260803,they are two people riding a motorcycle together on the street
+hard,action+layout,45,0.7421380281448364,they are two people walking down the street and one is hugging
+hard,action+layout,46,0.7146331071853638,there are two people that are hugging each other on the street
+hard,action+layout,47,0.688564658164978,they are two people riding a motorcycle together on the street
+hard,action+layout,48,0.6622241139411926,there are two women walking down the street looking at their cell phones
+hard,action+layout,49,0.7097673416137695,two women walking down the street with books in their hands
+hard,action+layout,50,0.6032058596611023,there are two people standing on a sidewalk holding a frisbee
+hard,action+layout,51,0.6894186735153198,arafed man with a stack of books on a sidewalk
+hard,action+layout,52,0.7585493326187134,they are two people who are touching each other on the sidewalk
+hard,action+layout,53,0.7319399118423462,there is a man and woman sitting on the ground together
+hard,action+layout,54,0.7017914652824402,they are sitting on the ground and smiling as they are touching each other
+hard,action+layout,55,0.6560943126678467,blonde woman sitting on the ground with her feet crossed
+hard,action+layout,56,0.6593503355979919,there are two women and a man sitting together and one is making a gesture
+hard,action+layout,57,0.7251325845718384,there is a man and woman that are standing on a skateboard
+hard,action+layout,58,0.6585079431533813,there are two people standing on a sidewalk and one is holding his arm out
+hard,action+layout,59,0.6225742697715759,they are two people standing next to each other in the street
+hard,action+layout,60,0.574801504611969,they are sitting at a table with drinks and smiling
+hard,action+layout,61,0.7144563794136047,there is a man and woman walking down the street together
+hard,action+layout,62,0.6393303275108337,there is a man and woman sitting on a couch holding a glass of beer
+hard,action+layout,63,0.7206969857215881,they are both wearing glasses and holding a drink
+hard,action+layout,64,0.7551919221878052,they are walking down the street with their bags and carrying their bags
+hard,action+layout,65,0.6604768633842468,they are walking down the street carrying books and a backpack
+hard,action+layout,66,0.7130071520805359,there is a man and woman standing next to each other
+hard,action+layout,67,0.7695226669311523,they are two men walking down the street carrying boxes
+hard,action+layout,68,0.6822865605354309,they are posing for a picture with a camera and a box
+hard,action+layout,69,0.8868485689163208,there is a man and woman taking a picture with a camera
+hard,action+layout,70,0.7894863486289978,araffes holding a camera and a man holding a camera
+hard,action+layout,71,0.7144232988357544,arafed woman holding a camera and a tripod on a sidewalk
+hard,action+layout,72,0.5910547971725464,araffe man in jeans and white shirt standing next to a car
+hard,action+layout,73,0.7595648765563965,arafed man walking down the street with a black car
+hard,action+layout,74,0.736607015132904,arafed man in a suit and tie walking across a street
+hard,action+layout,75,0.5490434169769287,araffe man in blue shirt and jeans crouching down on a skateboard
+hard,action+layout,76,0.560329794883728,they are smiling and posing for a picture together in the park
+hard,action+layout,77,0.7035476565361023,there are three people that are hugging each other in the picture
+hard,action+layout,78,0.7150094509124756,two women are hugging and looking at a cell phone
+hard,action+layout,79,0.5688263773918152,they are both smiling and having fun together in the park
+hard,action+layout,80,0.6711975336074829,there are two men and a woman walking together on the street
+hard,action+layout,81,0.6715312600135803,they are walking down the sidewalk with a book in their hand
+hard,action+layout,82,0.6342991590499878,there are two people standing on the sidewalk with a suitcase
+hard,action+layout,83,0.682407796382904,they are walking down the sidewalk holding books and smiling
+hard,action+layout,84,0.7400078773498535,they are walking down the street together holding hands
+hard,action+layout,85,0.7359410524368286,they are walking down the street holding hands
+hard,action+layout,86,0.7219970226287842,there are two people walking down the street holding hands
+hard,action+layout,87,0.6898626685142517,they are walking down the street with their luggage together
+hard,action+layout,88,0.5588195323944092,they are two people pointing at something on the street
+hard,action+layout,89,0.7244105339050293,there is a man and woman standing next to each other
+hard,action+layout,90,0.692920982837677,there are two women standing next to each other and pointing at something
+hard,action+layout,91,0.6422386169433594,they are two people standing on the street and one is pointing
+hard,action+expression,0,0.7365293502807617,they are two people fighting with each other on the street
+hard,action+expression,1,0.7413378953933716,there are two people standing next to each other and one is screaming
+hard,action+expression,2,0.6708772778511047,two women laughing and laughing while standing next to each other
+hard,action+expression,3,0.7512249946594238,they are two people fighting over something on the street
+hard,action+expression,4,0.7001140117645264,they are two people who are riding on a skateboard
+hard,action+expression,5,0.6217823028564453,they are two people playing frisbee in the park
+hard,action+expression,6,0.567604660987854,they are two men playing frisbee on the street
+hard,action+expression,7,0.6271376609802246,they are two people riding a skateboard on the street
+hard,action+expression,8,0.7166669368743896,there are two women that are standing on the street
+hard,action+expression,9,0.7346478700637817,there are three people that are posing for a picture together
+hard,action+expression,10,0.6518036723136902,they are riding on a skateboard and having fun together
+hard,action+expression,11,0.635059118270874,they are two men riding a skateboard on the street
+hard,action+expression,12,0.689487099647522,there is a man and woman hugging each other on the sidewalk
+hard,action+expression,13,0.684646487236023,there is a man and woman hugging each other in the park
+hard,action+expression,14,0.7187129259109497,there is a man and woman standing next to a motorcycle
+hard,action+expression,15,0.6568021774291992,there is a man and woman that are walking together
+hard,action+expression,16,0.7740752100944519,there are two women standing next to each other with a man taking a picture
+hard,action+expression,17,0.7400076389312744,there are three women standing in a group looking at something
+hard,action+expression,18,0.7866398096084595,there are two people standing on the street and one is pointing at the camera
+hard,action+expression,19,0.7080842852592468,there are two women and a man standing together in the street
+hard,action+expression,20,0.7492274045944214,smiling couple hugging each other in a park setting
+hard,action+expression,21,0.7589241862297058,there is a man and woman hugging each other in a park
+hard,action+expression,22,0.7467291355133057,there are two people hugging each other on the sidewalk
+hard,action+expression,23,0.8066464066505432,there is a man and woman hugging each other in the street
+hard,action+expression,24,0.5969908237457275,there are three people sitting on a bench and smiling
+hard,action+expression,25,0.730148196220398,there are two people sitting at a table reading a book
+hard,action+expression,26,0.6987305879592896,there is a man and woman sitting on a bench together
+hard,action+expression,27,0.7106879949569702,there are two people sitting on a bench reading books
+hard,action+expression,28,0.6393091082572937,they are both smiling and hugging each other on the street
+hard,action+expression,29,0.6781280040740967,there are two people walking down the street together
+hard,action+expression,30,0.6170517206192017,they are both wearing jeans and a blue shirt
+hard,action+expression,31,0.6993045210838318,they are walking down the street with a man and a woman
+hard,action+expression,32,0.5560526251792908,smiling couple in a park with a dog and a house in the background
+hard,action+expression,33,0.5546761751174927,they are walking down the street together in denim shorts
+hard,action+expression,34,0.7294828295707703,they are walking down the street holding hands
+hard,action+expression,35,0.6626711487770081,they are walking down the street together and smiling
+hard,action+expression,36,0.7483547925949097,they are two people standing together and one is holding a book
+hard,action+expression,37,0.6091063618659973,smiling couple taking a picture of themselves with camera in front of house
+hard,action+expression,38,0.5731976628303528,blond woman in blue shirt and jeans standing next to man with cell phone
+hard,action+expression,39,0.6588950157165527,there are two people standing together and one is holding a cell phone
+hard,action+expression,40,0.7568304538726807,there are three people that are posing for a picture together
+hard,action+expression,41,0.7268049716949463,there are three people hugging each other in a hug
+hard,action+expression,42,0.7891544699668884,there is a man and woman standing together on the street
+hard,action+expression,43,0.6093562245368958,they are posing for a picture together in a park
+hard,action+expression,44,0.797832727432251,there are two women that are standing together and one is holding a woman
+hard,action+expression,45,0.7193243503570557,they are two people hugging each other on a street
+hard,action+expression,46,0.7181085348129272,they are two people standing next to each other on the sidewalk
+hard,action+expression,47,0.7833240032196045,they are two people laughing and having fun together on the street
+hard,action+expression,48,0.6622378826141357,there are two people standing in a library looking at a cell phone
+hard,action+expression,49,0.8393199443817139,there are two people standing together looking at a book
+hard,action+expression,50,0.8300814032554626,they are two people standing next to each other and one is holding a book
+hard,action+expression,51,0.6485451459884644,they are looking at a newspaper together on the sidewalk
+hard,action+expression,52,0.7241306304931641,they are two men sitting on the ground and one is hugging
+hard,action+expression,53,0.7286492586135864,they are sitting on the ground and one is holding the other
+hard,action+expression,54,0.6723531484603882,they are sitting on the ground together and smiling for the camera
+hard,action+expression,55,0.7199431657791138,they are sitting on the ground with their feet crossed and laughing
+hard,action+expression,56,0.6302530765533447,they are two people standing next to each other with a backpack
+hard,action+expression,57,0.6284598708152771,there are three people that are standing together with a bicycle
+hard,action+expression,58,0.7228651642799377,there are two women standing on the street waving their hands
+hard,action+expression,59,0.7836588621139526,there are two people standing together and one is waving
+hard,action+expression,60,0.3999658226966858,smiling couple sitting on a bench in a park with a green dress
+hard,action+expression,61,0.5921726822853088,smiling couple sitting on a bench with a cup of coffee
+hard,action+expression,62,0.5970277190208435,they are sitting at a table with a plate of food and a glass of beer
+hard,action+expression,63,0.6655225157737732,smiling couple sitting at table with food and drinks in restaurant
+hard,action+expression,64,0.6989871263504028,they are walking down the street carrying boxes and a backpack
+hard,action+expression,65,0.7052549123764038,they are walking down the street carrying boxes and a backpack
+hard,action+expression,66,0.7111672759056091,they are two men walking down the street with a laptop
+hard,action+expression,67,0.6522355675697327,they are walking down the street together holding hands
+hard,action+expression,68,0.7851804494857788,there are two men standing next to each other taking pictures
+hard,action+expression,69,0.8025815486907959,arafed man holding a camera and a video camera
+hard,action+expression,70,0.6513058543205261,blonde woman with camera and tripod on sidewalk in urban setting
+hard,action+expression,71,0.6479601860046387,blonde woman with camera and tripod on sidewalk in urban setting
+hard,action+expression,72,0.7439432144165039,they are walking down the street with a motorcycle and a man
+hard,action+expression,73,0.7130034565925598,they are walking down the street with their luggage
+hard,action+expression,74,0.7450417280197144,they are walking down the street together in the city
+hard,action+expression,75,0.7585856914520264,they are walking down the street together in the city
+hard,action+expression,76,0.7861467599868774,there is a man and woman that are posing for a picture
+hard,action+expression,77,0.769546627998352,there is a man and woman that are posing for a picture
+hard,action+expression,78,0.593886137008667,blond woman with pink lip and black jacket hugging man with tongue
+hard,action+expression,79,0.7648175954818726,two women are smiling and hugging each other in a photo
+hard,action+expression,80,0.8378983736038208,there are two people standing together outside and one is holding a book
+hard,action+expression,81,0.7593828439712524,there are two people that are looking at a laptop together
+hard,action+expression,82,0.7474839091300964,there is a man and woman standing next to each other
+hard,action+expression,83,0.7217292785644531,smiling couple sitting on bench with magazine in hand and smiling
+hard,action+expression,84,0.7271679639816284,there are three people walking down the street together
+hard,action+expression,85,0.7986335158348083,there are two women walking down the street with a man
+hard,action+expression,86,0.6997285485267639,they are walking down the street holding hands and smiling
+hard,action+expression,87,0.7603127956390381,they are walking down the street holding hands
+hard,action+expression,88,0.592609167098999,there are three people that are standing together and smiling
+hard,action+expression,89,0.6189781427383423,there are three people standing together and smiling for the camera
+hard,action+expression,90,0.7101951837539673,there is a man and woman standing together giving a thumbs up
+hard,action+expression,91,0.5732491612434387,they are posing for a picture with a beer in their hand
+hard,action+background,0,0.6854212284088135,they are looking at each other and smiling while they are standing in a living room
+hard,action+background,1,0.6413691639900208,there are two people standing together smiling and laughing
+hard,action+background,2,0.5683717727661133,they are both smiling and hugging each other while walking
+hard,action+background,3,0.6992509961128235,they are two people hugging each other on the street
+hard,action+background,4,0.6628503799438477,they are playing soccer together in the park on a sunny day
+hard,action+background,5,0.6050044298171997,there are three people playing frisbee in the park together
+hard,action+background,6,0.6576391458511353,they are playing in the water together in the park
+hard,action+background,7,0.6261767745018005,they are two men playing frisbee in the sand on the grass
+hard,action+background,8,0.6866666078567505,they are in the water hugging each other
+hard,action+background,9,0.6510378122329712,they are two women laughing and dancing in the street
+hard,action+background,10,0.7168236374855042,they are riding on a skateboard in the street together
+hard,action+background,11,0.6190248727798462,they are riding on a motorcycle together and smiling for the camera
+hard,action+background,12,0.6435104608535767,smiling couple hugging each other in a room with a chair
+hard,action+background,13,0.7086367607116699,there is a man and woman hugging each other in a room
+hard,action+background,14,0.6499054431915283,there is a man and woman standing together outside of a restaurant
+hard,action+background,15,0.6187255382537842,there are two people standing together in a park hugging
+hard,action+background,16,0.6734709143638611,they are two people posing for a picture with their thumbs up
+hard,action+background,17,0.5776545405387878,there are two women standing next to each other on the street
+hard,action+background,18,0.7961768507957458,smiling woman with a finger up standing next to a man in a library
+hard,action+background,19,0.6783763766288757,they are two people standing in a living room with a christmas tree
+hard,action+background,20,0.8699907064437866,there is a man and woman hugging in a living room
+hard,action+background,21,0.7453739643096924,there is a man and woman hugging each other on the street
+hard,action+background,22,0.7900395393371582,there is a man and woman hugging each other on the street
+hard,action+background,23,0.6840468645095825,they are hugging each other in a hug on the sidewalk
+hard,action+background,24,0.583663821220398,there are two people sitting on a bench together and smiling
+hard,action+background,25,0.5975618362426758,three people sitting on a bench with a book and a cell phone
+hard,action+background,26,0.691457211971283,there is a man and woman sitting on a bench with a book
+hard,action+background,27,0.47675180435180664,they are sitting on a blanket together and smiling for the camera
+hard,action+background,28,0.65533846616745,they are two men standing next to each other and one is holding a cell phone
+hard,action+background,29,0.7004172801971436,there is a man and woman standing together in a park
+hard,action+background,30,0.7400717735290527,there is a man and woman hugging each other in a room
+hard,action+background,31,0.5269206166267395,there are two women standing next to each other in denim outfits
+hard,action+background,32,0.738594651222229,they are walking down the street together in the city
+hard,action+background,33,0.7629583477973938,there is a man and woman walking down the street together
+hard,action+background,34,0.5041389465332031,pregnant woman in black jacket and jeans walking with man in white shirt
+hard,action+background,35,0.6667940020561218,they are walking together holding hands and smiling at each other
+hard,action+background,36,0.5198606252670288,they are walking together and laughing while holding a bag of fruit
+hard,action+background,37,0.680632472038269,there are two people that are standing in front of a book shelf
+hard,action+background,38,0.6774454116821289,there is a man and woman hugging each other at a table
+hard,action+background,39,0.6784846782684326,there is a man and woman hugging each other at a table
+hard,action+background,40,0.5583716034889221,there are three women hugging each other in a hug
+hard,action+background,41,0.767808198928833,there is a man and woman hugging each other on the street
+hard,action+background,42,0.7030606269836426,they are posing for a picture together in a park
+hard,action+background,43,0.7291446328163147,they are posing for a picture in the woods together
+hard,action+background,44,0.7416831851005554,they are standing on the beach and smiling at each other
+hard,action+background,45,0.6313468813896179,they are both smiling and hugging each other in the park
+hard,action+background,46,0.8147749304771423,there are two people that are standing on a boat together
+hard,action+background,47,0.7071859240531921,three women are hugging and laughing on the beach
+hard,action+background,48,0.754263162612915,there are two people that are looking at a book together
+hard,action+background,49,0.6000802516937256,they are walking down the street with a man and a woman
+hard,action+background,50,0.7624519467353821,they are two men standing in a library and one is holding a book
+hard,action+background,51,0.6456398367881775,there are two people standing in a library with books
+hard,action+background,52,0.7589088082313538,there is a man sitting on the floor with his feet on the ground
+hard,action+background,53,0.7065338492393494,there are two women sitting on the floor hugging each other
+hard,action+background,54,0.574297308921814,they are sitting on the ground together and smiling for the camera
+hard,action+background,55,0.6915249824523926,they are sitting on the ground and one is touching the other
+hard,action+background,56,0.6983797550201416,they are two people walking down the street waving their hands
+hard,action+background,57,0.7066370248794556,there are two people that are standing together in the woods
+hard,action+background,58,0.6812071204185486,they are walking on the beach together and smiling for the camera
+hard,action+background,59,0.6195652484893799,they are two people walking down the street talking on their cell phones
+hard,action+background,60,0.5328570008277893,they are sitting on a bench together and smiling for the camera
+hard,action+background,61,0.4818874001502991,they are standing together and smiling for the camera
+hard,action+background,62,0.7386208772659302,they are two people standing together on the street smiling
+hard,action+background,63,0.7518495917320251,there is a man and woman standing next to each other on the sidewalk
+hard,action+background,64,0.6587368249893188,they are walking down the street with a box of pizza
+hard,action+background,65,0.7171909809112549,they are walking down the street carrying boxes and a backpack
+hard,action+background,66,0.6079793572425842,they are two men walking down the street together
+hard,action+background,67,0.5534433126449585,they are walking down the street carrying boxes and smiling
+hard,action+background,68,0.708996593952179,there is a man and woman standing next to each other holding a camera
+hard,action+background,69,0.669647753238678,there are two men taking pictures of themselves with their cameras
+hard,action+background,70,0.815758228302002,arafed woman taking a picture of a man with a camera
+hard,action+background,71,0.7696633338928223,blonde woman taking a picture of herself with a camera
+hard,action+background,72,0.7558132410049438,they are walking down the street holding hands
+hard,action+background,73,0.7293528318405151,they are walking down the street holding hands
+hard,action+background,74,0.7646669149398804,they are walking down the street together in the city
+hard,action+background,75,0.7172530889511108,they are walking down the street holding hands
+hard,action+background,76,0.7042987942695618,there is a man and woman that are posing for a picture
+hard,action+background,77,0.6717329025268555,there is a woman with a necklace on her neck and a man with a beard
+hard,action+background,78,0.6582361459732056,blond woman with long hair and man with long hair embracing each other
+hard,action+background,79,0.539588212966919,blond woman with long black hair and a man with long black hair
+hard,action+background,80,0.7929537892341614,there are two women standing at a table with books and a man
+hard,action+background,81,0.6368844509124756,there are two people standing together looking at a cell phone
+hard,action+background,82,0.7771850228309631,there are two people that are standing around a table with a book
+hard,action+background,83,0.5746802091598511,there are three people standing in a library looking at a tablet
+hard,action+background,84,0.8128853440284729,there are two people walking down the street together
+hard,action+background,85,0.7567721605300903,they are walking down the street holding hands
+hard,action+background,86,0.6710044145584106,they are walking together in the park holding hands
+hard,action+background,87,0.7008478045463562,they are walking down the street holding hands
+hard,action+background,88,0.6527470350265503,there are three people posing for a picture with a basketball
+hard,action+background,89,0.5500718355178833,there are three people sitting at a table with a game
+hard,action+background,90,0.5920231342315674,smiling couple sitting on the floor cutting a cake together
+hard,action+background,91,0.6563911437988281,smiling couple sitting on couch with man pointing at woman
+hard,all,0,0.5847516059875488,there are two women that are posing for a picture together
+hard,all,1,0.7221729755401611,there is a woman and a man standing together in a room
+hard,all,2,0.4941130578517914,they are two people laughing and one is holding a cell phone
+hard,all,3,0.5909062623977661,they are two people standing close together in the street
+hard,all,4,0.5694928169250488,there is a man sitting on the ground with a frisbee
+hard,all,5,0.6191216111183167,they are two men playing soccer in the water with a ball
+hard,all,6,0.504957914352417,they are two people playing tennis on a court with a racket
+hard,all,7,0.5050837993621826,they are playing soccer in the sand on a sunny day
+hard,all,8,0.6915684342384338,there are three people on the beach having fun together
+hard,all,9,0.537448525428772,they are two people walking down the street with one holding the other
+hard,all,10,0.6227331161499023,there is a man that is sitting on a skateboard
+hard,all,11,0.6459894180297852,they are two people riding a skateboard on the street
+hard,all,12,0.540556788444519,there are three people hugging each other in a group
+hard,all,13,0.5917477607727051,they are standing close together and smiling for the camera
+hard,all,14,0.41420090198516846,there are three people standing together in a room together
+hard,all,15,0.4824150800704956,there is a man and woman standing next to each other
+hard,all,16,0.5350932478904724,there are two women standing next to each other on a sidewalk
+hard,all,17,0.46570298075675964,there is a man walking down the street with a skateboard
+hard,all,18,0.6433678865432739,there are two people standing next to each other pointing at something
+hard,all,19,0.6633371710777283,they are two people standing in a living room pointing at something
+hard,all,20,0.7152491807937622,smiling couple hugging each other in living room with couch
+hard,all,21,0.5852555632591248,there is a man and woman hugging each other in a hug
+hard,all,22,0.5426545143127441,there are three people that are hugging each other on the street
+hard,all,23,0.5841668248176575,there is a man and woman hugging each other on the sidewalk
+hard,all,24,0.6846355199813843,smiling couple sitting on a bench with open book and book
+hard,all,25,0.5610066652297974,they are looking at a tablet computer together on the sidewalk
+hard,all,26,0.5664663314819336,there are two people sitting on the ground and one is holding a book
+hard,all,27,0.4470721483230591,there is a man and woman sitting on a bench together
+hard,all,28,0.7296590805053711,there is a man and woman standing together and smiling
+hard,all,29,0.5662652254104614,they are walking down the street together holding hands
+hard,all,30,0.5947973728179932,three women standing next to each other in a room
+hard,all,31,0.6808099746704102,there is a man and woman hugging each other in front of a wooden wall
+hard,all,32,0.6334105730056763,there is a man and woman standing together in the street
+hard,all,33,0.640296995639801,there are two people walking down the street together
+hard,all,34,0.4008285403251648,there are two women standing next to each other on the sidewalk
+hard,all,35,0.4443277418613434,they are standing on the sidewalk and smiling for the camera
+hard,all,36,0.5447112321853638,there are two people sitting on a bench together and one is holding a book
+hard,all,37,0.6672343611717224,they are two people standing in front of a book shelf
+hard,all,38,0.6059302091598511,they are looking down at the man and woman who are standing next to each other
+hard,all,39,0.5150442719459534,they are sitting on the floor and looking at the camera
+hard,all,40,0.6154136657714844,there is a man and woman hugging each other in a photo
+hard,all,41,0.6196871995925903,there are three people hugging each other in a hug
+hard,all,42,0.6442332863807678,pregnant couple posing for a picture in a park with a green grass background
+hard,all,43,0.6491537094116211,smiling couple posing for a picture in front of trees
+hard,all,44,0.7708072662353516,they are two people fighting over a woman on the beach
+hard,all,45,0.6860647201538086,they are two people standing next to each other in a field
+hard,all,46,0.6585100889205933,there are two women standing next to each other near a body of water
+hard,all,47,0.6422802805900574,they are having fun on the beach with their friends
+hard,all,48,0.66079181432724,they are two people standing in a library with books
+hard,all,49,0.5894457101821899,there are two women walking down the street with a book
+hard,all,50,0.6308929324150085,there are two people standing in a library looking at a book
+hard,all,51,0.5269201397895813,they are looking at a book in a book store
+hard,all,52,0.6709732413291931,there is a man and woman that are touching their legs
+hard,all,53,0.5981318950653076,they are sitting on the floor and looking at the remote
+hard,all,54,0.4236963391304016,they are sitting on the ground and smiling for the camera
+hard,all,55,0.5323479175567627,they are both having fun with each other on the sidewalk
+hard,all,56,0.5472379922866821,they are two people standing next to each other and one is waving
+hard,all,57,0.7064942121505737,they are two people standing on a path in the woods
+hard,all,58,0.647959291934967,they are two people standing next to each other and waving
+hard,all,59,0.5073553323745728,they are two people standing together on a sidewalk and one is holding a cell phone
+hard,all,60,0.5642151832580566,there are three people posing for a picture on the beach
+hard,all,61,0.5849210023880005,they are two people standing together and smiling for a picture
+hard,all,62,0.46431174874305725,there are two people that are holding some beer glasses
+hard,all,63,0.5948154926300049,there is a man and woman that are smiling and holding a glass
+hard,all,64,0.6431418657302856,they are walking down the street carrying a box and a backpack
+hard,all,65,0.5583874583244324,they are walking in a room with boxes and a backpack
+hard,all,66,0.4296143054962158,there are two people standing next to each other in a room
+hard,all,67,0.44801926612854004,they are two men walking down the street together
+hard,all,68,0.5926929116249084,they are both smiling and holding a camera and posing for a picture
+hard,all,69,0.5740947723388672,they are taking pictures of a man and woman on the sidewalk
+hard,all,70,0.6133012175559998,arafed woman holding a camera and a tripod with a camera attached to it
+hard,all,71,0.7124196290969849,arafed woman holding a camera and smiling while standing in a living room
+hard,all,72,0.6729852557182312,woman in blue jeans and a blue shirt walking down the street
+hard,all,73,0.6468836069107056,they are walking down the street holding hands
+hard,all,74,0.6396833658218384,arafed man in a suit and tie walking down a street
+hard,all,75,0.5393467545509338,there is a man that is standing on a skateboard on the street
+hard,all,76,0.6160500049591064,there is a man and woman that are posing for a picture
+hard,all,77,0.5055493712425232,blond woman with blue eyes and a man with a black scarf
+hard,all,78,0.5919816493988037,blond woman with blue eyes and a man with a white shirt
+hard,all,79,0.541175901889801,blond woman with long black hair and a man with long black hair
+hard,all,80,0.6632012128829956,there are two people standing around a table with books
+hard,all,81,0.5175257921218872,they are walking down the street with a book in their hand
+hard,all,82,0.6204608678817749,there are two people standing in a room looking at a book
+hard,all,83,0.47061121463775635,they are looking at a book together in a library
+hard,all,84,0.6519871950149536,they are walking down the street holding hands
+hard,all,85,0.6428233981132507,they are walking down the street holding hands
+hard,all,86,0.4618636667728424,araffes of a couple of people walking down a street
+hard,all,87,0.513836681842804,they are walking down the street holding hands
+hard,all,88,0.5998218655586243,smiling man and woman laughing at a man pointing at something
+hard,all,89,0.4954431653022766,there are two people standing together in a room with a cake
+hard,all,90,0.47254812717437744,there are two women standing next to each other holding a remote
+hard,all,91,0.46037179231643677,they are sitting on the floor together and smiling for the camera
