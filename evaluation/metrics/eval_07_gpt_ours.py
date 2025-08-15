@@ -91,7 +91,7 @@ if __name__ == "__main__":
     # get args
     # ===============================
     if args.gpt_model == "gpt-4o-mini":
-        METRIC_NAME = "GPT4omini_ours_mini"
+        METRIC_NAME = "GPT4omini_ours"
     else:
         METRIC_NAME = "GPT_ours"
 

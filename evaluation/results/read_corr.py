@@ -44,5 +44,6 @@ for folder, display_name in folders.items():
         
         # 出力形式に合わせて整形（pearson / spearmanの順）
         output = f"{display_name} & {pearson_01:.4f} / {spearman_01:.4f} & {pearson_02:.4f} / {spearman_02:.4f} & {pearson_03:.4f} / {spearman_03:.4f} & {pearson_04:.4f} / {spearman_04:.4f} & {pearson_05:.4f} / {spearman_05:.4f} & {pearson_06:.4f} / {spearman_06:.4f} & {pearson:.4f} / {spearman:.4f} \\\\"
+        # output = f"{display_name} & {pearson_01:.2f} / {spearman_01:.2f} & {pearson_02:.2f} / {spearman_02:.2f} & {pearson_03:.2f} / {spearman_03:.2f} & {pearson_04:.2f} / {spearman_04:.2f} & {pearson_05:.2f} / {spearman_05:.2f} & {pearson_06:.2f} / {spearman_06:.2f} & {pearson:.2f} / {spearman:.2f} \\\\"
         
         print(output)

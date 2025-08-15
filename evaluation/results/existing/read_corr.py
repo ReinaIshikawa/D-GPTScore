@@ -43,6 +43,6 @@ for method in methods:
             method_display = method
             
         # 相関係数を小数点2桁に丸める
-        output = f"{method_display} & {pearson_01:.f} / {spearman_01:.2f} & {pearson_02:.2f} / {spearman_02:.2f} & {pearson_03:.2f} / {spearman_03:.2f} & {pearson_04:.2f} / {spearman_04:.2f} & {pearson_05:.2f} / {spearman_05:.2f} & {pearson_06:.2f} / {spearman_06:.2f} & {pearson:.2f} / {spearman:.2f} \\\\"
+        output = f"{method_display} & {pearson_01:.2f} / {spearman_01:.2f} & {pearson_02:.2f} / {spearman_02:.2f} & {pearson_03:.2f} / {spearman_03:.2f} & {pearson_04:.2f} / {spearman_04:.2f} & {pearson_05:.2f} / {spearman_05:.2f} & {pearson_06:.2f} / {spearman_06:.2f} & {pearson:.2f} / {spearman:.2f} \\\\"
         
         print(output)

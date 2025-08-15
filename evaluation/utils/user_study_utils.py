@@ -23,8 +23,21 @@ def seed_everything(seed: int):
 def user_study_reader(users, gen_method_list, data_dir) -> pd.DataFrame:
     csv_path = os.path.join(data_dir, "total/user_study_result.csv")
     if os.path.exists(csv_path):
-        print(f"CSV file is read from: {csv_path}")
-        return pd.read_csv(csv_path)
+        df = pd.read_csv(csv_path)
+        # id_列を文字列として扱う
+        df['id_'] = df['id_'].astype(str)
+        # 必要な列（method, mode, prompt_type, id_）とユーザー列の両方を含める
+        required_columns = ['method', 'mode', 'prompt_type', 'id_'] + users
+        new_df = pd.DataFrame()
+        for gen_method in gen_method_list:
+            df_gen_method = df[df['method'] == gen_method]
+            # 必要な列のみを選択
+            df_gen_method = df_gen_method[required_columns]
+            if new_df.empty:
+                new_df = df_gen_method
+            else:
+                new_df = pd.concat([new_df, df_gen_method], axis=0, ignore_index=True)
+        return new_df
     
     print("Excel file is read from:")
     df: pd.DataFrame | None = None
@@ -116,7 +129,11 @@ def user_df_splitter(
                 target_df = user_df[
                     (user_df['method'] == method) & (user_df['mode'] == mode) & (user_df['prompt_type'] == prompt_type) & (user_df['id_'] == str(id_))
                 ]
+                if target_df.empty:
+                    continue
+                
                 target_df = target_df[users]
+                
                 if isinstance(target_df, pd.Series):
                     target_df = target_df.to_frame().T
                 elif isinstance(target_df, np.ndarray):
@@ -149,7 +166,7 @@ def metric_df_of_user_study(
     user_study_target = get_user_study_target()
 
     combined=pd.DataFrame()
-    if metric_name == "GPT_ours":
+    if metric_name == "GPT_ours" or metric_name == "GPT4omini_ours":
         scores = [f"score{i}" for i in range(1, 19)]
     else:
         scores = ["score"]
@@ -172,11 +189,16 @@ def metric_df_of_user_study(
                 target_df = metric_df[
                     (metric_df['mode'] == mode) & (metric_df['prompt_type'] == prompt_type) & (metric_df['id_'] == id_)
                 ]
+                if target_df.empty:
+                    continue
+                
                 target_df = target_df[scores]
+                
                 if combined.empty:#type: ignore
                     combined = target_df
                 else:
                     combined = pd.concat([combined, target_df], axis=0, ignore_index=True) # type: ignore
+    
     return combined # type: ignore
 
 def metric_df_all(

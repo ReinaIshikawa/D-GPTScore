@@ -88,10 +88,10 @@ if __name__ == "__main__":
         # gpt score
         print(f"gpt score:")
         for i in range(gpt_score.shape[1]):
-            print(f"gpt score {i}: {gpt_score.iloc[0,i]}") # type: ignore
+            print(f"gpt score {i}: {gpt_score.iloc[0,i].item()}") # type: ignore
         new_min, new_max = 1, 10
         gpt_score = (gpt_score-1) / (5-1) * (new_max-new_min) + new_min
-        print(f"gpt total score: {gpt_score.mean(axis=1)}")
+        print(f"gpt total score: {gpt_score.mean(axis=1).item()}")
 
         for eval_metric, scale in zip(eval_metric_list, scale_list):
             current_score = metric_target_reader(

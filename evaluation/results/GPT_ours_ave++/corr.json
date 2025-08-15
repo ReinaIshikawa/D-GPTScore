@@ -1,28 +1,28 @@
 {
     "01_CustomDiffusion": {
-        "pearson_corr": 0.8054604777492488,
-        "spearman_corr": 0.5584596907094904
+        "pearson_corr": 0.8216011951224398,
+        "spearman_corr": 0.5121955317366931
     },
     "02_OMG_lora": {
-        "pearson_corr": 0.6577527577802259,
-        "spearman_corr": 0.3105170717870108
+        "pearson_corr": 0.6748666841674922,
+        "spearman_corr": 0.3407365451736262
     },
     "03_OMG_instantID": {
-        "pearson_corr": 0.7021590138088387,
-        "spearman_corr": 0.4681658138557972
+        "pearson_corr": 0.6921658945760124,
+        "spearman_corr": 0.451497150697072
     },
     "04_fastcomposer": {
-        "pearson_corr": 0.6373768599203654,
-        "spearman_corr": 0.467840993662422
+        "pearson_corr": 0.6341214862258224,
+        "spearman_corr": 0.44151443425041453
     },
     "05_Mix-of-Show": {
-        "pearson_corr": 0.6690830528635593,
-        "spearman_corr": 0.4447304341061167
+        "pearson_corr": 0.6680279404159276,
+        "spearman_corr": 0.4043882481869914
     },
     "06_DreamBooth": {
-        "pearson_corr": 0.6620507876099981,
-        "spearman_corr": 0.39815902952403703
+        "pearson_corr": 0.6968359699963279,
+        "spearman_corr": 0.40394626947852474
     },
-    "total_pearson_corr": 0.7878069121343958,
-    "total_spearman_corr": 0.6984235884206087
+    "total_pearson_corr": 0.8042741176582292,
+    "total_spearman_corr": 0.7173667746255552
 }

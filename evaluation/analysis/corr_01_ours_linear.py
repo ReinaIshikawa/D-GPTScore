@@ -162,14 +162,14 @@ if __name__ == "__main__":
             plot_feature_importance(
                 reg_dir, 
                 feature_importance.tolist(), 
-                f"importance_{test_gen_method}.png",
+                f"importance_{test_gen_method}.pdf",
                 True,
                 existing_methods=eval_metric_list)
         else:
             plot_feature_importance(
                 reg_dir, 
                 feature_importance.tolist(), 
-                f"importance_{test_gen_method}.png",
+                f"importance_{test_gen_method}.pdf",
                 True)
 
         # check correlation with test data
@@ -198,7 +198,7 @@ if __name__ == "__main__":
     spearman_corr = calc_spearman_corr(test_pred_rank, test_y_rank)
     json_data["total_spearman_corr"] = spearman_corr
 
-    scatter_plot(test_pred_con, test_y_con, gen_method_list, reg_dir,  f"plot.png")
+    scatter_plot(test_pred_con, test_y_con, gen_method_list, reg_dir,  f"plot.pdf")
 
     print(json_data)
 
