@@ -6,7 +6,7 @@ import itertools
 
 sys.path.append(os.path.abspath(os.getcwd())) 
 
-from data_loader.prompt_loader import DataSaver, DataLoader, load_yaml_config
+from data_loader.prompt_loader import DataSaver, CCAlignBenchLoader, load_yaml_config
 
 from diffusers import StableDiffusionPipeline
 import torch
@@ -17,14 +17,10 @@ prompt_type_list = ["simple", "action+layout", "action+expression", "action+back
 mode_list = ["easy", "medium", "hard"]
 
 csv_path = os.path.join(config["dir"],config["csv_file"])
-bg_path = os.path.join(config["dir"],config["bg_file"])
-dataloader = DataLoader(
+dataloader = CCAlignBenchLoader(
     csv_path = csv_path,
-    bg_path = bg_path,
-    surrounings_type = config["surrounings_type"], 
     man_token = config["man_token"], 
-    woman_token = config["woman_token"], 
-    debug = config["debug"])
+    woman_token = config["woman_token"])
 
 datasaver = DataSaver(prompt_type_list, mode_list, config)
 
@@ -45,12 +41,7 @@ for mode, prompt_type in itertools.product(mode_list, prompt_type_list):
     for idx in index_list:
         data = dataloader.get_idx_info(mode, prompt_type, idx)
         id_ = data["id"]
-        prompt_token = data["prompt_token"]
-        pt1 = data["pt1"]
-        pt2 = data["pt2"]
-        p1_sex = data["p1_sex"]
-        p2_sex = data["p2_sex"]
-        prompt = prompt_token
+        prompt = data["prompt_token"]
         
         image = pipe(prompt, num_inference_steps=200, guidance_scale=7.5).images[0]
         savepath = os.path.join(dir_name, f"{id_:03}.png")

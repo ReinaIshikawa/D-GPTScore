@@ -92,7 +92,7 @@ if __name__ == "__main__":
                 print(f"mode:{mode} / prompt_type:{prompt_type}")
 
                 prompt_info = dataloader.get_idx_info(mode, prompt_type, idx)
-                id_ = prompt_info["id_"]
+                id_ = prompt_info["id"]
                 p1_sex = prompt_info["p1_sex"]
                 p2_sex = prompt_info["p2_sex"]
                 generated_img_path = get_gen_output_path(

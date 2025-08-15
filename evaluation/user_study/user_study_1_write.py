@@ -123,7 +123,7 @@ if __name__ == "__main__":
 
             prompt_info = dataloader.get_idx_info(mode, prompt_type, idx)
             print(prompt_info)
-            id_ = prompt_info["id_"]
+            id_ = prompt_info["id"]
             prompt_token = prompt_info["prompt_token"]
 
             add_text_ws1(prompt_token, row_counter, 1,True,"left","center")

@@ -5,7 +5,7 @@ import argparse
 import itertools
 import pandas as pd
 sys.path.append(os.path.abspath(os.getcwd()))
-from data_loader.prompt_loader import DataLoader, load_yaml_config
+from data_loader.prompt_loader import CCAlignBenchLoader, load_yaml_config
 from evaluation.utils.eval_utils import get_csv_path, get_gen_output_path
 from evaluation.utils.user_study_utils import get_user_study_target
 from evaluation.utils.gpt_utils import get_messages_vanilla
@@ -102,14 +102,10 @@ if __name__ == "__main__":
         header = "wo_r_"
 
     csv_path = os.path.join(config["dir"],config["csv_file"])
-    bg_path = os.path.join(config["dir"],config["bg_file"])
-    dataloader = DataLoader(
+    dataloader = CCAlignBenchLoader(
         csv_path = csv_path,
-        bg_path = bg_path,
-        surrounings_type = config["surrounings_type"], 
         man_token = config["man_token"], 
-        woman_token = config["woman_token"], 
-        debug = config["debug"]
+        woman_token = config["woman_token"]
     )
 
     
@@ -144,8 +140,8 @@ if __name__ == "__main__":
             print(f"mode:{mode} / prompt_type:{prompt_type} / id_:{idx}")
 
             prompt_info = dataloader.get_idx_info(mode, prompt_type, idx)
-            id_ = prompt_info["id_"]
-            prompt_token = prompt_info["prompt_token"]
+            id_ = prompt_info["id"]
+            prompt = prompt_info["prompt_token"]
             p1_sex = prompt_info["p1_sex"]
             p2_sex = prompt_info["p2_sex"]
 
@@ -176,7 +172,7 @@ if __name__ == "__main__":
 
                     
             messages = get_messages_vanilla(
-                prompt_token = prompt_token,
+                prompt_token = prompt,
                 ref_image_path1 = ref_image_path1,
                 ref_image_path2 = ref_image_path2,
                 generated_img_path = generated_img_path,

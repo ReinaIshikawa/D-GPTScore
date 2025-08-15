@@ -5,6 +5,8 @@ import itertools
 import torch
 from diffusers import DPMSolverMultistepScheduler
 
+# please set the path to the Mix-of-Show directory
+# we added some modifications to the Mix-of-Show directory to make it work with our code, especially for the saving of the generated images
 GEN_SCRIPTS_DIR = os.path.expanduser("~/data/Mix-of-Show")
 PYTHON_EXECUTABLE = '/mnt/ssd2_4T/ishikawa/miniconda3/envs/mix-of-show/bin/python'
 
@@ -15,7 +17,7 @@ sys.path.append(GEN_SCRIPTS_DIR)
 env = os.environ.copy()
 env['PYTHONPATH'] = f'{GEN_SCRIPTS_DIR}:' + env.get('PYTHONPATH', '')
 
-from data_loader.prompt_loader import DataSaver, DataLoader, load_yaml_config
+from data_loader.prompt_loader import DataSaver, CCAlignBenchLoader, load_yaml_config
 from mixofshow.pipelines.pipeline_edlora import EDLoRAPipeline
 from mixofshow.utils.convert_edlora_to_diffusers import convert_edlora
 
@@ -27,14 +29,10 @@ prompt_type_list = ["action+background"]
 mode_list = ["hard"]
 
 csv_path = os.path.join(config["dir"],config["csv_file"])
-bg_path = os.path.join(config["dir"],config["bg_file"])
-dataloader = DataLoader(
+dataloader = CCAlignBenchLoader(
     csv_path = csv_path,
-    bg_path = bg_path,
-    surrounings_type = config["surrounings_type"], 
     man_token = config["man_token"], 
-    woman_token = config["woman_token"], 
-    debug = config["debug"])
+    woman_token = config["woman_token"])
 
 datasaver = DataSaver(prompt_type_list, mode_list, config)
 
@@ -45,8 +43,8 @@ single_pretrained_model_path = option["single_pretrained_model_path"]
 single_lora_model_path_man = option["single_lora_model_path_man"]
 single_lora_model_path_woman = option["single_lora_model_path_woman"]
 multi_pretrained_model_path = option["multi_pretrained_model_path"]
-region_pt1 = option["region_pt1"]
-region_pt2 = option["region_pt2"]
+region_p1 = option["region_p1"]
+region_p2 = option["region_p2"]
 
 pipeclass = EDLoRAPipeline
 single_pipe_man = pipeclass.from_pretrained(
@@ -92,8 +90,8 @@ for mode, prompt_type in itertools.product(mode_list, prompt_type_list):
         id_ = data["id_"]
         prompt_token = data["prompt_token"]
         prompt_class = data["prompt_class"]
-        pt1 = data["pt1"]
-        pt2 = data["pt2"]
+        p1_prompt = data["p1_prompt"]
+        p2_prompt = data["p2_prompt"]
         p1_sex = data["p1_sex"]
         p2_sex = data["p2_sex"]
 
@@ -120,7 +118,7 @@ for mode, prompt_type in itertools.product(mode_list, prompt_type_list):
             image.save(os.path.join(dir_name, f'{id_:03}.png'))
         else:
             prompt = prompt_class
-            rewrite = f"[{pt1}]-*-[{neg_prompt}]-*-{region_pt1}|[{pt2}]-*-[{neg_prompt}]-*-{region_pt2}"
+            rewrite = f"[{p1_prompt}]-*-[{neg_prompt}]-*-{region_p1}|[{p2_prompt}]-*-[{neg_prompt}]-*-{region_p2}"
             result=subprocess.run([
                 PYTHON_EXECUTABLE, f'{GEN_SCRIPTS_DIR}/regionally_controlable_sampling.py',
                 '--pretrained_model', multi_pretrained_model_path,

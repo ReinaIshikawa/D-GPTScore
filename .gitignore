@@ -1,5 +1,5 @@
 evaluation/results_/
-eevaluation/results/
+evaluation/results/
 !evaluation/results/output/
 gen_output/*
 user_study_99_write.py

@@ -1,16 +1,16 @@
 python data_loader/prompt_loader.py\
- --csv_path ./CC-AlignBench/data.csv \
- --bg_path ./CC-AlignBench/background.json \
+ --csv_path ./CC-AlignBench/cc-alignbench-data.csv \
  --man_token "a man" \
  --woman_token "a woman" \
  --index_list 0 9 11 23 34 \
- --debug
+ --prompt_type all \
+ --mode hard
+
+
 python data_loader/prompt_loader.py \
- --csv_path ./CC-AlignBench/data.csv \
- --bg_path ./CC-AlignBench/background.json \
+ --yaml_path ./eval_config.yaml \
  --man_token "A*" \
  --woman_token "B*" \
- --debug \
  --index_list 46 \
  --prompt_type action+expression \
  --mode easy

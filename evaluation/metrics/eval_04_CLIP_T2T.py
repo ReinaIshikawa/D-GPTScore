@@ -154,7 +154,7 @@ if __name__ == "__main__":
                 print(f"mode:{mode} / prompt_type:{prompt_type}")
 
                 prompt_info = dataloader.get_idx_info(mode, prompt_type, idx)
-                id_ = prompt_info["id_"]
+                id_ = prompt_info["id"]
                 prompt_token = prompt_info["prompt_token"]
                 generated_img_path = get_gen_output_path(
                     config["gen_output_dir"], 

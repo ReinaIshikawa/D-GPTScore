@@ -6,6 +6,8 @@ import sys
 import os
 import itertools
 
+# please set the path to the fastcomposer directory
+# we added some modifications to the fastcomposer directory to make it work with our code, especially for the saving of the generated images
 GEN_SCRIPTS_DIR = os.path.expanduser("~/data/fastcomposer")
 PYTHON_EXECUTABLE = '/mnt/ssd2_4T/ishikawa/miniconda3/envs/fastcomposer/bin/python'
 
@@ -15,7 +17,7 @@ sys.path.append(GEN_SCRIPTS_DIR)
 env = os.environ.copy()
 env['PYTHONPATH'] = f'{GEN_SCRIPTS_DIR}:' + env.get('PYTHONPATH', '')
 
-from data_loader.prompt_loader import DataSaver, DataLoader, load_yaml_config
+from data_loader.prompt_loader import DataSaver, CCAlignBenchLoader, load_yaml_config
 
 config = load_yaml_config(yaml_path="./gen_scripts/04_fastcomposer_prompt_config.yaml")
 
@@ -25,13 +27,10 @@ mode_list = ["hard"]
 
 csv_path = os.path.join(config["dir"],config["csv_file"])
 bg_path = os.path.join(config["dir"],config["bg_file"])
-dataloader = DataLoader(
+dataloader = CCAlignBenchLoader(
     csv_path = csv_path,
-    bg_path = bg_path,
-    surrounings_type = config["surrounings_type"], 
     man_token = config["man_token"], 
-    woman_token = config["woman_token"], 
-    debug = config["debug"])
+    woman_token = config["woman_token"])
 
 datasaver = DataSaver(prompt_type_list, mode_list, config)
 output_dir_path = config["OPTION"]["output_dir_path"]

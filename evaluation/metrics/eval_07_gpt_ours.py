@@ -5,14 +5,14 @@ import argparse
 import itertools
 import pandas as pd
 sys.path.append(os.path.abspath(os.getcwd()))
-from data_loader.prompt_loader import DataLoader, load_yaml_config
+from data_loader.prompt_loader import CCAlignBenchLoader, load_yaml_config
 from evaluation.utils.eval_utils import get_csv_path, get_gen_output_path
 from evaluation.utils.user_study_utils import get_user_study_target
 from evaluation.utils.gpt_utils import get_messages_part
 from openai import OpenAI
 from pydantic import BaseModel
 
-# python evaluation/metrics/eval_07_gpt_ours.py --gpt_model gpt-4o-mini --part --gen-method xxx
+# python evaluation/metrics/eval_07_gpt_ours.py --gpt_model gpt-4o --gen-method (xxx)
 
 
 
@@ -115,14 +115,10 @@ if __name__ == "__main__":
     # get dataloader
     # ===============================
     csv_path = os.path.join(config["dir"],config["csv_file"])
-    bg_path = os.path.join(config["dir"],config["bg_file"])
-    dataloader = DataLoader(
+    dataloader = CCAlignBenchLoader(
         csv_path = csv_path,
-        bg_path = bg_path,
-        surrounings_type = config["surrounings_type"], 
         man_token = config["man_token"], 
-        woman_token = config["woman_token"], 
-        debug = config["debug"]
+        woman_token = config["woman_token"]
     )
 
     # ===============================
@@ -165,8 +161,8 @@ if __name__ == "__main__":
 
             # get prompt info
             prompt_info = dataloader.get_idx_info(mode, prompt_type, idx)
-            id_ = prompt_info["id_"]
-            prompt_token = prompt_info["prompt_token"]
+            id_ = prompt_info["id"]
+            prompt = prompt_info["prompt_token"]
             p1_sex = prompt_info["p1_sex"]
             p2_sex = prompt_info["p2_sex"]
 
@@ -205,7 +201,7 @@ if __name__ == "__main__":
 
                 # get messages for gpt
                 messages = get_messages_part(
-                    prompt_token = prompt_token,
+                    prompt_token = prompt,
                     ref_image_path1 = ref_image_path1,
                     ref_image_path2 = ref_image_path2,
                     generated_img_path = generated_img_path,

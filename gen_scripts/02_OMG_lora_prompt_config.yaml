@@ -1,11 +1,8 @@
 dir: "CC-AlignBench" # path to the data directory
-csv_file: "data.csv"
-bg_file: "background.json"
-surrounings_type: "simple" #simple, detail
+csv_file: "cc-alignbench-data.csv"
 man_token: "Alex"
 woman_token: "Lisa"
 index_list: null # list or null
-debug: true
 
 OPTION:
   neg_prompt: "noisy, blurry, soft, deformed, ugly"

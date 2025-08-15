@@ -6,7 +6,7 @@ import numpy as np
 
 sys.path.append(os.path.abspath(os.getcwd()))
 from evaluation.utils.user_study_utils import seed_everything, metric_df_all
-from evaluation.utils.analysis_utils import radar_chart
+from evaluation.utils.analysis_utils import radar_chart, evaluation_aspects
 from data_loader.prompt_loader import load_yaml_config
 
 
@@ -42,19 +42,35 @@ if __name__ == "__main__":
         default="gpt-4o",
         choices=["gpt-4o", "gpt-4o-mini"]
     )
+    parser.add_argument(
+        '--gen-method', 
+        type=str, 
+        nargs='+',
+        default=["01_CustomDiffusion", "02_OMG_lora", "03_OMG_instantID", "04_fastcomposer", "05_Mix-of-Show", "06_DreamBooth"] # add your method name here
+    )
+    parser.add_argument(
+        '--type', 
+        type=str,  
+        nargs='+',
+        default=["simple", "action+layout", "action+expression", "action+background", "all"]
+    )
+    parser.add_argument(
+        '--mode', 
+        type=str, 
+        nargs='+', 
+        default=["easy", "medium", "hard"]
+    )
+    parser.add_argument(
+        '--raderchart', 
+        action="store_true", 
+        default=False, 
+    )
     args = parser.parse_args()
     config = load_yaml_config(yaml_path=args.yaml_path)
 
-    gen_method_list = config["gen_method_list"]
-    prompt_type_list = config["prompt_type_list"]
-    eval_metric_list = config["eval_metric_list"]
-    mode_list = config["mode_list"]
-    users = config["users"]
-    scale_list = config["scale"]
-    user_study_data_dir = os.path.join(
-        config["results_dir"], 
-        "user_study"
-    )
+    gen_method_list = args.gen_method
+    prompt_type_list = args.type
+    mode_list = args.mode
     results_dir = config["results_dir"]
     header = "w_r_" if args.reason else "wo_r_"
 
@@ -69,7 +85,10 @@ if __name__ == "__main__":
 
     mean_list = []
     std_list = []
+    benchmark_list = []
+    print("-"*10)
     for gen_method in gen_method_list:
+        print(gen_method)
         gpt_df = metric_df_all(
             gen_method_list=[gen_method], 
             mode_list=mode_list, 
@@ -78,11 +97,18 @@ if __name__ == "__main__":
             metric_name=METRIC_NAME, 
             header=header
         )
-        mean_df = gpt_df.mean(axis=0)
-        mean_list.append(np.array(mean_df).flatten().tolist())
-        std_df = gpt_df.std(axis=0)
-        std_list.append(np.array(std_df).flatten().tolist())
-    print(mean_list)
-    print(std_list)
+        decomposed_mean_df = gpt_df.mean(axis=0)
+        decomposed_mean_list = np.array(decomposed_mean_df).flatten().tolist()
+        mean_list.append(decomposed_mean_list)
+        print("** Decomposed Score (1-5)**")
+        for i in range(len(decomposed_mean_list)):
+            print(f"{evaluation_aspects[f'score{i+1}']}: \t\t{decomposed_mean_list[i]:.3f}")
+        gpt_df = (gpt_df-1) / (5-1) * (10-1) + 1
+        benchmark_df = gpt_df.mean(axis=1).mean(axis=0)
+        benchmark_list.append(benchmark_df.item())
+        print("-"*3)
+        print(f"** D-GPTScore (1-10)** \n{benchmark_df.item():.3f}")
+        print("="*10)
 
-    radar_chart(mean_list, reg_dir)
+    if args.raderchart:
+        radar_chart(mean_list, reg_dir)

@@ -3,13 +3,15 @@ import sys
 import os
 import itertools
 
+# please set the path to the OMG directory
+# we added some modifications to the OMG directory to make it work with our code, especially for the saving of the generated images
 GEN_SCRIPTS_DIR = os.path.expanduser("~/data/OMG")
 PYTHON_EXECUTABLE = '/mnt/ssd2_4T/ishikawa/miniconda3/envs/lora/bin/python'
 
 sys.path.append(os.path.abspath(os.getcwd())) 
 sys.path.append(GEN_SCRIPTS_DIR) 
 
-from data_loader.prompt_loader import DataSaver, DataLoader, load_yaml_config
+from data_loader.prompt_loader import DataSaver, CCAlignBenchLoader, load_yaml_config
 
 env = os.environ.copy()
 env['PYTHONPATH'] = f'{GEN_SCRIPTS_DIR}:' + env.get('PYTHONPATH', '')
@@ -20,14 +22,10 @@ prompt_type_list = ["simple", "action+layout", "action+expression", "action+back
 mode_list = ["easy", "medium", "hard"]
 
 csv_path = os.path.join(config["dir"],config["csv_file"])
-bg_path = os.path.join(config["dir"],config["bg_file"])
-dataloader = DataLoader(
+dataloader = CCAlignBenchLoader(
     csv_path = csv_path,
-    bg_path = bg_path,
-    surrounings_type = config["surrounings_type"], 
     man_token = config["man_token"], 
-    woman_token = config["woman_token"], 
-    debug = config["debug"])
+    woman_token = config["woman_token"])
 
 datasaver = DataSaver(prompt_type_list, mode_list, config)
 
@@ -51,8 +49,8 @@ for mode, prompt_type in itertools.product(mode_list, prompt_type_list):
         data = dataloader.get_idx_info(mode, prompt_type, idx)
         id_ = data["id"]
         prompt = data["prompt_token"]
-        pt1 = data["pt1"]
-        pt2 = data["pt2"]
+        p1_prompt = data["p1_prompt"]
+        p2_prompt = data["p2_prompt"]
         p1_sex = data["p1_sex"]
         p2_sex = data["p2_sex"]
 
@@ -62,7 +60,7 @@ for mode, prompt_type in itertools.product(mode_list, prompt_type_list):
                 img_path = man_1_img
             else:
                 img_path = woman_1_img
-            rewrite = f"[{pt1}]-*-[{neg_prompt}]-*-{img_path}"
+            rewrite = f"[{p1_prompt}]-*-[{neg_prompt}]-*-{img_path}"
             result=subprocess.run([
                 PYTHON_EXECUTABLE, f'{GEN_SCRIPTS_DIR}/inference_instantid.py', 
                 '--prompt', prompt, 
@@ -76,9 +74,9 @@ for mode, prompt_type in itertools.product(mode_list, prompt_type_list):
             print(f"Error: {result.stderr}")
         else:
             if p1_sex == "man":
-                rewrite = f"[{pt1}]-*-[{neg_prompt}]-*-{man_1_img}|[{pt2}]-*-[{neg_prompt}]-*-{woman_1_img}"
+                rewrite = f"[{p1_prompt}]-*-[{neg_prompt}]-*-{man_1_img}|[{p2_prompt}]-*-[{neg_prompt}]-*-{woman_1_img}"
             else:
-                rewrite = f"[{pt1}]-*-[{neg_prompt}]-*-{woman_1_img}|[{pt2}]-*-[{neg_prompt}]-*-{man_1_img}"
+                rewrite = f"[{p1_prompt}]-*-[{neg_prompt}]-*-{woman_1_img}|[{p2_prompt}]-*-[{neg_prompt}]-*-{man_1_img}"
             
             result=subprocess.run([
                 PYTHON_EXECUTABLE, f'{GEN_SCRIPTS_DIR}/inference_instantid.py',

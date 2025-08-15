@@ -16,6 +16,27 @@ from matplotlib.projections.polar import PolarAxes
 from matplotlib.spines import Spine
 from matplotlib.transforms import Affine2D
 
+evaluation_aspects = {
+    'score1': 'Subject Type',
+    'score2': 'Quantity',
+    'score3': 'Sbject & Camera Positioning',
+    'score4': 'Size & Scale',
+    'score5': 'Color',
+    'score6': 'Subject Completeness',
+    'score7': 'Proportions & Body Consistency',
+    'score8': 'Actions & Expressions',
+    'score9': 'Facial Similarity & Features',
+    'score10': 'Clothing & Attributes',
+    'score11': 'Surroundings',
+    'score12': 'Human & Animal Interactions',
+    'score13': 'Object Interactions',
+    'score14': 'Subject Deformation',
+    'score15': 'Surroundings Deformation',
+    'score16': 'Local Artifacts',
+    'score17': 'Detail & Sharpness',
+    'score18': 'Style Consistency'
+}
+
 def draw_learning_curve(train_scores,  valid_scores, train_sizes, reg_dir, file_name):
     train_mean = np.mean(train_scores, axis=1)
     train_std  = np.std(train_scores, axis=1)
@@ -45,25 +66,6 @@ def draw_learning_curve(train_scores,  valid_scores, train_sizes, reg_dir, file_
     plt.close()
 
 def plot_feature_importance(reg_dir, importance, file_name, linear = False, existing_methods=[]):
-    evaluation_aspects = {
-        'score1': 'Subject Type',
-        'score2': 'Quantity',
-        'score3': 'Sbject & Camera Positioning',
-        'score4': 'Size & Scale',
-        'score5': 'Color',
-        'score6': 'Subject Completeness',
-        'score7': 'Proportions & Body Consistency',
-        'score8': 'Actions & Expressions',
-        'score9': 'Facial Similarity & Features',
-        'score10': 'Clothing & Attributes',
-        'score11': 'Surroundings',
-        'score12': 'Human & Animal Interactions',
-        'score13': 'Object Interactions',
-        'score14': 'Subject Deformation',
-        'score15': 'Surroundings Deformation',
-        'score16': 'Local Artifacts',
-        'score17': 'Detail & Sharpness',
-        'score18': 'Style Consistency'}
 
     plt.rcParams['font.family'] = 'Times New Roman'
     plt.rcParams['font.weight'] = 'bold'
@@ -382,26 +384,6 @@ def radar_factory(num_vars, frame='polygon'):
 
 
 def radar_chart(mean_list, reg_dir):
-    evaluation_aspects = {
-            'score1':'Subject Type',
-            'score2': 'Quantity',
-            'score3': 'Sbject & Camera Positioning',
-            'score4': 'Size & Scale',
-            'score5': 'Color',
-            'score6': 'Subject Completeness',
-            'score7': 'Proportions & Body Consistency',
-            'score8': 'Actions & Expressions',
-            'score9': 'Facial Similarity & Features',
-            'score10': 'Clothing & Attributes',
-            'score11': 'Surroundings',
-            'score12': 'Human & Animal Interactions',
-            'score13': 'Object Interactions',
-            'score14': 'Subject Deformation',
-            'score15': 'Surroundings Deformation',
-            'score16': 'Local Artifacts',
-            'score17': 'Detail & Sharpness',
-            'score18': 'Style Consistency'
-        }
         
     gen_labels = ["CustomDiffusion", "OMG+lora", "OMG+InstantID", "fastcomposer", "Mix-of-Show", "DreamBooth"]
 
