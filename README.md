@@ -1,5 +1,5 @@
 # D-GPTScore (ICCVW2025)
-Official implementation of "Human Preference-Aligned Concept Customization Benchmark via Decomposed Evaluation."
+Official implementation of "[Human Preference-Aligned Concept Customization Benchmark via Decomposed Evaluation](https://arxiv.org/abs/2509.03385)." (ICCV Workshop 2025)
 
 
 # Getting Started
@@ -137,23 +137,6 @@ The result will be saved as `./evaluation/results/output/wo_r_GPT_ours_<method_n
 
 If you want to evaluate for each difficulty mode, you can use the `--mode` and `--type` options.
 
-
-## Paper Results
-Currently, the following results are available:
-
-- CustomDiffusion
-- OMG(LoRA)
-- OMG(InstantID)
-- FastComposer
-- Mix-of-Show
-- DreamBooth
-
-The generation results should be saved under `gen_output/(method name)/output`
-
-```bash
-python evaluation/analysis/corr_02_ours_ave.py
-```
-The result will be saved in `evaluation/results/GPT_ours_ave/`
 
 
 
